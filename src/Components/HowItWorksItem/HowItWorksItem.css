@@ -1,0 +1,105 @@
+.how-box .how {
+    aspect-ratio: 1 / 1;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.how img {
+    transition: .3s;
+    width: 100%;
+}
+
+.how-box .one:hover img,
+.how-box .three:hover img {
+    transform: scale(1.1);
+}
+
+.how-box .two:hover {
+    transform: translateY(-12px);
+    transition: .3s;
+}
+
+.how h2 {
+    position: absolute;
+    bottom: -1px;
+    font-size: 2.6vw;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.how-box .one:hover h2 mark,
+.how-box .two:hover h2 mark,
+.how-box .three:hover h2 mark {
+    color: #000;
+}
+
+.how h2 mark {
+    padding: 0;
+    color: #333;
+    transition: .3s;
+    background-color: #fff;
+}
+
+.how-it-works .more-details-link {
+    margin: 10px 20px 10px 0;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.how-it-works .more-details-link a {
+    display: block;
+    padding: 13px 20px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #fe1251;
+    transition: 0.2s;
+}
+
+.how-it-works .more-details-link a:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+@media (max-width: 767.98px) {
+    div.how-box {
+        flex-direction: column;
+    }
+
+    .how-box .one:hover img,
+    .how-box .three:hover img {
+        transform: scale(1);
+    }
+
+    .how-box .two:hover {
+        transform: translateY(0);
+    }
+
+    div.how-it-works-title {
+        padding: 0;
+        align-self: center;
+    }
+
+    .how h2 {
+        font-size: 7vw;
+    }
+
+    .how-it-works .more-details-link {
+        align-self: center;
+        width: 100%;
+        margin: 19px 0;
+        padding: 0 20px;
+    }
+
+    .how-it-works .more-details-link a {
+        padding: 13px 0;
+        width: 100%;
+    }
+}

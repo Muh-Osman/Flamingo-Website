@@ -1,0 +1,62 @@
+header .btn-box .dark-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .btn-box input.dark {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+header .btn-box label.slider {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 90px;
+    height: 45px;
+    display: block;
+    border-radius: 45px;
+    position: relative;
+    transition: .4s;
+}
+
+header label.slider:hover {
+    background: #000;
+    transition: .4s;
+}
+
+header label.slider::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 39px;
+    height: 39px;
+    background: url('../../Assets/Icons/moon_logo.svg') no-repeat center;
+    background-size: 30px;
+    border-radius: 25px;
+    transition: .4s;
+}
+
+header input.dark:checked:hover+label.slider {
+    background: #FE1251;
+    transition: .4s;
+}
+
+header input.dark:checked+label.slider::before {
+    background: url('../../Assets/Icons/sun_logo.svg') no-repeat center;
+    background-size: 37px;
+    border-radius: 25px;
+    transition: .4s;
+}
+
+header input.dark:checked+label.slider:hover::before,
+header label.slider:hover::before {
+    background-color: #fff;
+}
+
+header input.dark:checked+label.slider::before {
+    right: calc(100% - 3px);
+    transform: translateX(100%) rotate(-90deg);
+}

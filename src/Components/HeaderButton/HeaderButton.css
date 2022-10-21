@@ -1,0 +1,68 @@
+/* Log in & Sign up Button */
+header div.log-in-box {
+    height: 45px;
+    width: 90px;
+    padding: 0;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+header div.log-in-box a {
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: var(--clr-login-font);
+    background-color: var(--clr-login-background);
+    transition: all .2s;
+}
+
+header div.log-in-box a:hover {
+    color: var(--clr-login-font-hover);
+    background-color: var(--clr-login-background-hover);
+    border: 0.5px solid rgba(0, 0, 0, 0.13);
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 7px 15px, rgb(0 0 0 / 5%) 0px 0px 3px;
+    transition: .2s;
+}
+
+header div.log-in-box a:active {
+    box-shadow: none;
+}
+
+/* Sign Up Button */
+header div.sign-up-box {
+    height: 45px;
+    width: 99px;
+    padding: 0;
+    border-radius: 50px;
+}
+
+header div.sign-up-box a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 50px;
+    color: var(--clr-signup-font);
+    background-color: var(--clr-signup-background);
+    transition: all .3s;
+}
+
+header div.sign-up-box a:hover {
+    color: #000;
+    background-color: #fff;
+    border: 0.5px solid rgba(0, 0, 0, 0.13);
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 7px 15px, rgb(0 0 0 / 5%) 0px 0px 3px;
+    transition: all .3s;
+}
+
+header div.sign-up-box a:active {
+    box-shadow: none;
+}

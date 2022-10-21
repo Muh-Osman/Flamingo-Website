@@ -1,0 +1,195 @@
+section div.brand {
+    aspect-ratio: 1 / 1;
+}
+
+section .top-brands-shelve svg,
+section .top-brands-shelve .brand a {
+    height: 100%;
+    width: 100%;
+}
+
+a.uniform {
+    border: 1px solid var(--clr-border-and-before-svg-top-brands);
+    border-radius: 3px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    background: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.uniform::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: none;
+    position: absolute;
+    z-index: -3;
+    box-shadow: 0px 0px 0px 150px var(--clr-border-and-before-svg-top-brands);
+    transition: .4s;
+}
+
+/* APPLE, Sony, Canon & Dell */
+.apple svg path,
+.sony svg path,
+.canon svg path,
+.dell svg path {
+    transition: .4s;
+    color: var(--clr-svg-top-brands);
+}
+
+a.apple:hover.apple path,
+a.sony:hover.sony path,
+a.canon:hover.canon path,
+a.dell:hover.dell path {
+    transition: .4s;
+    color: var(--clr-svg-top-brands-hover);
+}
+
+a.apple:hover::before,
+a.sony:hover::before,
+a.canon:hover::before,
+a.dell:hover::before,
+a.samsung:hover::before,
+a.nintendo:hover::before {
+    width: 0;
+    height: 0;
+}
+
+a.uniform:hover svg {
+    scale: .8;
+    transition: all .4s;
+
+}
+
+a.uniform svg {
+    transition: all .4s;
+}
+
+/* Samsung & Nintendo */
+
+a.samsung svg .galaxy,
+a.samsung:hover.samsung .letter,
+a.nintendo svg path,
+a.nintendo:hover svg path.back {
+    fill: var(--clr-svg-top-brands);
+    transition: .4s;
+}
+
+a.samsung svg .letter,
+a.nintendo svg path.back {
+    fill: var(--clr-samsung-letter-and-nintendo-back-svg-top-brands);
+    transition: .4s;
+}
+
+a.samsung:hover.samsung .galaxy,
+a.nintendo:hover.nintendo path {
+    fill: var(--clr-samsung-galaxy-svg-top-brands-hover);
+    transition: .4s;
+}
+
+/* Responsive top brands */
+@media (max-width: 767.98px) {
+    section .top-brands-shelve .brand-box {
+        flex-wrap: wrap;
+    }
+
+    .nin,
+    .del,
+    .can,
+    .son,
+    .sam,
+    .ap {
+        flex-basis: calc(100% / 3 - 8px);
+    }
+
+    .nin {
+        order: 4;
+    }
+
+    .del {
+        order: 5;
+    }
+
+    .can {
+        order: 6;
+    }
+
+    .son {
+        order: 1;
+    }
+
+    .sam {
+        order: 2;
+    }
+
+    .ap {
+        order: 3;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    main div hr.down-hr {
+        margin: 0;
+        width: 152px;
+        border-radius: 0 50px 50px 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    hr.down-hr::before {
+        content: "";
+        position: absolute;
+        top: 1px;
+        right: 2px;
+        transform-origin: top right;
+        transform: rotate(-120deg);
+        background-color: var(--clr-down-hr);
+        height: 2px;
+        width: 40px;
+        border-bottom-right-radius: 1px;
+    }
+
+    section .top-brands-shelve h3 {
+        padding-bottom: 12px;
+    }
+
+    .nin,
+    .del,
+    .can,
+    .son,
+    .sam,
+    .ap {
+        flex-basis: calc(50% - 6px);
+    }
+
+    .nin {
+        order: 5;
+    }
+
+    .del {
+        order: 6;
+    }
+
+    .can {
+        order: 4;
+    }
+
+    .son {
+        order: 3;
+    }
+
+    .sam {
+        order: 1;
+    }
+
+    .ap {
+        order: 2;
+    }
+
+
+}

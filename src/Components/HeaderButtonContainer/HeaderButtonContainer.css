@@ -1,0 +1,8 @@
+header div.btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    margin-left: 12px;
+    white-space: nowrap;
+}

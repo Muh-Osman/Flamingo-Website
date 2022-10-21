@@ -1,0 +1,544 @@
+/* Footer */
+footer {
+    background: var(--clr-background-footer);
+    border-radius: 75px 75px 0 0;
+    padding: 25px 37px 0;
+}
+
+footer .footer-dad {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left Box */
+footer .left-box-dad {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Table Box */
+footer table {
+    empty-cells: hide;
+    height: 246px;
+    width: 100%;
+}
+
+footer table th {
+    color: var(--clr-black-white);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: -webkit-match-parent;
+}
+
+footer table a {
+    color: var(--clr-footer-font-table);
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    transition: .2s;
+}
+
+footer table a:hover {
+    color: var(--clr-footer-font-table-hover);
+}
+
+footer table a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 1px;
+    background-color: var(--clr-font-hover);
+    transition: .2s;
+    left: 50%;
+    right: 50%;
+}
+
+footer table a:hover::before {
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+/* Social, payment & contact Box */
+footer .soc-pay-cont {
+    display: flex;
+    gap: 32px;
+}
+
+/* Social & payment Box */
+footer .soc-pay-dad {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+/* facebook, twitter & instagram */
+footer .soc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .soc-pay-cont .soc-pay-dad .soc div {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+footer .soc-pay-cont .soc-pay-dad .soc div a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+footer .soc-pay-cont .soc-pay-dad .soc div a svg path {
+    transition: .2s;
+}
+
+footer .soc-pay-cont .soc-pay-dad .soc div:hover {
+    transform: scale(1.1);
+    transform-origin: center;
+}
+
+footer .soc-pay-cont .soc-pay-dad .soc .facebook:hover path {
+    fill: #1877f2;
+}
+
+footer .soc-pay-cont .soc-pay-dad .soc .twitter:hover path {
+    fill: #1da1f2;
+}
+
+footer .soc-pay-cont .soc-pay-dad .soc .instagram:hover path {
+    fill: #ea0c5f;
+}
+
+/* Payment (Visa, Master, American & PayPal) */
+footer .pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+/* Contact */
+footer .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+}
+
+footer .cont::before {
+    content: "";
+    position: absolute;
+    left: -17px;
+    width: 2px;
+    height: 100%;
+    background-color: var(--clr-vertical-line);
+    border-radius: 9px;
+}
+
+footer .cont svg {
+    margin-right: 6px;
+}
+
+footer .cont a {
+    color: var(--clr-footer-font-table);
+    font-size: 16px;
+    font-weight: 500;
+    user-select: auto;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+footer .cont a:hover {
+    color: var(--clr-font-hover);
+}
+
+footer .cont a:hover svg {
+    animation: shake .2s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+/* Right Box */
+footer .lang-loc-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Language & location Box */
+footer .lang-loc-dad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+footer .lang-loc-app .lang-loc-dad .share {
+    background-color: var(--clr-background);
+    width: 100%;
+    min-width: 215px;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;
+    user-select: none;
+    transition: all .1s;
+    overflow: hidden;
+}
+
+footer .lang-loc-app .lang-loc-dad .share h4 {
+    margin: 0;
+    font-size: calc(1.275rem + 0.3vw);
+    color: var(--clr-footer-font-table);
+    font-weight: 500;
+}
+
+footer .lang-loc-app .lang-loc-dad .share:hover {
+    height: 100px;
+    border: 1px solid var(--clr-border-lang-and-loc);
+}
+
+footer .lang-loc-app .lang-loc-dad .la {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 0 9px;
+}
+
+footer .lang-loc-app .lang-loc-dad .la:hover,
+footer .lang-loc-app .lang-loc-dad .la:hover h4,
+footer .lang-loc-app .lang-loc-dad .hid-tap:hover,
+footer .lang-loc-app .lang-loc-dad .hid-tap:hover h4 {
+    background-color: var(--clr-background-lang-and-loc-hover);
+    color: var(--clr-black-white);
+}
+
+footer .lang-loc-app .lang-loc-dad .la:hover svg {
+    color: var(--clr-black-white);
+}
+
+footer .lang-loc-app .lang-loc-dad .lo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 9px;
+    height: 100%;
+}
+
+footer .lang-loc-app .lang-loc-dad svg {
+    color: var(--clr-footer-font-table);
+    transition: all .3s;
+}
+
+footer .lang-loc-app .lang-loc-dad .lang:hover svg.rot,
+footer .lang-loc-app .lang-loc-dad .loc:hover svg.rot {
+    transform: rotate(180deg);
+}
+
+footer .lang-loc-app .lang-loc-dad .hid-tap {
+    width: 100%;
+    height: 50px;
+    user-select: none;
+    border-top: 1px solid var(--clr-border-in-hid);
+}
+
+footer .lang-loc-app .lang-loc-dad .hid-tap a {
+    width: 100%;
+    height: 100%;
+    padding-left: 42px;
+    display: flex;
+    align-items: center;
+}
+
+/* Apps */
+footer .app-dad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+footer .app-dad a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+footer .app-dad a svg path {
+    transition: .3s;
+    stroke: transparent;
+}
+
+footer .app-dad a:hover path.google-app-logo {
+    fill: #000;
+    stroke: #fff;
+    transition: .3s;
+}
+
+footer .app-dad a:hover path.apple-app-logo {
+    fill: #000;
+    stroke: #fff;
+    transition: .3s;
+}
+
+/* FOR small screen Box of social, payment & contact */
+footer .soc-pay-cont-for-small-screen {
+    display: none;
+}
+
+footer .cont-for-small-screen {
+    display: none;
+}
+
+/* Copyright */
+footer .last-hr-box {
+    margin: 12px -37px 0;
+}
+
+footer .last-hr-box hr {
+    height: 1px;
+    margin: 0;
+    opacity: 0.25;
+    border: 0;
+    background-color: #fff;
+}
+
+footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -25px;
+    padding: 5px 0;
+}
+
+footer .copyright div p,
+footer .copyright div a {
+    margin: 0;
+    color: var(--clr-copyright);
+    transition: .1s;
+    font-size: 16px;
+}
+
+footer .copyright .legal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+footer .copyright .legal p {
+    user-select: none;
+    opacity: 0.5;
+}
+
+footer .copyright div a:hover {
+    color: var(--clr-vertical-line);
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    footer .soc-pay-cont {
+        display: none;
+    }
+
+    footer .lang-loc-app .app-dad {
+        display: none;
+    }
+
+    footer .cont-for-small-screen {
+        display: flex;
+        gap: 25px;
+    }
+
+    footer .soc-pay-cont-for-small-screen {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .soc-pay-dad {
+        justify-content: flex-end;
+        gap: 40px;
+    }
+
+    footer .footer-dad {
+        flex-wrap: wrap;
+    }
+
+    footer .left-box-dad {
+        flex-basis: 100%;
+    }
+
+    footer .lang-loc-dad {
+        align-items: flex-start;
+        width: auto;
+    }
+
+    footer .lang-loc-app {
+        flex-direction: row;
+        width: 100%;
+        height: 170px;
+    }
+
+    footer .lang-loc-app .lang-loc-dad .share {
+        width: 380px;
+    }
+
+    footer .copyright div p,
+    footer .copyright div a {
+        font-size: 15px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    footer .soc-pay-cont-for-small-screen {
+        justify-content: space-between;
+    }
+
+    footer .lang-loc-app .lang-loc-dad .share {
+        width: 233px;
+    }
+
+    footer .copyright .legal {
+        display: none;
+    }
+
+    footer .copyright div p,
+    footer .copyright div a {
+        font-size: 16px;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 660px) {
+    footer {
+        border-radius: 25px 25px 0 0;
+        padding: 25px 12px 0;
+        position: relative;
+    }
+
+    footer table {
+        text-align: center;
+    }
+
+    footer table span {
+        display: none;
+    }
+
+    footer table th {
+        font-size: 16px;
+    }
+
+    footer table a {
+        font-size: 13px;
+    }
+
+    footer .last-hr-box {
+        margin: 12px -12px 0;
+    }
+
+    footer .copyright {
+        margin: 0;
+    }
+
+    footer .lang-loc-app {
+        flex-direction: column;
+        height: 275px;
+    }
+
+    footer .cont-for-small-screen {
+        order: 1;
+        gap: 30px;
+    }
+
+    footer .lang-loc-dad {
+        order: 2;
+        width: 100%;
+    }
+
+    footer .lang-loc-app .lang-loc-dad .share {
+        width: 100%;
+    }
+
+    footer .soc-pay-cont-for-small-screen {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .app-dad {
+        order: 1;
+        align-items: center;
+    }
+
+    footer .soc-pay-dad {
+        order: 2;
+        gap: 30px;
+    }
+
+    footer .copyright div p,
+    footer .copyright div a {
+        font-size: 14px;
+    }
+
+    footer .copyright {
+        justify-content: center;
+    }
+}

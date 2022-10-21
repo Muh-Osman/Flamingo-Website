@@ -1,0 +1,41 @@
+section .shelves {
+    background-color: var(--clr-shelves);
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+}
+
+section .shelve-cont {
+    padding: 0;
+}
+
+section .shelves .shelve-title {
+    padding: 5px 9px 0;
+}
+
+section .shelves .shelve-title a {
+    font-weight: 500;
+    color: var(--clr-font);
+    font-size: calc(20.8px + 0.6vw);
+}
+
+section .shelves .shelve-title a:hover,
+section .items-scroller .item-cards:hover div.item-description h4 {
+    color: var(--clr-font-hover);
+    transition: .2s;
+}
+
+section .items-scroller {
+    display: grid;
+    gap: 9px;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    padding: 5px 9px 9px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 9px;
+    height: 100%;
+    outline: none;
+}

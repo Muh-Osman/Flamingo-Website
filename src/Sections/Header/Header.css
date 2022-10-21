@@ -1,0 +1,102 @@
+/* Start Responsive Header */
+/* Medium screen (tablets & portrait phones, less than 768px) */
+@media (max-width: 767.98px) {
+    header .container-box {
+        flex-wrap: wrap;
+    }
+
+    header .logo {
+        order: 1;
+        flex-basis: 30%;
+        margin-right: 0;
+    }
+
+    header .logo a {
+        font-size: calc(3.6vw + 17px);
+    }
+
+    header div.btn-box {
+        order: 2;
+        margin: 0;
+    }
+
+    header .search-box {
+        order: 3;
+        flex-basis: 100%;
+        margin-top: 12px;
+    }
+}
+
+/* Small screen (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    header .btn-box .sign-up-box {
+        display: none;
+    }
+
+    header .btn-box .log-in-box {
+        margin-right: 0;
+        margin-left: clamp(5px, 1.5vw, 10px);
+    }
+
+    header .btn-box .log-in-box a {
+        color: var(--clr-signup-font);
+        background-color: var(--clr-signup-background);
+    }
+
+    header .log-in-box a:hover {
+        color: #000;
+        background-color: #fff;
+    }
+
+    header .logo a {
+        font-size: 10vw;
+    }
+
+    header .btn-box label.slider {
+        width: 39px;
+        height: 39px;
+    }
+
+    header label.slider::before {
+        top: 0;
+        right: 0;
+    }
+
+    header input.dark:checked+label.slider::before {
+        right: 0;
+        transform: translateX(0%) rotate(-90deg);
+    }
+
+    header input.dark:checked+label.slider:hover::before,
+    header input.dark:checked:hover+label.slider,
+    header label.slider:hover::before,
+    header label.slider:hover {
+        background-color: transparent;
+    }
+
+    header input.dark:not(:checked)+label.slider:hover::before {
+        background-color: #fff;
+    }
+
+}
+
+/* X-Small screen (phones, less than 359px) */
+@media (max-width: 359px) {
+    header .log-in-box {
+        width: fit-content !important;
+        height: fit-content !important;
+        margin: 0;
+    }
+
+    header .log-in-box a {
+        font-size: 6vw;
+        padding: 2vw 5.5vw;
+    }
+
+    header .dark-box {
+        display: none !important;
+    }
+
+}
+
+/* End header */

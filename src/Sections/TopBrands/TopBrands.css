@@ -1,0 +1,21 @@
+/* Top brands section */
+section.brand-section {
+    padding: 12px 12px 0;
+    margin-bottom: 25px;
+}
+
+section .top-brands-shelve h3 {
+    color: var(--clr-font);
+    font-size: calc(1.3rem + 0.6vw);
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0 0 9px 9px;
+}
+
+section .top-brands-shelve .brand-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}

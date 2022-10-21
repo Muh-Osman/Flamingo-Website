@@ -1,0 +1,9 @@
+div hr.down-hr {
+    width: 90%;
+    height: 2px;
+    margin: auto;
+    background-color: var(--clr-down-hr);
+    opacity: 1;
+    border-radius: 50px;
+    border: 0;
+}

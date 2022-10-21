@@ -1,0 +1,18 @@
+/* Logo */
+header .logo {
+    flex: 1;
+    margin-right: 12px;
+}
+
+header .logo-link {
+    line-height: 1;
+    font-size: calc(2.4vw + 16px);
+    color: var(--clr-logo);
+    font-family: 'aclonica', 'Roboto', sans-serif;
+    font-weight: 400;
+    /* NOT allow more weight for this font */
+}
+
+header .logo-link:hover {
+    color: var(--clr-logo);
+}
