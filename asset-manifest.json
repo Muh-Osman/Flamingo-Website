@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/flamingo-react/static/css/main.8834de08.css",
+    "main.js": "/flamingo-react/static/js/main.c15ee5f4.js",
+    "static/media/1.webp": "/flamingo-react/static/media/1.3d507e02db5be3edab15.webp",
+    "static/media/3.webp": "/flamingo-react/static/media/3.34856519875cb75a8a51.webp",
+    "static/media/macstudio.jpg": "/flamingo-react/static/media/macstudio.6437c576fadc83af9933.jpg",
+    "static/media/2.webp": "/flamingo-react/static/media/2.f055e4c087460e86dcc6.webp",
+    "static/media/printer.jpg": "/flamingo-react/static/media/printer.5f5f90ce65340e9b06af.jpg",
+    "static/media/Steam Deck.jpg": "/flamingo-react/static/media/Steam Deck.e2740384da56d237043a.jpg",
+    "static/media/ebick.jpg": "/flamingo-react/static/media/ebick.060bbf7a7d84c783e321.jpg",
+    "static/media/gta.jpg": "/flamingo-react/static/media/gta.6693a8ba6b8e63896b86.jpg",
+    "static/media/beats.jpg": "/flamingo-react/static/media/beats.ae521696ce3684740def.jpg",
+    "static/media/3dprinted.jpg": "/flamingo-react/static/media/3dprinted.0150861ea001f8b76018.jpg",
+    "static/media/Canon EOS-1D X.jpg": "/flamingo-react/static/media/Canon EOS-1D X.2d878edb71c02603d401.jpg",
+    "static/media/AirPods Prod.jpg": "/flamingo-react/static/media/AirPods Prod.6020f6f29f5457de7bf4.jpg",
+    "static/media/projector.jpg": "/flamingo-react/static/media/projector.0d988959befedb6ebcc4.jpg",
+    "static/media/speaker.jpg": "/flamingo-react/static/media/speaker.5587cb06a3a60c2dfaec.jpg",
+    "static/media/kindle.jpg": "/flamingo-react/static/media/kindle.235147a2801504cbc277.jpg",
+    "static/media/modem.jpg": "/flamingo-react/static/media/modem.10eb7c7d4b07921543e0.jpg",
+    "static/media/Microsoft Xbox Series X Console.jpg": "/flamingo-react/static/media/Microsoft Xbox Series X Console.4a09eae2160bdcbb934f.jpg",
+    "static/media/vr.jpg": "/flamingo-react/static/media/vr.5e00eeb21f676d45419a.jpg",
+    "static/media/tv.jpg": "/flamingo-react/static/media/tv.fafcad6402f1922a88f7.jpg",
+    "static/media/sun_logo.svg": "/flamingo-react/static/media/sun_logo.6ca1e568764f6fd29464.svg",
+    "index.html": "/flamingo-react/index.html",
+    "static/media/moon_logo.svg": "/flamingo-react/static/media/moon_logo.fc2b9ecc92c6b72f1609.svg",
+    "main.8834de08.css.map": "/flamingo-react/static/css/main.8834de08.css.map",
+    "main.c15ee5f4.js.map": "/flamingo-react/static/js/main.c15ee5f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8834de08.css",
+    "static/js/main.c15ee5f4.js"
+  ]
+}
