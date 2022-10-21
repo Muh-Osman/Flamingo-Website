@@ -41,16 +41,16 @@ const Footer = () => {
                                 </tr>
 
                                 <tr>
-                                    <td><a href='https://www.google.com/'></a>XXX</td>
+                                    <td><a href='https://www.google.com/'>XXX</a></td>
                                     <td><a href='https://www.google.com/'>Settings</a></td>
                                     <td><a href='https://www.google.com/'>Coupons</a></td>
                                     <td><a href='https://www.google.com/'>Rent fees</a></td>
                                 </tr>
 
                                 <tr>
-                                    <td><a href='https://www.google.com/'></a>XXX</td>
-                                    <td><a href='https://www.google.com/'></a>XXX</td>
-                                    <td><a href='https://www.google.com/'></a>XXX</td>
+                                    <td><a href='https://www.google.com/'>XXX</a></td>
+                                    <td><a href='https://www.google.com/'>XXX</a></td>
+                                    <td><a href='https://www.google.com/'>XXX</a></td>
                                     <td><a href='https://www.google.com/'>FAQ</a></td>
                                 </tr>
                             </tbody>
