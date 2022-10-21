@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flamingo-react/static/css/main.8834de08.css",
-    "main.js": "/flamingo-react/static/js/main.0c5676fe.js",
+    "main.js": "/flamingo-react/static/js/main.d1ab9048.js",
     "static/media/1.webp": "/flamingo-react/static/media/1.3d507e02db5be3edab15.webp",
     "static/media/3.webp": "/flamingo-react/static/media/3.34856519875cb75a8a51.webp",
     "static/media/macstudio.jpg": "/flamingo-react/static/media/macstudio.6437c576fadc83af9933.jpg",
@@ -25,10 +25,10 @@
     "index.html": "/flamingo-react/index.html",
     "static/media/moon_logo.svg": "/flamingo-react/static/media/moon_logo.fc2b9ecc92c6b72f1609.svg",
     "main.8834de08.css.map": "/flamingo-react/static/css/main.8834de08.css.map",
-    "main.0c5676fe.js.map": "/flamingo-react/static/js/main.0c5676fe.js.map"
+    "main.d1ab9048.js.map": "/flamingo-react/static/js/main.d1ab9048.js.map"
   },
   "entrypoints": [
     "static/css/main.8834de08.css",
-    "static/js/main.0c5676fe.js"
+    "static/js/main.d1ab9048.js"
   ]
 }
