@@ -8,7 +8,7 @@ const MostPopularData = [
 
     {
         id: 1,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: beats,
         imgAlt: '',
         itemDescription: 'Beats Studio-3 Wireless Over-Ear Headphones',
@@ -19,7 +19,7 @@ const MostPopularData = [
 
     {
         id: 2,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: tv,
         imgAlt: '',
         itemDescription: 'SONY UHD 4K 120Hz QLED Smart TV, Dolby Vision HDR10+ (2022)',
@@ -30,7 +30,7 @@ const MostPopularData = [
 
     {
         id: 3,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: AirPods,
         imgAlt: '',
         itemDescription: 'Apple AirPods Pro MagSafe charging case',
@@ -41,7 +41,7 @@ const MostPopularData = [
 
     {
         id: 4,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: kindle,
         imgAlt: '',
         itemDescription: 'Kindle Paperwhite 8GB - 6.8" display, warm light, Waterproof, Wi-Fi',
@@ -52,7 +52,7 @@ const MostPopularData = [
 
     {
         id: 5,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: speaker,
         imgAlt: '',
         itemDescription: 'Klipsch Synergy Black Label F-300 Floorstanding Speaker with Dual 8" Woofers, Pair',
@@ -63,7 +63,7 @@ const MostPopularData = [
 
     {
         id: 6,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: tv,
         imgAlt: '',
         itemDescription: 'SONY UHD 4K 120Hz QLED Smart TV, Dolby Vision HDR10+ (2022)',
@@ -74,7 +74,7 @@ const MostPopularData = [
 
     {
         id: 7,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: AirPods,
         imgAlt: '',
         itemDescription: 'Apple AirPods Pro MagSafe charging case',
@@ -85,7 +85,7 @@ const MostPopularData = [
 
     {
         id: 8,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: kindle,
         imgAlt: '',
         itemDescription: 'Kindle Paperwhite 8GB - 6.8" display, warm light, Waterproof, Wi-Fi',

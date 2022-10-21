@@ -5,7 +5,7 @@ const TopBrandsItem = (props) => {
 
     return (
         <div className={props.divClassName + ` brand`}>
-            <a href='/#' className={props.aClassName + ` uniform`}>
+            <a href=https://www.google.com/ className={props.aClassName + ` uniform`}>
 
                 {props.svg}
 

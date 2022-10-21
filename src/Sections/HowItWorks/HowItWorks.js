@@ -31,7 +31,7 @@ const HowItWorks = () => {
                 </div>
 
                 <div className="more-details-link">
-                    <a href='/#'>More details</a>
+                    <a href=https://www.google.com/>More details</a>
                 </div>
 
             </div>

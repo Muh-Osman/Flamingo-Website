@@ -4,7 +4,7 @@ const NewSectionContainer = (props) => {
     return (
         <div className="shelves-down">
             <div className="shelve-title">
-                <a href='/#'>{props.title}</a>
+                <a href=https://www.google.com/>{props.title}</a>
             </div>
             <div className="items-down-scroller" tabIndex="0">
 

@@ -8,7 +8,7 @@ const addedRecentlyData = [
 
     {
         id: 1,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: Canon,
         imgAlt: '',
         itemDescription: 'Canon EOS-1D X Mark III Body Only',
@@ -19,7 +19,7 @@ const addedRecentlyData = [
 
     {
         id: 2,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: Xbox,
         imgAlt: '',
         itemDescription: 'Xbox Series X Console 1TB (KSA Version)',
@@ -30,7 +30,7 @@ const addedRecentlyData = [
 
     {
         id: 3,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: vr,
         imgAlt: '',
         itemDescription: 'PlayStation VR Iron Man and Star Wars Set, Compatible with PS4 & PS5',
@@ -41,7 +41,7 @@ const addedRecentlyData = [
 
     {
         id: 4,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: Steam,
         imgAlt: '',
         itemDescription: 'Valve Steam Deck, Game Console with FHD Screen',
@@ -52,7 +52,7 @@ const addedRecentlyData = [
 
     {
         id: 5,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: printer,
         imgAlt: '',
         itemDescription: 'Canon PIXMA MG3620 Wireless All-In-One Color Inkjet Printer with Mobile and Tablet Printing, Red, 17.7 (W) X 12.0 (D) X 6.0 (H)',
@@ -63,7 +63,7 @@ const addedRecentlyData = [
 
     {
         id: 6,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: Xbox,
         imgAlt: '',
         itemDescription: 'Xbox Series X Console 1TB (KSA Version)',
@@ -74,7 +74,7 @@ const addedRecentlyData = [
 
     {
         id: 7,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: vr,
         imgAlt: '',
         itemDescription: 'PlayStation VR Iron Man and Star Wars Set, Compatible with PS4 & PS5',
@@ -85,7 +85,7 @@ const addedRecentlyData = [
 
     {
         id: 8,
-        href: '/#',
+        href: https://www.google.com/,
         imgSrc: Steam,
         imgAlt: '',
         itemDescription: 'Valve Steam Deck, Game Console with FHD Screen',

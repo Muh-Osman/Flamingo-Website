@@ -20,38 +20,38 @@ const Footer = () => {
                                 </tr>
 
                                 <tr>
-                                    <td><a href='/#'>Company info</a></td>
-                                    <td><a href='/#'>Manage your account</a></td>
-                                    <td><a href='/#'>Student discount</a></td>
-                                    <td><a href='/#'>How it works</a></td>
+                                    <td><a href=https://www.google.com/>Company info</a></td>
+                                    <td><a href=https://www.google.com/>Manage your account</a></td>
+                                    <td><a href=https://www.google.com/>Student discount</a></td>
+                                    <td><a href=https://www.google.com/>How it works</a></td>
                                 </tr>
 
                                 <tr>
-                                    <td><a href='/#'>Our story</a></td>
-                                    <td><a href='/#'>Track your rent</a></td>
-                                    <td><a href='/#'>Affiliate program</a></td>
-                                    <td><a href='/#'>Rent guide</a></td>
+                                    <td><a href=https://www.google.com/>Our story</a></td>
+                                    <td><a href=https://www.google.com/>Track your rent</a></td>
+                                    <td><a href=https://www.google.com/>Affiliate program</a></td>
+                                    <td><a href=https://www.google.com/>Rent guide</a></td>
                                 </tr>
 
                                 <tr>
-                                    <td><a href='/#'>Jobs</a></td>
-                                    <td><a href='/#'>Shortcuts</a></td>
-                                    <td><a href='/#'>Rent with points</a></td>
-                                    <td><a href='/#'>Contact us</a></td>
+                                    <td><a href=https://www.google.com/>Jobs</a></td>
+                                    <td><a href=https://www.google.com/>Shortcuts</a></td>
+                                    <td><a href=https://www.google.com/>Rent with points</a></td>
+                                    <td><a href=https://www.google.com/>Contact us</a></td>
                                 </tr>
 
                                 <tr>
-                                    <td><a href='/#'></a></td>
-                                    <td><a href='/#'>Settings</a></td>
-                                    <td><a href='/#'>Coupons</a></td>
-                                    <td><a href='/#'>Rent fees</a></td>
+                                    <td><a href=https://www.google.com/></a></td>
+                                    <td><a href=https://www.google.com/>Settings</a></td>
+                                    <td><a href=https://www.google.com/>Coupons</a></td>
+                                    <td><a href=https://www.google.com/>Rent fees</a></td>
                                 </tr>
 
                                 <tr>
-                                    <td><a href='/#'></a></td>
-                                    <td><a href='/#'></a></td>
-                                    <td><a href='/#'></a></td>
-                                    <td><a href='/#'>FAQ</a></td>
+                                    <td><a href=https://www.google.com/></a></td>
+                                    <td><a href=https://www.google.com/></a></td>
+                                    <td><a href=https://www.google.com/></a></td>
+                                    <td><a href=https://www.google.com/>FAQ</a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -67,7 +67,7 @@ const Footer = () => {
                             <div className="soc">
                                 {/* <!-- Facebook --> */}
                                 <div className="facebook">
-                                    <a href='/#'>
+                                    <a href=https://www.google.com/>
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="50"
@@ -84,7 +84,7 @@ const Footer = () => {
                                 </div>
                                 {/* <!-- Twitter --> */}
                                 <div className="twitter">
-                                    <a href='/#'>
+                                    <a href=https://www.google.com/>
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="50"
@@ -101,7 +101,7 @@ const Footer = () => {
                                 </div>
                                 {/* <!-- Instagram --> */}
                                 <div className="instagram">
-                                    <a href='/#'>
+                                    <a href=https://www.google.com/>
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="50"
@@ -272,7 +272,7 @@ const Footer = () => {
                             </div>
 
                             <div className="arabic hid-tap">
-                                <a href='/#'>
+                                <a href=https://www.google.com/>
                                     <h4>Arabic</h4>
                                 </a>
                             </div>
@@ -326,7 +326,7 @@ const Footer = () => {
                             </div>
 
                             <div className="egypt hid-tap">
-                                <a href='/#'>
+                                <a href=https://www.google.com/>
                                     <h4>Egypt</h4>
                                 </a>
                             </div>
@@ -339,7 +339,7 @@ const Footer = () => {
 
                         {/* <!-- Android app --> */}
                         <div>
-                            <a href='/#'>
+                            <a href=https://www.google.com/>
                                 <svg width="262" height="85" viewBox="0 0 262 85" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -367,7 +367,7 @@ const Footer = () => {
 
                         {/* <!-- Apple app --> */}
                         <div>
-                            <a href='/#'>
+                            <a href=https://www.google.com/>
                                 <svg width="264" height="87" viewBox="0 0 264 87" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -489,7 +489,7 @@ const Footer = () => {
                     <div className="soc">
                         {/* <!-- Facebook --> */}
                         <div className="facebook">
-                            <a href='/#'>
+                            <a href=https://www.google.com/>
                                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -500,7 +500,7 @@ const Footer = () => {
                         </div>
                         {/* <!-- Twitter --> */}
                         <div className="twitter">
-                            <a href='/#'>
+                            <a href=https://www.google.com/>
                                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -511,7 +511,7 @@ const Footer = () => {
                         </div>
                         {/* <!-- Instagram --> */}
                         <div className="instagram">
-                            <a href='/#'>
+                            <a href=https://www.google.com/>
                                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" clipRule="evenodd"
@@ -569,7 +569,7 @@ const Footer = () => {
 
                     {/* <!-- Android app --> */}
                     <div>
-                        <a href='/#'>
+                        <a href=https://www.google.com/>
                             <svg width="262" height="85" viewBox="0 0 262 85" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -597,7 +597,7 @@ const Footer = () => {
 
                     {/* <!-- Apple app --> */}
                     <div>
-                        <a href='/#'>
+                        <a href=https://www.google.com/>
                             <svg width="264" height="87" viewBox="0 0 264 87" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -688,13 +688,13 @@ const Footer = () => {
                 </div>
 
                 <div className="legal">
-                    <a href='/#'>Privacy Statement</a>
+                    <a href=https://www.google.com/>Privacy Statement</a>
                     <p>|</p>
-                    <a href='/#'>Terms & Conditions</a>
+                    <a href=https://www.google.com/>Terms & Conditions</a>
                     <p>|</p>
-                    <a href='/#'>Policies</a>
+                    <a href=https://www.google.com/>Policies</a>
                     <p>|</p>
-                    <a href='/#'>Legal</a>
+                    <a href=https://www.google.com/>Legal</a>
                 </div>
             </div>
 

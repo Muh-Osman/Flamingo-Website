@@ -27,13 +27,13 @@ const HomeShelves = () => {
         //         {/* <div className="for-you shelves">
         //             <div className="shelve-cont">
         //                 <div className="shelve-title">
-        //                     <a href='/#'>For you</a>
+        //                     <a href=https://www.google.com/>For you</a>
         //                 </div>
         //                 <div className="items-scroller" tabIndex="0">
 
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/for you/ps5.jpg" alt="" />
         //                             </div>
@@ -49,7 +49,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/for you/80D.jpg" alt="" />
         //                             </div>
@@ -65,7 +65,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/for you/mac.jpg" alt="" />
         //                             </div>
@@ -81,7 +81,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/for you/mini.jpg" alt="" />
         //                             </div>
@@ -97,7 +97,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/for you/iphone.jpg" alt="" />
         //                             </div>
@@ -113,7 +113,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/for you/ps5.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -129,7 +129,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/for you/80D.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -145,7 +145,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/for you/mac.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -161,7 +161,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/for you/mini.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -177,7 +177,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/for you/iphone.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -200,14 +200,14 @@ const HomeShelves = () => {
         //         {/* <div className="phones shelves">
         //             <div className="shelve-cont">
         //                 <div className="shelve-title">
-        //                     <a href='/#'>Mobile Phones</a>
+        //                     <a href=https://www.google.com/>Mobile Phones</a>
         //                 </div>
 
 
         //                 <div className="items-scroller" tabIndex="0">
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/phones/iphone.jpg" alt="" />
         //                             </div>
@@ -223,7 +223,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/phones/s22.jpg" alt="" />
         //                             </div>
@@ -239,7 +239,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/phones/fold.jpg" alt="" />
         //                             </div>
@@ -255,7 +255,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/phones/flip.jpg" alt="" />
         //                             </div>
@@ -271,7 +271,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/phones/pixel.jpg" alt="" />
         //                             </div>
@@ -287,7 +287,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/phones/iphone.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -303,7 +303,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/phones/s22.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -319,7 +319,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/phones/fold.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -335,7 +335,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/phones/flip.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -351,7 +351,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/phones/pixel.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -374,13 +374,13 @@ const HomeShelves = () => {
         //         {/* <div className="gaming shelves">
         //             <div className="shelve-cont">
         //                 <div className="shelve-title">
-        //                     <a href='/#'>Gaming & VR</a>
+        //                     <a href=https://www.google.com/>Gaming & VR</a>
         //                 </div>
 
         //                 <div className="items-scroller" tabIndex="0">
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/gaming/ps5 controler.jpg" alt="" />
         //                             </div>
@@ -396,7 +396,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/gaming/Battlefield 2042.jpg" alt="" />
         //                             </div>
@@ -412,7 +412,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/gaming/VR Headset Compatible.jpg" alt="" />
         //                             </div>
@@ -428,7 +428,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/gaming/Nintendo Switch.jpg" alt="" />
         //                             </div>
@@ -444,7 +444,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/gaming/FIFA 22.jpg" alt="" />
         //                             </div>
@@ -460,7 +460,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/gaming/ps5 controler.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -476,7 +476,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/gaming/Battlefield 2042.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -492,7 +492,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/gaming/VR Headset Compatible.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -508,7 +508,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/gaming/Nintendo Switch.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -524,7 +524,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/gaming/FIFA 22.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -547,13 +547,13 @@ const HomeShelves = () => {
         //         {/* <div className="watches shelves">
         //             <div className="shelve-cont">
         //                 <div className="shelve-title">
-        //                     <a href='/#'>Smart watches</a>
+        //                     <a href=https://www.google.com/>Smart watches</a>
         //                 </div>
 
         //                 <div className="items-scroller" tabIndex="0">
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/watches/red.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -569,7 +569,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/watches/Watch Active.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -585,7 +585,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/watches/Fossil Men.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -601,7 +601,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/watches/Apple Watch Series.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -617,7 +617,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/watches/HUAWEI WATCH.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -633,7 +633,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/watches/red.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -649,7 +649,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/watches/Watch Active.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -665,7 +665,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/watches/Fossil Men.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -681,7 +681,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/watches/Apple Watch Series.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -697,7 +697,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/watches/HUAWEI WATCH.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -721,13 +721,13 @@ const HomeShelves = () => {
 
         //             <div className="shelve-cont">
         //                 <div className="shelve-title">
-        //                     <a href='/#'>Cameras</a>
+        //                     <a href=https://www.google.com/>Cameras</a>
         //                 </div>
 
         //                 <div className="items-scroller" tabIndex="0">
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/cameras/Sony Alpha A7.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -743,7 +743,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/cameras/Nikon Coolpix.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -759,7 +759,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/cameras/Canon RF.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -775,7 +775,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/cameras/eos 5D.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -791,7 +791,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/cameras/GoPro HERO.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -807,7 +807,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/cameras/Sony Alpha A7.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -823,7 +823,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/cameras/Nikon Coolpix.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -839,7 +839,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/cameras/Canon RF.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -855,7 +855,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/cameras/eos 5D.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -871,7 +871,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/cameras/GoPro HERO.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -895,13 +895,13 @@ const HomeShelves = () => {
 
         //             <div className="shelve-cont">
         //                 <div className="shelve-title">
-        //                     <a href='/#'>Computers</a>
+        //                     <a href=https://www.google.com/>Computers</a>
         //                 </div>
 
         //                 <div className="items-scroller" tabIndex="0">
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/laptop/Acer Nitro.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -917,7 +917,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/laptop/Lenovo Ideapad.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -933,7 +933,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/laptop/HP Laptop.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -949,7 +949,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/laptop/Dell.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -965,7 +965,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/laptop/Apple iMac.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -981,7 +981,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/laptop/Acer Nitro.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -997,7 +997,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/laptop/Lenovo Ideapad.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -1013,7 +1013,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/laptop/HP Laptop.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -1029,7 +1029,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/laptop/Dell.jpg" loading="lazy" alt="" />
         //                             </div>
@@ -1045,7 +1045,7 @@ const HomeShelves = () => {
         //                     </div>
 
         //                     <div>
-        //                         <a href='/#' className="item-cards">
+        //                         <a href=https://www.google.com/ className="item-cards">
         //                             <div className="img-of-item">
         //                                 <img src="images/product images/laptop/Apple iMac.jpg" loading="lazy" alt="" />
         //                             </div>
