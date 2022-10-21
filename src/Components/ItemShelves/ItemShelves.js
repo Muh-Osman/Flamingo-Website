@@ -3,7 +3,7 @@ import './ItemShelves.css'
 const ItemShelves = () => {
     return (
         <div>
-            <a href=https://www.google.com/ className="item-cards">
+            <a href='https://www.google.com/' className="item-cards">
                 <div className="img-of-item">
                     <img src="images/product images/for you/ps5.jpg" alt="" />
                 </div>

@@ -5,7 +5,7 @@ const ShelveConainer = (props) => {
         <div className="for-you shelves">
             <div className="shelve-cont">
                 <div className="shelve-title">
-                    <a href=https://www.google.com/>For you</a>
+                    <a href='https://www.google.com/'>For you</a>
                 </div>
                 <div className="items-scroller" tabIndex="0">
 

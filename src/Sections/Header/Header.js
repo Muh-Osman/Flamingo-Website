@@ -15,11 +15,11 @@ const Header = () => {
                 <DarkmodeToggle />
 
                 <HeaderButton className='log-in-box'>
-                    <a href=https://www.google.com/>Log in</a>
+                    <a href='https://www.google.com/'>Log in</a>
                 </HeaderButton>
 
                 <HeaderButton className='sign-up-box'>
-                    <a href=https://www.google.com/>Sign up</a>
+                    <a href='https://www.google.com/'>Sign up</a>
                 </HeaderButton>
 
             </HeaderButtonContainer>
