@@ -151,7 +151,7 @@ a.nintendo:hover.nintendo path {
         background-color: var(--clr-down-hr);
         height: 2px;
         width: 40px;
-        border-bottom-right-radius: 1px;
+        border-radius: 1px 0px 1px 1px;
     }
 
     section .top-brands-shelve h3 {

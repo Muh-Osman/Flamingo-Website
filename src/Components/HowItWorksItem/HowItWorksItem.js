@@ -1,10 +1,10 @@
 import './HowItWorksItem.css'
 
-const HowItWorksItem = () => {
+const HowItWorksItem = (props) => {
     return (
-        <div className="how one">
-            <img loading="lazy" src="images/how it works/1.jpg" alt="" />
-            <h2><mark>Try the latest technology before anyone.</mark></h2>
+        <div className={`how ` + props.className}>
+            <img loading="lazy" src={props.src} alt={props.alt} />
+            <h2><mark>{props.title}</mark></h2>
         </div>
     )
 }

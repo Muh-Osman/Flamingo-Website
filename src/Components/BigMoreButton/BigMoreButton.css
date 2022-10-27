@@ -1,11 +1,4 @@
 /* Big More Button */
-section .big-more-btn-box {
-    margin: 0;
-}
-
-section .big-more-btn {
-    padding: 0;
-}
 
 section .big-more-btn button {
     width: 100%;

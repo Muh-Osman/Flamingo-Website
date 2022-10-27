@@ -4,19 +4,19 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Home, Phones, Computers, Watches, Cameras, Gaming, Tablets, Tvs } from "./Pages"
 
 
-var loadScript = function (src) {
-  var tag = document.createElement('script');
-  tag.async = false;
-  tag.src = src;
-  document.getElementsByTagName('body')[0].appendChild(tag);
-}
+// var loadScript = function (src) {
+//   var tag = document.createElement('script');
+//   tag.async = false;
+//   tag.src = src;
+//   document.getElementsByTagName('body')[0].appendChild(tag);
+// }
 
 
 const App = () => {
 
   return (
     <>
-      <Router basename={'/flamingo-react'}>
+      <Router basename={'/'}>
 
         <Header />
 
@@ -55,7 +55,7 @@ const App = () => {
         <MobileNavbar />
         <FloatSearchMobile />
 
-        {loadScript('../main.js')}
+        {/* {loadScript(./main.js)} */}
 
       </Router>
     </>

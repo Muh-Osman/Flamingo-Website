@@ -1,5 +1,8 @@
+import { HowItWorksItem, Anchor } from '../../Components'
+import How1 from '../../Assets/Images/how it works/1.jpg'
+import How2 from '../../Assets/Images/how it works/2.jpg'
+import How3 from '../../Assets/Images/how it works/3.jpg'
 import './HowItWorks.css'
-import { HowItWorksItem } from '../../Components'
 
 
 const HowItWorks = () => {
@@ -7,32 +10,34 @@ const HowItWorks = () => {
         <section className="how-it-works-section">
             <div className="how-it-works">
 
-                <div className="how-it-works-title">How it works</div>
+                <h4 className="how-it-works-title">How it works</h4>
 
                 <div className="how-box">
 
-                    <HowItWorksItem />
+                    <HowItWorksItem
+                        className='one'
+                        src={How1}
+                        alt=''
+                        title='Try the latest technology before anyone.'
+                    />
 
-                    {/* <div className="how one">
-                        <img loading="lazy" src="images/how it works/1.jpg" alt="" />
-                        <h2><mark>Try the latest technology before anyone.</mark></h2>
-                    </div> */}
+                    <HowItWorksItem
+                        className='two'
+                        src={How2}
+                        alt=''
+                        title='Rent your electronics and earn money.'
+                    />
 
-                    {/* <div className="how two">
-                        <img loading="lazy" src="images/how it works/2.jpg" alt="" />
-                        <h2><mark>Rent your electronics and earn money.</mark></h2>
-                    </div> */}
-
-                    {/* <div className="how three">
-                        <img loading="lazy" src="images/how it works/3.jpg" alt="" />
-                        <h2><mark>We save your right through our program.</mark></h2>
-                    </div> */}
+                    <HowItWorksItem
+                        className='three'
+                        src={How3}
+                        alt=''
+                        title='We save your right through our program.'
+                    />
 
                 </div>
 
-                <div className="more-details-link">
-                    <a href='https://www.google.com/'>More details</a>
-                </div>
+                <Anchor className='more-details-link' href='https://www.google.com/' title='More details' />
 
             </div>
         </section>

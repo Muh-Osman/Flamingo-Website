@@ -1,5 +1,5 @@
 import './Header.css'
-import { HeaderContainer, Logo, SearchBox, HeaderButtonContainer, DarkmodeToggle, HeaderButton } from '../../Components'
+import { HeaderContainer, Logo, SearchBox, HeaderButtonContainer, DarkmodeToggle, Anchor } from '../../Components'
 
 const Header = () => {
     return (
@@ -14,13 +14,9 @@ const Header = () => {
 
                 <DarkmodeToggle />
 
-                <HeaderButton className='log-in-box'>
-                    <a href='https://www.google.com/'>Log in</a>
-                </HeaderButton>
+                <Anchor className='log-in-box' href='https://www.google.com/' title='Log in' />
 
-                <HeaderButton className='sign-up-box'>
-                    <a href='https://www.google.com/'>Sign up</a>
-                </HeaderButton>
+                <Anchor className='sign-up-box' href='https://www.google.com/' title='Sign up' />
 
             </HeaderButtonContainer>
 

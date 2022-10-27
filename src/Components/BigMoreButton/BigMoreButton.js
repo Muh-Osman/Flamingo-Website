@@ -1,12 +1,12 @@
+import Button from '../Button/Button'
 import './BigMoreButton.css'
+
 
 const BigMoreButton = () => {
     return (
-        <div className="big-more-btn-box">
-            <div className="big-more-btn">
-                <button>More</button>
-            </div>
-        </div>
+
+        <Button className='big-more-btn' title='More' />
+
     )
 }
 

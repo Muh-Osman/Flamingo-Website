@@ -1,14 +1,16 @@
 import './NewSectionContainer.css'
+import Anchor from '../Anchor/Anchor'
+
 
 const NewSectionContainer = (props) => {
     return (
         <div className="shelves-down">
-            <div className="shelve-title">
-                <a href='https://www.google.com/'>{props.title}</a>
-            </div>
+
+            <Anchor className="shelve-title" href={props.href} title={props.title} />
+
             <div className="items-down-scroller" tabIndex="0">
 
-            {props.children}
+                {props.children}
 
             </div>
         </div>

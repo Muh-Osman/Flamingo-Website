@@ -12,11 +12,12 @@ section div.how-it-works {
     flex-direction: column;
 }
 
-div.how-it-works-title {
+.how-it-works-title {
     color: #fff;
     font-size: 40px;
     font-weight: 500;
     padding: 5px 0 0 35px;
+    margin: 0;
 }
 
 div.how-box {

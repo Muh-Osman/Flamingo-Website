@@ -1,4 +1,4 @@
-import { NewSectionContainer, NewSectionItem } from '../../Components'
+import { NewSectionContainer, ItemShelves } from '../../Components'
 import OnRiseData from '../../Data/OnRiseData'
 import MostPopularData from '../../Data/MostPopularData'
 import AddedRecentlyData from '../../Data/AddedRecentlyData'
@@ -10,7 +10,8 @@ const NewSectionShelves = () => {
 
 
   const onRiseItems = OnRiseData.map(onRiseItem => {
-    return <NewSectionItem
+    return <ItemShelves
+      className='item-cards-down'
       key={onRiseItem.id}
       href={onRiseItem.href}
       imgSrc={onRiseItem.imgSrc}
@@ -23,7 +24,8 @@ const NewSectionShelves = () => {
   })
 
   const mostPopular = MostPopularData.map(mostPopularItem => {
-    return <NewSectionItem
+    return <ItemShelves
+      className='item-cards-down'
       key={mostPopularItem.id}
       href={mostPopularItem.href}
       imgSrc={mostPopularItem.imgSrc}
@@ -36,7 +38,8 @@ const NewSectionShelves = () => {
   })
 
   const addedRecently = AddedRecentlyData.map(addedRecentlyItem => {
-    return <NewSectionItem
+    return <ItemShelves
+      className='item-cards-down'
       key={addedRecentlyItem.id}
       href={addedRecentlyItem.href}
       imgSrc={addedRecentlyItem.imgSrc}
@@ -53,15 +56,15 @@ const NewSectionShelves = () => {
 
     <section className="new-sec">
 
-      <NewSectionContainer title={'On rise ⚡'}>
+      <NewSectionContainer href='https://www.google.com/' title={'On rise ⚡'}>
         {onRiseItems}
       </NewSectionContainer>
 
-      <NewSectionContainer title={'Most popular'}>
+      <NewSectionContainer href='https://www.google.com/' title={'Most popular'}>
         {mostPopular}
       </NewSectionContainer>
 
-      <NewSectionContainer title={'Added recently'}>
+      <NewSectionContainer href='https://www.google.com/' title={'Added recently'}>
         {addedRecently}
       </NewSectionContainer>
 

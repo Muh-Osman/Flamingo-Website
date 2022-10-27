@@ -1,18 +1,26 @@
-import { ShelveConainer, ItemShelves } from "../../Components"
+import { ShelvesBox, ShelveConainer, ItemShelves } from "../../Components"
 import './Phones.css'
 
 const Phones = () => {
     return (
-        <>
-            <div>Phoneeeees</div>
 
-            <ShelveConainer>
+        <ShelvesBox>
 
+            <ShelveConainer href='https://www.google.com/' title='Apple'>
                 <ItemShelves />
-
             </ShelveConainer>
 
-        </>
+            <ShelveConainer href='https://www.google.com/' title='Samsung'>
+                <ItemShelves />
+            </ShelveConainer>
+
+            <ShelveConainer href='https://www.google.com/' title='Google'>
+                <ItemShelves />
+            </ShelveConainer>
+            
+
+        </ShelvesBox>
+
     )
 }
 

@@ -184,7 +184,7 @@ section .shelves-down:hover .items-down-scroller::-webkit-scrollbar-thumb:horizo
         padding: 0;
     }
 
-    section .big-more-btn-box {
+    section div.big-more-btn {
         padding: 0 9px;
     }
 
@@ -210,3 +210,8 @@ section .shelves-down:hover .items-down-scroller::-webkit-scrollbar-thumb:horizo
         font-size: 5vw !important;
     }
 }
+
+
+
+
+
