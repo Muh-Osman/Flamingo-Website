@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <>
-      <Router basename={'/flamingo-react'}>
+      <Router basename={'/flamingo-react/'}>
 
         <Header />
 
