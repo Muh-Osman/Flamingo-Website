@@ -87,44 +87,47 @@ document.getElementById('dot-func').addEventListener('click', () => {
 
 
 
+
+
+
 // Carousel Indicator
-// const myCarousel = document.getElementById("carouselExampleIndicators");
-// const carouselIndicators = myCarousel.querySelectorAll(
-//     ".carousel-indicators button span"
-// );
-// let intervalID;
+const myCarousel = document.getElementById("carouselExampleIndicators");
+const carouselIndicators = myCarousel.querySelectorAll(
+    ".carousel-indicators button span"
+);
+let intervalID;
 
-// const carousel = new bootstrap.Carousel(myCarousel);
+const carousel = new bootstrap.Carousel(myCarousel);
 
-// window.addEventListener("load", function () {
-//     fillCarouselIndicator(1);
-// });
+window.addEventListener("load", function () {
+    fillCarouselIndicator(1);
+});
 
-// myCarousel.addEventListener("slide.bs.carousel", function (e) {
-//     let index = e.to;
-//     fillCarouselIndicator(++index);
-// });
+myCarousel.addEventListener("slide.bs.carousel", function (e) {
+    let index = e.to;
+    fillCarouselIndicator(++index);
+});
 
-// function fillCarouselIndicator(index) {
-//     let i = 0;
-//     for (const carouselIndicator of carouselIndicators) {
-//         carouselIndicator.style.width = 0;
-//     }
-//     clearInterval(intervalID);
-//     carousel.pause();
+function fillCarouselIndicator(index) {
+    let i = 0;
+    for (const carouselIndicator of carouselIndicators) {
+        carouselIndicator.style.width = 0;
+    }
+    clearInterval(intervalID);
+    carousel.pause();
 
-//     intervalID = setInterval(function () {
-//         i++;
+    intervalID = setInterval(function () {
+        i++;
 
-//         myCarousel.querySelector(".carousel-indicators .active span").style.width =
-//             i + "%";
+        myCarousel.querySelector(".carousel-indicators .active span").style.width =
+            i + "%";
 
-//         if (i >= 100) {
-//             // i = 0; -> just in case
-//             carousel.next();
-//         }
-//     }, 50);
-// }
+        if (i >= 100) {
+            // i = 0; -> just in case
+            carousel.next();
+        }
+    }, 50);
+}
 
 
 
@@ -141,41 +144,48 @@ searchIconInNav.addEventListener("click", () => {
 
 
 
+
+// No need in Reract
 // Add active-btn class to button onclick to Nav Categories
-let btn = document.querySelectorAll(".cat-items");
-let btnArray = Array.from(btn);
+// let btn = document.querySelectorAll(".cat-items");
+// let btnArray = Array.from(btn);
 
-btnArray.forEach((ele) => {
-    ele.addEventListener("click", function (e) {
+// btnArray.forEach((ele) => {
+//     ele.addEventListener("click", function (e) {
 
-        btnArray.forEach((el) => {
-            el.classList.remove("active-btn");
-        })
-        e.currentTarget.classList.add("active-btn");
+//         btnArray.forEach((el) => {
+//             el.classList.remove("active-btn");
+//         })
+//         e.currentTarget.classList.add("active-btn");
 
 
-        // Prevent reload page when click on Nav buttons that take you to the same page you are in.
-        let activeBtn = document.querySelector(".active-btn");
-        let currentLocation = location.href;
 
-        if (activeBtn.href === currentLocation) {
-            e.preventDefault();
-        }
 
-    });
-});
+
+
+// No need in Reract
+//         // Prevent reload page when click on Nav buttons that take you to the same page you are in.
+//         let activeBtn = document.querySelector(".active-btn");
+//         let currentLocation = location.href;
+
+//         if (activeBtn.href === currentLocation) {
+//             e.preventDefault();
+//         }
+
+//     });
+// });
 
 
 
 // Mobile Navbar add active class
 const list = document.querySelectorAll('.list');
-function activeLink(){
-    list.forEach((item) => 
-    item.classList.remove('act'));
+function activeLink() {
+    list.forEach((item) =>
+        item.classList.remove('act'));
     this.classList.add('act');
 }
 list.forEach((item) =>
-item.addEventListener('click', activeLink));
+    item.addEventListener('click', activeLink));
 
 
 
@@ -261,7 +271,7 @@ function showCatShelve() {
 
     if (mobPhoneNav.style.bottom < "0") {
         mobPhoneNav.style.bottom = "0";
- 
+
     } else {
         mobPhoneNav.style.bottom == "0";
         mobPhoneNav.style.bottom = "-70px";
@@ -425,7 +435,7 @@ function showCatShelve() {
 }(window, document));
 
 // This is the event(swiped-down)
-mobPhoneNav.addEventListener('swiped-down', ()=> {
+mobPhoneNav.addEventListener('swiped-down', () => {
     mobPhoneNav.style.bottom = "-70px";
 });
 
@@ -435,14 +445,14 @@ mobPhoneNav.addEventListener('swiped-down', ()=> {
 const zoomOut = document.querySelector(".how-it-works-section")
 const newSec = document.querySelector('.new-sec')
 const observer = new window.IntersectionObserver(([entry]) => {
-  if (entry.isIntersecting) {
+    if (entry.isIntersecting) {
         zoomOut.style.transform = "scale(.96) translateY(-10px)";
-      return
+        return
     }
-        zoomOut.style.transform = "scale(1) translateY(0)";
+    zoomOut.style.transform = "scale(1) translateY(0)";
 }, {
-  root: null,
-  threshold: 0.15, // set offset 0.1 means trigger if atleast 10% of element in viewport
+    root: null,
+    threshold: 0.15, // set offset 0.1 means trigger if atleast 10% of element in viewport
 })
 observer.observe(newSec);
 
@@ -450,48 +460,48 @@ observer.observe(newSec);
 // Add shortcut for website
 document.addEventListener("keydown", e => {
     //  Dark mode ==> (D or ي)
-    if ((e.key.toLowerCase() ==="d" || e.key ==="ي") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    if ((e.key.toLowerCase() === "d" || e.key === "ي") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         darkModeToggle.click();
     }
     // Search ==> (S or س)
-    else if ((e.key.toLowerCase() ==="s"|| e.key ==="س") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    else if ((e.key.toLowerCase() === "s" || e.key === "س") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         input.focus();
         e.preventDefault();
     }
     // Home ==> (h or ا)
-    else if ((e.key.toLowerCase() ==="h" || e.key ==="ا") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    else if ((e.key.toLowerCase() === "h" || e.key === "ا") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         document.querySelector('#home').click();
     }
     // Phone ==> (p or ح)
-    else if ((e.key.toLowerCase() ==="p" || e.key ==="ح") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    else if ((e.key.toLowerCase() === "p" || e.key === "ح") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         document.querySelector('#phone').click();
     }
     // Computer ==> (c or ؤ)
-    else if ((e.key.toLowerCase() ==="c" || e.key ==="ؤ") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    else if ((e.key.toLowerCase() === "c" || e.key === "ؤ") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         document.querySelector('#computer').click();
     }
     // Watches ==> (w or ص)
-    else if ((e.key.toLowerCase() ==="w" || e.key ==="ص") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    else if ((e.key.toLowerCase() === "w" || e.key === "ص") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         document.querySelector('#watch').click();
     }
     // Camera ==> (k or ن)
-    else if ((e.key.toLowerCase() ==="k" || e.key ==="ن") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    else if ((e.key.toLowerCase() === "k" || e.key === "ن") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         document.querySelector('#camera').click();
     }
     // Gaming ==> (g or ل)
-    else if ((e.key.toLowerCase() ==="g" || e.key ==="ل") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    else if ((e.key.toLowerCase() === "g" || e.key === "ل") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         document.querySelector('#gaming').click();
     }
     // Tablets ==> (t or ف)
-    else if ((e.key.toLowerCase() ==="t" || e.key ==="ف") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    else if ((e.key.toLowerCase() === "t" || e.key === "ف") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         document.querySelector('#tablet').click();
     }
     // Tv's ==> (v or ر)
-    else if ((e.key.toLowerCase() ==="v" || e.key ==="ر") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    else if ((e.key.toLowerCase() === "v" || e.key === "ر") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         document.querySelector('#tv').click();
     }
     // Rent ==> (r or ق)
-    else if ((e.key.toLowerCase() ==="r" || e.key ==="ق") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
+    else if ((e.key.toLowerCase() === "r" || e.key === "ق") && input !== document.activeElement && inputSearchIn !== document.activeElement) {
         document.querySelector('#rent').click();
     }
 });
@@ -500,14 +510,14 @@ document.addEventListener("keydown", e => {
 // Hide Mobile navbar when scroll to bottom of page to show copyright behind him
 const footer = document.querySelector("footer")
 const observertwo = new window.IntersectionObserver(([entry]) => {
-  if (entry.isIntersecting) {
+    if (entry.isIntersecting) {
         mobPhoneNav.style.bottom = "-180px";
-      return
+        return
     }
-        mobPhoneNav.style.bottom = "-70px";
+    mobPhoneNav.style.bottom = "-70px";
 }, {
-  root: null,
-  threshold: 0.6, // set offset 0.1 means trigger if atleast 10% of element in viewport
+    root: null,
+    threshold: 0.6, // set offset 0.1 means trigger if atleast 10% of element in viewport
 })
 observertwo.observe(footer);
 
@@ -517,10 +527,10 @@ observertwo.observe(footer);
 const focusOnScroller = document.querySelectorAll('.items-scroller, .items-down-scroller');
 
 const hoverHandler = (e) => {
-  e.preventDefault();
-  setTimeout(() => {
-    e.target.focus();
-  }, 0);
+    e.preventDefault();
+    setTimeout(() => {
+        e.target.focus();
+    }, 0);
 };
 
 for (var i = 0; i < focusOnScroller.length; i++) {
@@ -534,9 +544,9 @@ for (var i = 0; i < focusOnScroller.length; i++) {
 
 
 // Prevent Default (Scroll to Top) when click mobile Navbar
-document.querySelector('.category-btn-in-mob-nav a').addEventListener("click", function(event){
+document.querySelector('.category-btn-in-mob-nav a').addEventListener("click", function (event) {
     event.preventDefault()
-  });
-document.querySelector('.search-in-mob-nav a').addEventListener("click", function(event){
+});
+document.querySelector('.search-in-mob-nav a').addEventListener("click", function (event) {
     event.preventDefault()
-  });
+});
