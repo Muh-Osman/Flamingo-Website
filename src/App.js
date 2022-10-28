@@ -4,12 +4,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Home, Phones, Computers, Watches, Cameras, Gaming, Tablets, Tvs } from "./Pages"
 
 
-// var loadScript = function (src) {
-//   var tag = document.createElement('script');
-//   tag.async = false;
-//   tag.src = src;
-//   document.getElementsByTagName('body')[0].appendChild(tag);
-// }
+var loadScript = function (src) {
+  var tag = document.createElement('script');
+  tag.async = true;
+  tag.src = src;
+  document.getElementsByTagName('body')[0].appendChild(tag);
+}
 
 
 const App = () => {
@@ -33,10 +33,10 @@ const App = () => {
 
                 <Route path='/' element={<Home />} />
                 <Route path='/Phones' element={<Phones />} />
-                <Route path='/Computers' element={<Computers />} />
+                <Route path='/Gaming' element={<Gaming />} />
                 <Route path='/Watches' element={<Watches />} />
                 <Route path='/Cameras' element={<Cameras />} />
-                <Route path='/Gaming' element={<Gaming />} />
+                <Route path='/Computers' element={<Computers />} />
                 <Route path='/Tablets' element={<Tablets />} />
                 <Route path='/Tvs' element={<Tvs />} />
 
@@ -55,7 +55,7 @@ const App = () => {
         <MobileNavbar />
         <FloatSearchMobile />
 
-        {/* {loadScript(./main.js)} */}
+        {loadScript('main.js')}
 
       </Router>
     </>

@@ -2,11 +2,16 @@ import Button from '../Button/Button'
 import './BigMoreButton.css'
 
 
-const BigMoreButton = () => {
+
+
+const BigMoreButton = (props) => {
+
     return (
+        <>
 
-        <Button className='big-more-btn' title='More' />
+            <Button onClick={props.onClick} className='big-more-btn' title='More' />
 
+        </>
     )
 }
 

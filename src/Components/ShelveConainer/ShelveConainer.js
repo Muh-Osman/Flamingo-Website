@@ -3,11 +3,11 @@ import './ShelveConainer.css'
 
 const ShelveConainer = (props) => {
     return (
-        <div className="for-you shelves">
+        <div className="shelves">
             <div className="shelve-cont">
 
 
-                <Anchor className='shelve-title' href={props.href} title={props.title} />
+                <Anchor onClick={props.onClick} className='shelve-title' href={props.href} title={props.title} />
 
                 <div className="items-scroller" tabIndex="0">
 

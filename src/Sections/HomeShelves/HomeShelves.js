@@ -1,13 +1,19 @@
+import { useState } from 'react';
 import { ShelvesBox, ShelveConainer, ItemShelves, BigMoreButton } from '../../Components'
+
 import ForYouItemsData from '../../Data/ForYouData'
 import MobilePhonesItemsData from '../../Data/MobilePhonesData'
 import GamingItemsData from '../../Data/GamingData'
 import SmartWatchesItemsData from '../../Data/SmartWatchesData'
 import CamerasItemsData from '../../Data/CamerasData'
 import ComputersItemsData from '../../Data/ComputersData'
+import TabletsItemsData from '../../Data/TabletsData'
+import TvsItemsData from '../../Data/TvsData'
 import './HomeShelves.css'
 
 const HomeShelves = () => {
+
+    const [state, setState] = useState(false)
 
     const forYouItems = ForYouItemsData.map(forYouItems => {
         return <ItemShelves
@@ -93,47 +99,105 @@ const HomeShelves = () => {
         />
     })
 
+    const tabletsItems = TabletsItemsData.map(tabletsItems => {
+        return <ItemShelves
+            className='item-cards'
+            key={tabletsItems.id}
+            href={tabletsItems.href}
+            imgSrc={tabletsItems.imgSrc}
+            imgAlt={tabletsItems.imgAlt}
+            itemDescription={tabletsItems.itemDescription}
+            price={tabletsItems.price}
+            currency={tabletsItems.currency}
+            period={tabletsItems.period}
+        />
+    })
+
+    const tvsItems = TvsItemsData.map(tvsItems => {
+        return <ItemShelves
+            className='item-cards'
+            key={tvsItems.id}
+            href={tvsItems.href}
+            imgSrc={tvsItems.imgSrc}
+            imgAlt={tvsItems.imgAlt}
+            itemDescription={tvsItems.itemDescription}
+            price={tvsItems.price}
+            currency={tvsItems.currency}
+            period={tvsItems.period}
+        />
+    })
 
 
+    const handleClick = (e) => {
+        e.preventDefault()
+    }
 
     return (
 
         <ShelvesBox>
 
             {/* <!-- For You shelve --> */}
-            <ShelveConainer href='https://www.google.com/' title='For you'>
+            <ShelveConainer
+                onClick={handleClick}
+                href='/#'
+                title='For you'
+            >
                 {forYouItems}
             </ShelveConainer>
 
             {/* <!-- Mobile Phones shelve --> */}
-            <ShelveConainer href='https://www.google.com/' title='Mobile Phones'>
+            <ShelveConainer href='/Phones' title='Mobile Phones'>
                 {mobilePhonesItems}
             </ShelveConainer>
 
             {/* <!-- Gaming & VR shelve --> */}
-            <ShelveConainer href='https://www.google.com/' title='Gaming & VR'>
+            <ShelveConainer href='/Gaming' title='Gaming & VR'>
                 {gamingItems}
             </ShelveConainer>
 
             {/* <!-- Smart Watches shelve --> */}
-            <ShelveConainer href='https://www.google.com/' title='Smart watches'>
+            <ShelveConainer href='/Watches' title='Smart watches'>
                 {smartWatchesItems}
             </ShelveConainer>
 
             {/* <!-- Cameras Shelve --> */}
-            <ShelveConainer href='https://www.google.com/' title='Cameras'>
+            <ShelveConainer href='/Cameras' title='Cameras'>
                 {camerasItems}
             </ShelveConainer>
 
             {/* <!-- Computers Shelve --> */}
-            <ShelveConainer href='https://www.google.com/' title='Computers'>
+            <ShelveConainer href='/Computers' title='Computers'>
                 {computersItems}
             </ShelveConainer>
 
 
-            <BigMoreButton />
 
-        </ShelvesBox>
+
+
+
+            {
+                state ? (
+                    <>
+                        {/* Tablets Shelve */}
+                        < ShelveConainer href='/Tablets' title='Tablets'>
+                            {tabletsItems}
+                        </ShelveConainer>
+
+                        {/* Tvs Shelve */}
+                        <ShelveConainer href='/Tvs' title='TVs'>
+                            {tvsItems}
+                        </ShelveConainer>
+                    </>
+                ) : (
+                    null
+                )
+            }
+
+            <BigMoreButton onClick={() => setState(true)} />
+
+
+
+        </ShelvesBox >
 
     )
 }

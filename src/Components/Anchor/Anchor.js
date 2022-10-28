@@ -3,9 +3,10 @@ import './Anchor.css'
 
 
 const Anchor = (props) => {
+
     return (
         <div className={props.className}>
-            <a href={props.href} id={props.id}>{props.title}</a>
+            <Link onClick={props.onClick} to={props.href} id={props.id}>{props.title}</Link>
         </div>
     )
 }

@@ -1,8 +1,8 @@
-import Acer from '../Assets/Images/product images/laptop/Acer Nitro.jpg'
-import Lenovo from '../Assets/Images/product images/laptop/Lenovo Ideapad.jpg'
-import HP from '../Assets/Images/product images/laptop/HP Laptop.jpg'
-import Dell from '../Assets/Images/product images/laptop/Dell.jpg'
-import iMac from '../Assets/Images/product images/laptop/Apple iMac.jpg'
+import Acer from '../Assets/Images/product images/computers/Acer Nitro.jpg'
+import Lenovo from '../Assets/Images/product images/computers/Lenovo Ideapad.jpg'
+import HP from '../Assets/Images/product images/computers/HP Laptop.jpg'
+import Dell from '../Assets/Images/product images/computers/Dell.jpg'
+import iMac from '../Assets/Images/product images/computers/Apple iMac.jpg'
 
 const computersItems = [
 
