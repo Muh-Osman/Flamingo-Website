@@ -1,7 +1,7 @@
 import { NewSectionContainer, ItemShelves } from '../../Components'
-import OnRiseData from '../../Data/OnRiseData'
-import MostPopularData from '../../Data/MostPopularData'
-import AddedRecentlyData from '../../Data/AddedRecentlyData'
+import OnRiseData from '../../Data/NewSectionData/OnRiseData'
+import MostPopularData from '../../Data/NewSectionData/MostPopularData'
+import AddedRecentlyData from '../../Data/NewSectionData/AddedRecentlyData'
 import './NewSectionShelves.css'
 
 

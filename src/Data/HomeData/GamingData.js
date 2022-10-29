@@ -1,8 +1,8 @@
-import controler from '../Assets/Images/product images/gaming/ps5 controler.jpg'
-import Battlefield from '../Assets/Images/product images/gaming/Battlefield 2042.jpg'
-import VR from '../Assets/Images/product images/gaming/VR Headset Compatible.jpg'
-import Nintendo from '../Assets/Images/product images/gaming/Nintendo Switch.jpg'
-import FIFA from '../Assets/Images/product images/gaming/FIFA 22.jpg'
+import controler from '../../Assets/Images/product images/Home/gaming/ps5 controler.jpg'
+import Battlefield from '../../Assets/Images/product images/Home/gaming/Battlefield 2042.jpg'
+import VR from '../../Assets/Images/product images/Home/gaming/VR Headset Compatible.jpg'
+import Nintendo from '../../Assets/Images/product images/Home/gaming/Nintendo Switch.jpg'
+import FIFA from '../../Assets/Images/product images/Home/gaming/FIFA 22.jpg'
 
 const GamingItemsData = [
 

@@ -1,6 +1,6 @@
 import Hr from '../Hr/Hr'
 import { TopBrandsItem } from '../../Components'
-import TopBrandsData from '../../Data/TopBrandsData'
+import TopBrandsData from '../../Data/TopBrandsData/TopBrandsData'
 import './TopBrands.css'
 
 

@@ -1,8 +1,8 @@
-import ps5 from '../Assets/Images/product images/for you/ps5.jpg'
-import cam80D from '../Assets/Images/product images/for you/80D.jpg'
-import mac from '../Assets/Images/product images/for you/mac.jpg'
-import mini from '../Assets/Images/product images/for you/mini.jpg'
-import iphone from '../Assets/Images/product images/for you/iphone.jpg'
+import ps5 from '../../Assets/Images/product images/Home/for you/ps5.jpg'
+import cam80D from '../../Assets/Images/product images/Home/for you/80D.jpg'
+import mac from '../../Assets/Images/product images/Home/for you/mac.jpg'
+import mini from '../../Assets/Images/product images/Home/for you/mini.jpg'
+import iphone from '../../Assets/Images/product images/Home/for you/iphone.jpg'
 
 const forYouItems = [
 

@@ -1,8 +1,8 @@
-import red from '../Assets/Images/product images/watches/red.jpg'
-import Active from '../Assets/Images/product images/watches/Watch Active.jpg'
-import Fossil from '../Assets/Images/product images/watches/Fossil Men.jpg'
-import Series from '../Assets/Images/product images/watches/Apple Watch Series.jpg'
-import HUAWEI from '../Assets/Images/product images/watches/HUAWEI WATCH.jpg'
+import red from '../../Assets/Images/product images/Home/watches/red.jpg'
+import Active from '../../Assets/Images/product images/Home/watches/Watch Active.jpg'
+import Fossil from '../../Assets/Images/product images/Home/watches/Fossil Men.jpg'
+import Series from '../../Assets/Images/product images/Home/watches/Apple Watch Series.jpg'
+import HUAWEI from '../../Assets/Images/product images/Home/watches/HUAWEI WATCH.jpg'
 
 const smartWatchesItems = [
 

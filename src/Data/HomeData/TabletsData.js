@@ -1,8 +1,8 @@
-import Air from '../Assets/Images/product images/tablets/AppleAir.jpg'
-import Pink from '../Assets/Images/product images/tablets/pink.jpg'
-import Lenovo from '../Assets/Images/product images/tablets/Lenovo.jpg'
-import Pro from '../Assets/Images/product images/tablets/Pro.jpg'
-import SAMSUNG from '../Assets/Images/product images/tablets/SAMSUNG.jpg'
+import Air from '../../Assets/Images/product images/Home/tablets/AppleAir.jpg'
+import Pink from '../../Assets/Images/product images/Home/tablets/pink.jpg'
+import Lenovo from '../../Assets/Images/product images/Home/tablets/Lenovo.jpg'
+import Pro from '../../Assets/Images/product images/Home/tablets/Pro.jpg'
+import SAMSUNG from '../../Assets/Images/product images/Home/tablets/SAMSUNG.jpg'
 
 const smartWatchesItems = [
 

@@ -1,6 +1,6 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Header, Navbar, Carousel, HowItWorks, NewSectionShelves, TopBrands, Footer, MobileNavbar, FloatSearchMobile } from "./Sections"
 import { MainSiteContainer, CarouselAndShelvesContainer, ShelvesBox } from "./Components"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Home, Phones, Computers, Watches, Cameras, Gaming, Tablets, Tvs } from "./Pages"
 
 
@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <>
-      <Router basename={'/flamingo-react/'}>
+      <Router basename={'/'}>
 
         <Header />
 
@@ -29,8 +29,8 @@ const App = () => {
             <Carousel />
 
             <ShelvesBox>
-              <Routes>
 
+              <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/Phones' element={<Phones />} />
                 <Route path='/Gaming' element={<Gaming />} />
@@ -39,8 +39,8 @@ const App = () => {
                 <Route path='/Computers' element={<Computers />} />
                 <Route path='/Tablets' element={<Tablets />} />
                 <Route path='/Tvs' element={<Tvs />} />
-
               </Routes>
+
             </ShelvesBox>
 
           </CarouselAndShelvesContainer>

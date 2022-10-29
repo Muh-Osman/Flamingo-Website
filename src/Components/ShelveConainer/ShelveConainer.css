@@ -6,6 +6,10 @@ section .shelves {
     overflow: hidden;
 }
 
+.shelves-box .contin-product .shelves:nth-last-child(1) {
+    margin: 0;
+}
+
 section .shelve-cont {
     padding: 0;
 }
@@ -24,6 +28,10 @@ section .shelves .shelve-title a:hover,
 section .items-scroller .item-cards:hover div.item-description h4 {
     color: var(--clr-font-hover);
     transition: .2s;
+}
+
+.shelves-box .contin-product .shelves:nth-child(1) .shelve-cont .shelve-title a {
+    cursor: default;
 }
 
 section .items-scroller {

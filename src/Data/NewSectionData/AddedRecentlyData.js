@@ -1,8 +1,8 @@
-import Canon from '../Assets/Images/product images/added recently/Canon EOS-1D X.jpg'
-import Xbox from '../Assets/Images/product images/added recently/Microsoft Xbox Series X Console.jpg'
-import vr from '../Assets/Images/product images/added recently/vr.jpg'
-import Steam from '../Assets/Images/product images/added recently/Steam Deck.jpg'
-import printer from '../Assets/Images/product images/added recently/printer.jpg'
+import Canon from '../../Assets/Images/product images/New Section/added recently/Canon EOS-1D X.jpg'
+import Xbox from '../../Assets/Images/product images/New Section/added recently/Microsoft Xbox Series X Console.jpg'
+import vr from '../../Assets/Images/product images/New Section/added recently/vr.jpg'
+import Steam from '../../Assets/Images/product images/New Section/added recently/Steam Deck.jpg'
+import printer from '../../Assets/Images/product images/New Section/added recently/printer.jpg'
 
 const addedRecentlyData = [
 

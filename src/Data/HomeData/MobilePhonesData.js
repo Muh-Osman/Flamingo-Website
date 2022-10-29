@@ -1,8 +1,8 @@
-import iphone from '../Assets/Images/product images/phones/iphone.jpg'
-import s22 from '../Assets/Images/product images/phones/s22.jpg'
-import fold from '../Assets/Images/product images/phones/fold.jpg'
-import flip from '../Assets/Images/product images/phones/flip.jpg'
-import pixel from '../Assets/Images/product images/phones/pixel.jpg'
+import iphone from '../../Assets/Images/product images/Home/phones/iphone.jpg'
+import s22 from '../../Assets/Images/product images/Home/phones/s22.jpg'
+import fold from '../../Assets/Images/product images/Home/phones/fold.jpg'
+import flip from '../../Assets/Images/product images/Home/phones/flip.jpg'
+import pixel from '../../Assets/Images/product images/Home/phones/pixel.jpg'
 
 const mobilePhonesItems = [
 

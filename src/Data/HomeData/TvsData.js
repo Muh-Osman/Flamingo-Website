@@ -1,8 +1,8 @@
-import TCL from '../Assets/Images/product images/tvs/TCL.jpg'
-import Sony from '../Assets/Images/product images/tvs/Sony.jpg'
-import LG from '../Assets/Images/product images/tvs/LG.jpg'
-import BRAVIA from '../Assets/Images/product images/tvs/BRAVIA.jpg'
-import Smart from '../Assets/Images/product images/tvs/Smart.jpg'
+import TCL from '../../Assets/Images/product images/Home/tvs/TCL.jpg'
+import Sony from '../../Assets/Images/product images/Home/tvs/Sony.jpg'
+import LG from '../../Assets/Images/product images/Home/tvs/LG.jpg'
+import BRAVIA from '../../Assets/Images/product images/Home/tvs/BRAVIA.jpg'
+import Smart from '../../Assets/Images/product images/Home/tvs/Smart.jpg'
 
 const smartWatchesItems = [
 

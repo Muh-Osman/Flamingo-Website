@@ -1,9 +1,9 @@
-import macstudio from '../Assets/Images/product images/on rise/macstudio.jpg'
-import modem from '../Assets/Images/product images/on rise/modem.jpg'
-import ebick from '../Assets/Images/product images/on rise/ebick.jpg'
-import projector from '../Assets/Images/product images/on rise/projector.jpg'
-import gta from '../Assets/Images/product images/on rise/gta.jpg'
-import dprinted from '../Assets/Images/product images/on rise/3dprinted.jpg'
+import macstudio from '../../Assets/Images/product images/New Section/on rise/macstudio.jpg'
+import modem from '../../Assets/Images/product images/New Section/on rise/modem.jpg'
+import ebick from '../../Assets/Images/product images/New Section/on rise/ebick.jpg'
+import projector from '../../Assets/Images/product images/New Section/on rise/projector.jpg'
+import gta from '../../Assets/Images/product images/New Section/on rise/gta.jpg'
+import dprinted from '../../Assets/Images/product images/New Section/on rise/3dprinted.jpg'
 
 const OnRiseData = [
 

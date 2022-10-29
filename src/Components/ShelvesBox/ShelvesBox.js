@@ -2,6 +2,7 @@ import './ShelvesBox.css'
 
 const ShelvesBox = (props) => {
     return (
+        
         <section className="shelves-box">
             <div className="contin-product">
 

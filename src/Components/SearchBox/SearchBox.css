@@ -42,7 +42,6 @@ header form input {
 }
 
 header input::placeholder {
-    user-select: none;
     color: var(--clr-placeholder);
 }
 

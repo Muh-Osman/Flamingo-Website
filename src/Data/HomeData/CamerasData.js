@@ -1,8 +1,8 @@
-import Alpha from '../Assets/Images/product images/cameras/Sony Alpha A7.jpg'
-import Nikon from '../Assets/Images/product images/cameras/Nikon Coolpix.jpg'
-import Canon from '../Assets/Images/product images/cameras/Canon RF.jpg'
-import EOS from '../Assets/Images/product images/cameras/eos 5D.jpg'
-import GoPro from '../Assets/Images/product images/cameras/GoPro HERO.jpg'
+import Alpha from '../../Assets/Images/product images/Home/cameras/Sony Alpha A7.jpg'
+import Nikon from '../../Assets/Images/product images/Home/cameras/Nikon Coolpix.jpg'
+import Canon from '../../Assets/Images/product images/Home/cameras/Canon RF.jpg'
+import EOS from '../../Assets/Images/product images/Home/cameras/eos 5D.jpg'
+import GoPro from '../../Assets/Images/product images/Home/cameras/GoPro HERO.jpg'
 
 const camerasItems = [
 

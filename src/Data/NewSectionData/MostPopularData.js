@@ -1,8 +1,8 @@
-import beats from '../Assets/Images/product images/most popular/beats.jpg'
-import tv from '../Assets/Images/product images/most popular/tv.jpg'
-import AirPods from '../Assets/Images/product images/most popular/AirPods Prod.jpg'
-import kindle from '../Assets/Images/product images/most popular/kindle.jpg'
-import speaker from '../Assets/Images/product images/most popular/speaker.jpg'
+import beats from '../../Assets/Images/product images/New Section/most popular/beats.jpg'
+import tv from '../../Assets/Images/product images/New Section/most popular/tv.jpg'
+import AirPods from '../../Assets/Images/product images/New Section/most popular/AirPods Prod.jpg'
+import kindle from '../../Assets/Images/product images/New Section/most popular/kindle.jpg'
+import speaker from '../../Assets/Images/product images/New Section/most popular/speaker.jpg'
 
 const MostPopularData = [
 
