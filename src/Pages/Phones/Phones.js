@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useState } from 'react'
 import { ShelveConainer, ItemShelves, BigMoreButton } from "../../Components"
 import './Phones.css'
 
 
 import ApplePhonesItemsData from '../../Data/PhonesData/ApplePhonesData'
 import SamsungPhonesItemsData from '../../Data/PhonesData/SamsungPhonesData'
+import GooglePhonesItemsData from '../../Data/PhonesData/GooglePhonesData'
 
 
 
@@ -45,6 +46,20 @@ const Phones = () => {
         />
     })
 
+    const googlePhonesItems = GooglePhonesItemsData.map(googlePhonesItems => {
+        return <ItemShelves
+            className='item-cards'
+            key={googlePhonesItems.id}
+            href={googlePhonesItems.href}
+            imgSrc={googlePhonesItems.imgSrc}
+            imgAlt={googlePhonesItems.imgAlt}
+            itemDescription={googlePhonesItems.itemDescription}
+            price={googlePhonesItems.price}
+            currency={googlePhonesItems.currency}
+            period={googlePhonesItems.period}
+        />
+    })
+
 
 
     return (
@@ -60,7 +75,7 @@ const Phones = () => {
             </ShelveConainer>
 
             <ShelveConainer href='https://www.google.com/' title='Google'>
-                <ItemShelves />
+                {googlePhonesItems}
             </ShelveConainer>
 
 
@@ -74,14 +89,28 @@ const Phones = () => {
             {
                 state ? (
                     <>
-                        {/* Tablets Shelve */}
-                        < ShelveConainer href='/Tablets' title='Tablets'>
-                            {/* {tabletsItems} */}
+                        < ShelveConainer href='https://www.google.com/' title='Xiaomi'>
+                            { }
                         </ShelveConainer>
 
-                        {/* Tvs Shelve */}
-                        <ShelveConainer href='/Tvs' title='TVs'>
-                            {/* {tvsItems} */}
+                        <ShelveConainer href='https://www.google.com/' title='Oppo'>
+                            { }
+                        </ShelveConainer>
+
+                        <ShelveConainer href='https://www.google.com/' title='Vivo'>
+                            { }
+                        </ShelveConainer>
+
+                        <ShelveConainer href='https://www.google.com/' title='Realme'>
+                            { }
+                        </ShelveConainer>
+
+                        <ShelveConainer href='https://www.google.com/' title='Lenovo'>
+                            { }
+                        </ShelveConainer>
+
+                        <ShelveConainer href='https://www.google.com/' title='Huawei'>
+                            { }
                         </ShelveConainer>
 
                     </>
