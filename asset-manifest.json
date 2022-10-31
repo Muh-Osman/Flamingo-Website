@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/flamingo-react/static/css/main.449d4a02.css",
-    "main.js": "/flamingo-react/static/js/main.485a3e89.js",
+    "main.css": "/flamingo-react/static/css/main.8c825c50.css",
+    "main.js": "/flamingo-react/static/js/main.0a9e4f9f.js",
     "static/media/1.webp": "/flamingo-react/static/media/1.3d507e02db5be3edab15.webp",
+    "static/media/FLIR.jpg": "/flamingo-react/static/media/FLIR.feaeebdeeeacd8955344.jpg",
     "static/media/Smart.jpg": "/flamingo-react/static/media/Smart.d2e03617b1d2653018c4.jpg",
     "static/media/Galaxy.jpg": "/flamingo-react/static/media/Galaxy.9edfdc6b9be907a0125b.jpg",
     "static/media/XS.jpg": "/flamingo-react/static/media/XS.6b21691594ca0fd787e9.jpg",
@@ -13,6 +14,7 @@
     "static/media/Ultra.jpg": "/flamingo-react/static/media/Ultra.63c1a0db6f4170dae661.jpg",
     "static/media/S22.jpg": "/flamingo-react/static/media/S22.c2848fbe0c2cf230331b.jpg",
     "static/media/Pro.jpg": "/flamingo-react/static/media/Pro.103e06f2490497978593.jpg",
+    "static/media/Etekcity.jpg": "/flamingo-react/static/media/Etekcity.aadfba8acb53096d6b18.jpg",
     "static/media/SE.jpg": "/flamingo-react/static/media/SE.13becadde4358aef18c3.jpg",
     "static/media/macstudio.jpg": "/flamingo-react/static/media/macstudio.6437c576fadc83af9933.jpg",
     "static/media/2.webp": "/flamingo-react/static/media/2.f055e4c087460e86dcc6.webp",
@@ -25,7 +27,10 @@
     "static/media/White.jpg": "/flamingo-react/static/media/White.519feb779d027f1211b6.jpg",
     "static/media/OLED.jpg": "/flamingo-react/static/media/OLED.14661c85426a397f7b4f.jpg",
     "static/media/pro13.jpg": "/flamingo-react/static/media/pro13.91c03fdb705f02d585d7.jpg",
+    "static/media/Klein.jpg": "/flamingo-react/static/media/Klein.9da01020cb211e2b82aa.jpg",
+    "static/media/Kaisi.jpg": "/flamingo-react/static/media/Kaisi.2d31c3664f2314483020.jpg",
     "static/media/ebick.jpg": "/flamingo-react/static/media/ebick.060bbf7a7d84c783e321.jpg",
+    "static/media/KAIWEETS.jpg": "/flamingo-react/static/media/KAIWEETS.445a20102d015d8916a4.jpg",
     "static/media/Mini.jpg": "/flamingo-react/static/media/Mini.9f64a6cb834520740800.jpg",
     "static/media/gta.jpg": "/flamingo-react/static/media/gta.6693a8ba6b8e63896b86.jpg",
     "static/media/Pixel4.jpg": "/flamingo-react/static/media/Pixel4.22cafdbb4aea0e4133b2.jpg",
@@ -60,6 +65,7 @@
     "static/media/EOS.jpg": "/flamingo-react/static/media/EOS.871a66c450d254d1dcaf.jpg",
     "static/media/Dell.jpg": "/flamingo-react/static/media/Dell.c3d6870db5d74bda9f85.jpg",
     "static/media/G7X.jpg": "/flamingo-react/static/media/G7X.c6efc60c5b014bf7e87e.jpg",
+    "static/media/BLACK.jpg": "/flamingo-react/static/media/BLACK.66cdc982e962fccd93f9.jpg",
     "static/media/Pixel6.jpg": "/flamingo-react/static/media/Pixel6.b53189f3247078608e81.jpg",
     "static/media/Sony Alpha A7.jpg": "/flamingo-react/static/media/Sony Alpha A7.bf568823410a96aebdc5.jpg",
     "static/media/AirPods Prod.jpg": "/flamingo-react/static/media/AirPods Prod.6020f6f29f5457de7bf4.jpg",
@@ -89,11 +95,11 @@
     "static/media/sun_logo.svg": "/flamingo-react/static/media/sun_logo.6ca1e568764f6fd29464.svg",
     "index.html": "/flamingo-react/index.html",
     "static/media/moon_logo.svg": "/flamingo-react/static/media/moon_logo.fc2b9ecc92c6b72f1609.svg",
-    "main.449d4a02.css.map": "/flamingo-react/static/css/main.449d4a02.css.map",
-    "main.485a3e89.js.map": "/flamingo-react/static/js/main.485a3e89.js.map"
+    "main.8c825c50.css.map": "/flamingo-react/static/css/main.8c825c50.css.map",
+    "main.0a9e4f9f.js.map": "/flamingo-react/static/js/main.0a9e4f9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.449d4a02.css",
-    "static/js/main.485a3e89.js"
+    "static/css/main.8c825c50.css",
+    "static/js/main.0a9e4f9f.js"
   ]
 }
