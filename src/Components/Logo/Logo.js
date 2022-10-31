@@ -5,7 +5,14 @@ import './Logo.css'
 const Logo = () => {
     return (
         <div className="logo">
-            <Link to="/" className="logo-link">Flamingo</Link>
+            <Link to="/" className="logo-link">Flaming
+                <span className='parant-hashtag'>
+                    <apan  className='first-hash'></apan>
+                    <apan className='secound-hash'></apan>
+                    <apan className='third-hash'></apan>
+                    <apan className='fourth-hash'></apan>
+                </span>
+            </Link>
         </div>
     )
 }

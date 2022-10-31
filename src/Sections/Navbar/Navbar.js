@@ -1,9 +1,17 @@
+import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { Button, RentAnchor } from '../../Components'
 import './Navbar.css'
 
 
 const Navbar = () => {
+
+
+
+    // Hide More Button & add components
+    const [state, setState] = useState(false)
+
+
     return (
 
         <nav>
@@ -296,8 +304,67 @@ const Navbar = () => {
 
 
 
+
+                    {/* Hide Big more Button & add components */}
+
+                    {
+                        state ? (
+                            <>
+                                {/* Tools */}
+                                <NavLink to="/tools">
+                                    <div className="cat">
+                                        <div className="" aria-label="TVs" title="TVs">
+                                            <svg
+                                                className='big-nav-icon'
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="63"
+                                                height="54"
+                                                fill="none"
+                                                viewBox="0 0 63 54"
+                                            >
+                                                <path
+                                                    stroke="#fff"
+                                                    strokeWidth="2"
+                                                    d="M16 2a1 1 0 011-1h40.273a4 4 0 014 4v16a4 4 0 01-4 4H17a1 1 0 01-1-1V2z"
+                                                ></path>
+                                                <mask id="path-2-inside-1_0_1" fill="#fff">
+                                                    <path d="M54 24v25a5 5 0 01-5 5h-9a1 1 0 01-1-1V24h15z"></path>
+                                                </mask>
+                                                <path
+                                                    stroke="#fff"
+                                                    strokeWidth="4"
+                                                    d="M54 24v25a5 5 0 01-5 5h-9a1 1 0 01-1-1V24h15z"
+                                                    mask="url(#path-2-inside-1_0_1)"
+                                                ></path>
+                                                <path
+                                                    fill="#fff"
+                                                    stroke="#fff"
+                                                    d="M.5 9.5a2 2 0 012-2h14v4h-14a2 2 0 01-2-2zM49 10.5A1.5 1.5 0 0147.5 9V.5h3V9a1.5 1.5 0 01-1.5 1.5z"
+                                                ></path>
+                                            </svg>
+                                        </div>
+                                        <div className="text">Tools</div>
+                                    </div>
+                                </NavLink>
+                            </>
+
+                        ) : (
+
+                            // More Button in Nav
+                            < Button onClick={() => setState(true)} className='more-btn-nav-box' title='More' />
+
+                        )
+                    }
+
+
+
+
+
+
+
                     {/* <!-- More Button in Nav --> */}
-                    <Button className='more-btn-nav-box' title='More' />
+                    {/* <Button className='more-btn-nav-box' title='More' /> */}
+
 
                     {/* <!-- Rent Button --> */}
                     <RentAnchor />
