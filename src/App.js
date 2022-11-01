@@ -59,7 +59,7 @@ const App = () => {
 
 
 
-          <Router basename={'/'}>
+          <Router basename={'/flamingo-react/'}>
 
             <Header />
 

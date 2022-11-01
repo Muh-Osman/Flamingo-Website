@@ -18,17 +18,17 @@ const Phones = () => {
 
 
     // Loop on Data
-    const applePhonesItems = ApplePhonesItemsData.map(applePhonesItems => {
+    const googlePhonesItems = GooglePhonesItemsData.map(googlePhonesItems => {
         return <ItemShelves
             className='item-cards'
-            key={applePhonesItems.id}
-            href={applePhonesItems.href}
-            imgSrc={applePhonesItems.imgSrc}
-            imgAlt={applePhonesItems.imgAlt}
-            itemDescription={applePhonesItems.itemDescription}
-            price={applePhonesItems.price}
-            currency={applePhonesItems.currency}
-            period={applePhonesItems.period}
+            key={googlePhonesItems.id}
+            href={googlePhonesItems.href}
+            imgSrc={googlePhonesItems.imgSrc}
+            imgAlt={googlePhonesItems.imgAlt}
+            itemDescription={googlePhonesItems.itemDescription}
+            price={googlePhonesItems.price}
+            currency={googlePhonesItems.currency}
+            period={googlePhonesItems.period}
         />
     })
 
@@ -46,19 +46,24 @@ const Phones = () => {
         />
     })
 
-    const googlePhonesItems = GooglePhonesItemsData.map(googlePhonesItems => {
+
+    const applePhonesItems = ApplePhonesItemsData.map(applePhonesItems => {
         return <ItemShelves
             className='item-cards'
-            key={googlePhonesItems.id}
-            href={googlePhonesItems.href}
-            imgSrc={googlePhonesItems.imgSrc}
-            imgAlt={googlePhonesItems.imgAlt}
-            itemDescription={googlePhonesItems.itemDescription}
-            price={googlePhonesItems.price}
-            currency={googlePhonesItems.currency}
-            period={googlePhonesItems.period}
+            key={applePhonesItems.id}
+            href={applePhonesItems.href}
+            imgSrc={applePhonesItems.imgSrc}
+            imgAlt={applePhonesItems.imgAlt}
+            itemDescription={applePhonesItems.itemDescription}
+            price={applePhonesItems.price}
+            currency={applePhonesItems.currency}
+            period={applePhonesItems.period}
         />
     })
+
+
+
+
 
 
 
@@ -66,17 +71,19 @@ const Phones = () => {
 
         <>
 
-            <ShelveConainer href='https://www.google.com/' title='Apple'>
-                {applePhonesItems}
+            <ShelveConainer href='https://www.google.com/' title='Google'>
+                {googlePhonesItems}
             </ShelveConainer>
 
             <ShelveConainer href='https://www.google.com/' title='Samsung'>
                 {samsungPhonesItems}
             </ShelveConainer>
 
-            <ShelveConainer href='https://www.google.com/' title='Google'>
-                {googlePhonesItems}
+            <ShelveConainer href='https://www.google.com/' title='Apple'>
+                {applePhonesItems}
             </ShelveConainer>
+
+
 
 
 
