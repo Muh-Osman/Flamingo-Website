@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flamingo-react/static/css/main.8c825c50.css",
-    "main.js": "/flamingo-react/static/js/main.0a9e4f9f.js",
+    "main.css": "/flamingo-react/static/css/main.98579763.css",
+    "main.js": "/flamingo-react/static/js/main.f2b1a511.js",
     "static/media/1.webp": "/flamingo-react/static/media/1.3d507e02db5be3edab15.webp",
     "static/media/FLIR.jpg": "/flamingo-react/static/media/FLIR.feaeebdeeeacd8955344.jpg",
     "static/media/Smart.jpg": "/flamingo-react/static/media/Smart.d2e03617b1d2653018c4.jpg",
@@ -14,8 +14,10 @@
     "static/media/Ultra.jpg": "/flamingo-react/static/media/Ultra.63c1a0db6f4170dae661.jpg",
     "static/media/S22.jpg": "/flamingo-react/static/media/S22.c2848fbe0c2cf230331b.jpg",
     "static/media/Pro.jpg": "/flamingo-react/static/media/Pro.103e06f2490497978593.jpg",
+    "static/media/mini.jpg": "/flamingo-react/static/media/mini.064c788250b32f1e7626.jpg",
     "static/media/Etekcity.jpg": "/flamingo-react/static/media/Etekcity.aadfba8acb53096d6b18.jpg",
     "static/media/SE.jpg": "/flamingo-react/static/media/SE.13becadde4358aef18c3.jpg",
+    "static/media/iphone.jpg": "/flamingo-react/static/media/iphone.c48542f2cf90898c307b.jpg",
     "static/media/macstudio.jpg": "/flamingo-react/static/media/macstudio.6437c576fadc83af9933.jpg",
     "static/media/2.webp": "/flamingo-react/static/media/2.f055e4c087460e86dcc6.webp",
     "static/media/1.jpg": "/flamingo-react/static/media/1.9f232ee874919d438960.jpg",
@@ -93,13 +95,14 @@
     "static/media/FIFA 22.jpg": "/flamingo-react/static/media/FIFA 22.7238e20c69c57a7060d3.jpg",
     "static/media/mac.jpg": "/flamingo-react/static/media/mac.144d49cd0cd7ebe1b8a0.jpg",
     "static/media/sun_logo.svg": "/flamingo-react/static/media/sun_logo.6ca1e568764f6fd29464.svg",
+    "static/media/Default.cur": "/flamingo-react/static/media/Default.ff5caa2bc0a9245879bc.cur",
     "index.html": "/flamingo-react/index.html",
     "static/media/moon_logo.svg": "/flamingo-react/static/media/moon_logo.fc2b9ecc92c6b72f1609.svg",
-    "main.8c825c50.css.map": "/flamingo-react/static/css/main.8c825c50.css.map",
-    "main.0a9e4f9f.js.map": "/flamingo-react/static/js/main.0a9e4f9f.js.map"
+    "main.98579763.css.map": "/flamingo-react/static/css/main.98579763.css.map",
+    "main.f2b1a511.js.map": "/flamingo-react/static/js/main.f2b1a511.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c825c50.css",
-    "static/js/main.0a9e4f9f.js"
+    "static/css/main.98579763.css",
+    "static/js/main.f2b1a511.js"
   ]
 }
