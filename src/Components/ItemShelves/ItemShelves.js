@@ -1,12 +1,15 @@
 import './ItemShelves.css'
 
+import { motion } from "framer-motion"
+import { it } from '../../animation'
+
 const ItemShelves = (props) => {
 
     return (
-        <div>
+        <motion.div variants={it}>
             <a href={props.href} className={props.className}>
                 <div className="img-of-item">
-                    <img loading="lazy" src={props.imgSrc} alt={props.imgAlt} />
+                    <img src={props.imgSrc} alt={props.imgAlt} />
                 </div>
                 <div className="item-description">
                     <h4>{props.itemDescription}</h4>
@@ -17,7 +20,8 @@ const ItemShelves = (props) => {
                     </h5>
                 </div>
             </a>
-        </div>
+        </motion.div>
+
     )
 }
 

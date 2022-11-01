@@ -62,6 +62,10 @@ footer table a:hover::before {
     right: 0;
 }
 
+a.faq {
+    cursor: help;
+}
+
 /* Social, payment & contact Box */
 footer .soc-pay-cont {
     display: flex;

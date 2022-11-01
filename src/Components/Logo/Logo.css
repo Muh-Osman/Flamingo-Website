@@ -22,10 +22,10 @@ header .logo-link:hover {
     position: relative;
     height: 30px;
     width: 30px;
-    top: 3px;
-    left: 13px;
+    top: 2px;
+    left: 9px;
     background-color: transparent;
-    transform: rotate(65deg);
+    transform: rotate(65deg) scale(.8);
 }
 
 .first-hash {

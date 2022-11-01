@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import HashLoader from "react-spinners/HashLoader"
+
 import { Header, Navbar, Carousel, HowItWorks, NewSectionShelves, TopBrands, Footer, MobileNavbar, FloatSearchMobile } from "./Sections"
 import { MainSiteContainer, CarouselAndShelvesContainer, ShelvesBox } from "./Components"
 import { Home, Phones, Computers, Watches, Cameras, Gaming, Tablets, Tvs, Tools } from "./Pages"
@@ -27,7 +28,7 @@ const App = () => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 835)
+    }, 830)
   }, [])
 
 
@@ -58,7 +59,7 @@ const App = () => {
 
 
 
-          <Router basename={'/flamingo-react'}>
+          <Router basename={'/'}>
 
             <Header />
 

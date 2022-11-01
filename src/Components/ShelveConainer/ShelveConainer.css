@@ -31,7 +31,7 @@ section .items-scroller .item-cards:hover div.item-description h4 {
 }
 
 .shelves-box .contin-product .shelves:nth-child(1) .shelve-cont .shelve-title a {
-    cursor: default;
+    cursor: auto;
 }
 
 section .items-scroller {
@@ -41,6 +41,7 @@ section .items-scroller {
     grid-auto-columns: 21%;
     padding: 5px 9px 9px;
     overflow-x: auto;
+    overflow-y: hidden;
     overscroll-behavior-inline: contain;
     scroll-snap-type: inline mandatory;
     scroll-padding-inline: 9px;

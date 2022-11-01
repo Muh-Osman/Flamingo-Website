@@ -47,6 +47,11 @@ section nav .rent-btn-nav-box a.rent-btn-icon svg:hover {
     transition: .2s;
 }
 
+a.rent-btn-text,
+a.rent-btn-icon {
+    cursor: cell;
+}
+
 
 
 

@@ -51,7 +51,7 @@ const Footer = () => {
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td><a href='https://www.google.com/'>FAQ</a></td>
+                                    <td><a className='faq' href='https://www.google.com/'>FAQ</a></td>
                                 </tr>
                             </tbody>
                         </table>

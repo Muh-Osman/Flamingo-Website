@@ -1,9 +1,19 @@
+import { motion } from "framer-motion"
+import { cont } from '../../animation'
+
 import { Anchor } from '../../Components'
+
 import './ShelveConainer.css'
 
 const ShelveConainer = (props) => {
     return (
-        <div className="shelves">
+        <motion.div
+            variants={cont}
+            initial='hidden'
+            animate='show'
+
+            className="shelves"
+        >
             <div className="shelve-cont">
 
 
@@ -15,7 +25,7 @@ const ShelveConainer = (props) => {
 
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
