@@ -7,10 +7,10 @@ const Logo = () => {
         <div className="logo">
             <Link to="/" className="logo-link">Flaming
                 <span className='parant-hashtag'>
-                    <apan  className='first-hash'></apan>
-                    <apan className='secound-hash'></apan>
-                    <apan className='third-hash'></apan>
-                    <apan className='fourth-hash'></apan>
+                    <span  className='first-hash'></span>
+                    <span className='secound-hash'></span>
+                    <span className='third-hash'></span>
+                    <span className='fourth-hash'></span>
                 </span>
             </Link>
         </div>

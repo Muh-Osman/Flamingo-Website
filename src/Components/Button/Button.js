@@ -4,7 +4,16 @@ const Button = (props) => {
     return (
 
         <div className={props.className}>
-            <button onClick={props.onClick} id={props.id}>{props.title}</button>
+
+            <button
+                id={props.id}
+                onClick={props.onClick}
+                title={props.accessibility}
+                aria-label={props.accessibility}
+            >
+                {props.title}
+            </button>
+
         </div>
 
     )

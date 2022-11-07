@@ -60,13 +60,18 @@ section .mini-nav div svg {
     transition: .2s;
 }
 
-section .mini-nav div a:hover svg {
+section .mini-nav div button {
+    background-color: transparent;
+    border: none;
+}
+
+section .mini-nav div button:hover svg {
     fill: var(--clr-mini-nav-svg-hover);
     transform: scale(1.1);
     transition: .2s;
 }
 
-section nav .mini-nav a {
+section nav .mini-nav button {
     padding: 0;
     margin: 0;
 }
