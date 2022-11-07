@@ -145,35 +145,6 @@ searchIconInNav.addEventListener("click", () => {
 
 
 
-// No need in Reract
-// Add active-btn class to button onclick to Nav Categories
-// let btn = document.querySelectorAll(".cat-items");
-// let btnArray = Array.from(btn);
-
-// btnArray.forEach((ele) => {
-//     ele.addEventListener("click", function (e) {
-
-//         btnArray.forEach((el) => {
-//             el.classList.remove("active-btn");
-//         })
-//         e.currentTarget.classList.add("active-btn");
-
-
-
-
-
-
-// No need in Reract
-//         // Prevent reload page when click on Nav buttons that take you to the same page you are in.
-//         let activeBtn = document.querySelector(".active-btn");
-//         let currentLocation = location.href;
-
-//         if (activeBtn.href === currentLocation) {
-//             e.preventDefault();
-//         }
-
-//     });
-// });
 
 
 

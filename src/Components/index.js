@@ -6,6 +6,7 @@ export { default as HeaderButtonContainer } from './HeaderButtonContainer/Header
 export { default as DarkmodeToggle } from './DarkmodeToggle/DarkmodeToggle'
 export { default as Anchor } from './Anchor/Anchor'
 
+export { default as NavbarCategoryLink } from './NavbarCategoryLink/NavbarCategoryLink'
 export { default as Button } from './Button/Button'
 export { default as RentAnchor } from './RentAnchor/RentAnchor'
 
