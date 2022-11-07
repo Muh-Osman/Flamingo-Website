@@ -65,7 +65,7 @@ section .mini-nav div button {
     border: none;
 }
 
-section .mini-nav div button:hover svg {
+section .mini-nav div button:hover svg.mini-icon {
     fill: var(--clr-mini-nav-svg-hover);
     transform: scale(1.1);
     transition: .2s;
@@ -86,7 +86,6 @@ section nav .mini-nav .nine-dots-box {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
 }
 
 section nav .mini-nav .nine-dots-box .drop-list {

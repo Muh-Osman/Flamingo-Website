@@ -133,7 +133,7 @@ function fillCarouselIndicator(index) {
 
 // Focus on Search input in top page onclick on search icon in drop nav
 let searchInput = document.querySelector('.input-search');
-let searchIconInNav = document.querySelector('.search-icon-drop-nav');
+let searchIconInNav = document.querySelector('#search-icon-drop-nav');
 
 searchIconInNav.addEventListener("click", () => {
 
