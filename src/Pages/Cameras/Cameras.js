@@ -12,17 +12,11 @@ const Cameras = () => {
 
 
   // Loop on Data
-  const canonItems = CanonItemsData.map(canonItems => {
+  const canonItems = CanonItemsData.map(item => {
     return <ItemShelves
-      className='item-cards'
-      key={canonItems.id}
-      href={canonItems.href}
-      imgSrc={canonItems.imgSrc}
-      imgAlt={canonItems.imgAlt}
-      itemDescription={canonItems.itemDescription}
-      price={canonItems.price}
-      currency={canonItems.currency}
-      period={canonItems.period}
+      className={'item-cards'}
+      key={item.id}
+      item={item}
     />
   })
 

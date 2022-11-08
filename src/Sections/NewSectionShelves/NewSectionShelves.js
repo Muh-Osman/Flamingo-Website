@@ -9,45 +9,27 @@ import './NewSectionShelves.css'
 const NewSectionShelves = () => {
 
 
-  const onRiseItems = OnRiseData.map(onRiseItem => {
+  const onRiseItems = OnRiseData.map(item => {
     return <ItemShelves
-      className='item-cards-down'
-      key={onRiseItem.id}
-      href={onRiseItem.href}
-      imgSrc={onRiseItem.imgSrc}
-      imgAlt={onRiseItem.imgAlt}
-      itemDescription={onRiseItem.itemDescription}
-      price={onRiseItem.price}
-      currency={onRiseItem.currency}
-      period={onRiseItem.period}
+      className={'item-cards-down'}
+      key={item.id}
+      item={item}
     />
   })
 
-  const mostPopular = MostPopularData.map(mostPopularItem => {
+  const mostPopular = MostPopularData.map(item => {
     return <ItemShelves
-      className='item-cards-down'
-      key={mostPopularItem.id}
-      href={mostPopularItem.href}
-      imgSrc={mostPopularItem.imgSrc}
-      imgAlt={mostPopularItem.imgAlt}
-      itemDescription={mostPopularItem.itemDescription}
-      price={mostPopularItem.price}
-      currency={mostPopularItem.currency}
-      period={mostPopularItem.period}
+      className={'item-cards-down'}
+      key={item.id}
+      item={item}
     />
   })
 
-  const addedRecently = AddedRecentlyData.map(addedRecentlyItem => {
+  const addedRecently = AddedRecentlyData.map(item => {
     return <ItemShelves
-      className='item-cards-down'
-      key={addedRecentlyItem.id}
-      href={addedRecentlyItem.href}
-      imgSrc={addedRecentlyItem.imgSrc}
-      imgAlt={addedRecentlyItem.imgAlt}
-      itemDescription={addedRecentlyItem.itemDescription}
-      price={addedRecentlyItem.price}
-      currency={addedRecentlyItem.currency}
-      period={addedRecentlyItem.period}
+      className={'item-cards-down'}
+      key={item.id}
+      item={item}
     />
   })
 

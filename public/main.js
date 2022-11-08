@@ -79,12 +79,6 @@ darkModeToggle.addEventListener('change', () => {
 
 
 
-// Hide Dot Up Notification Bill
-document.getElementById('dot-func').addEventListener('click', () => {
-    document.querySelector(".notifi-dot").style.display = "none";
-});
-
-
 
 
 

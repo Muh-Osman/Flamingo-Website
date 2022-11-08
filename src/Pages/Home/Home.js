@@ -24,115 +24,67 @@ const Home = () => {
     const [state, setState] = useState(false)
 
     // Loop on Data
-    const forYouItems = ForYouItemsData.map(forYouItems => {
+    const forYouItems = ForYouItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={forYouItems.id}
-            href={forYouItems.href}
-            imgSrc={forYouItems.imgSrc}
-            imgAlt={forYouItems.imgAlt}
-            itemDescription={forYouItems.itemDescription}
-            price={forYouItems.price}
-            currency={forYouItems.currency}
-            period={forYouItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
 
-    const mobilePhonesItems = MobilePhonesItemsData.map(mobilePhonesItems => {
+    const mobilePhonesItems = MobilePhonesItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={mobilePhonesItems.id}
-            href={mobilePhonesItems.href}
-            imgSrc={mobilePhonesItems.imgSrc}
-            imgAlt={mobilePhonesItems.imgAlt}
-            itemDescription={mobilePhonesItems.itemDescription}
-            price={mobilePhonesItems.price}
-            currency={mobilePhonesItems.currency}
-            period={mobilePhonesItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
 
-    const gamingItems = GamingItemsData.map(gamingItems => {
+    const gamingItems = GamingItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={gamingItems.id}
-            href={gamingItems.href}
-            imgSrc={gamingItems.imgSrc}
-            imgAlt={gamingItems.imgAlt}
-            itemDescription={gamingItems.itemDescription}
-            price={gamingItems.price}
-            currency={gamingItems.currency}
-            period={gamingItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
 
-    const smartWatchesItems = SmartWatchesItemsData.map(smartWatchesItems => {
+    const smartWatchesItems = SmartWatchesItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={smartWatchesItems.id}
-            href={smartWatchesItems.href}
-            imgSrc={smartWatchesItems.imgSrc}
-            imgAlt={smartWatchesItems.imgAlt}
-            itemDescription={smartWatchesItems.itemDescription}
-            price={smartWatchesItems.price}
-            currency={smartWatchesItems.currency}
-            period={smartWatchesItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
 
-    const camerasItems = CamerasItemsData.map(camerasItems => {
+    const camerasItems = CamerasItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={camerasItems.id}
-            href={camerasItems.href}
-            imgSrc={camerasItems.imgSrc}
-            imgAlt={camerasItems.imgAlt}
-            itemDescription={camerasItems.itemDescription}
-            price={camerasItems.price}
-            currency={camerasItems.currency}
-            period={camerasItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
 
-    const computersItems = ComputersItemsData.map(computersItems => {
+    const computersItems = ComputersItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={computersItems.id}
-            href={computersItems.href}
-            imgSrc={computersItems.imgSrc}
-            imgAlt={computersItems.imgAlt}
-            itemDescription={computersItems.itemDescription}
-            price={computersItems.price}
-            currency={computersItems.currency}
-            period={computersItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
 
-    const tabletsItems = TabletsItemsData.map(tabletsItems => {
+    const tabletsItems = TabletsItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={tabletsItems.id}
-            href={tabletsItems.href}
-            imgSrc={tabletsItems.imgSrc}
-            imgAlt={tabletsItems.imgAlt}
-            itemDescription={tabletsItems.itemDescription}
-            price={tabletsItems.price}
-            currency={tabletsItems.currency}
-            period={tabletsItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
 
-    const tvsItems = TvsItemsData.map(tvsItems => {
+    const tvsItems = TvsItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={tvsItems.id}
-            href={tvsItems.href}
-            imgSrc={tvsItems.imgSrc}
-            imgAlt={tvsItems.imgAlt}
-            itemDescription={tvsItems.itemDescription}
-            price={tvsItems.price}
-            currency={tvsItems.currency}
-            period={tvsItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
 
@@ -172,7 +124,6 @@ const Home = () => {
             <ShelveConainer href='/Computers' title='Computers'>
                 {computersItems}
             </ShelveConainer>
-
 
 
 

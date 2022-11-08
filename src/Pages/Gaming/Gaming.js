@@ -15,17 +15,11 @@ const Gaming = () => {
 
 
   // Loop on Data
-  const playstationsItems = PlaystationsItemsData.map(playstationsItems => {
+  const playstationsItems = PlaystationsItemsData.map(item => {
     return <ItemShelves
-      className='item-cards'
-      key={playstationsItems.id}
-      href={playstationsItems.href}
-      imgSrc={playstationsItems.imgSrc}
-      imgAlt={playstationsItems.imgAlt}
-      itemDescription={playstationsItems.itemDescription}
-      price={playstationsItems.price}
-      currency={playstationsItems.currency}
-      period={playstationsItems.period}
+      className={'item-cards'}
+      key={item.id}
+      item={item}
     />
   })
 

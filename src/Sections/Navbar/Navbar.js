@@ -9,8 +9,11 @@ const Navbar = () => {
 
 
 
-    // Hide More Button & add components
-    const [state, setState] = useState(false)
+    // Hide Notifiction Dot
+    const [isDot, setIsDot] = useState(true)
+
+    // Hide More Button & add Tools component
+    const [isMore, setIsMore] = useState(false)
 
 
     return (
@@ -24,7 +27,23 @@ const Navbar = () => {
                     <Button className={'four-mini-nav'} accessibility={"Search"} title={IconsData[0].svg} />
                     <Button className={'four-mini-nav'} accessibility={"User"} title={IconsData[1].svg} />
                     <Button className={'four-mini-nav'} accessibility={"Loved"} title={IconsData[2].svg} />
-                    <Button className={'four-mini-nav'} accessibility={"Notification"} title={IconsData[3].svg} />
+                    <Button className={'four-mini-nav'} accessibility={"Notification"} title={IconsData[3].svg}
+                        onClick={() => { setIsDot(false) }} id={'notifi-dot'}
+                    />
+
+
+                    {/* Hide Notifiction Dot */}
+                    {/* {
+                        isDot ? (
+                            // console.log(document.querySelector('#notifi-dot'))
+                            // document.querySelector('#notifi-dot').style.setProperty("--clr-notifi-circl", "blue")
+                        ) : (
+                            // console.log('bb')
+                            // document.querySelector('#notifi-dot').style.setProperty("--clr-notifi-circl", "red")
+                        )
+                    } */}
+
+
 
 
                     {/* Three dots icon (appears only in screen under 13 inch) */}
@@ -61,11 +80,11 @@ const Navbar = () => {
                     {/* Hide Big more Button & add components */}
 
                     {
-                        state ? (
+                        isMore ? (
                             <NavbarCategoryLink to={'/tools'} title={'Tools'} svg={IconsData[13].svg} />
                         ) : (
                             // More Button in Nav
-                            < Button onClick={() => setState(true)} className='more-btn-nav-box' title='More' />
+                            < Button onClick={() => setIsMore(true)} className='more-btn-nav-box' title='More' />
                         )
                     }
 

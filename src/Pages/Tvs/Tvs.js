@@ -9,29 +9,22 @@ const Tvs = () => {
 
 
 
-
   // Hide Big more Button & add components
   const [state, setState] = useState(false)
 
 
   // Loop on Data
-  const lgTvsItems = LgTvsItemsData.map(lgTvsItems => {
+  const lgTvsItems = LgTvsItemsData.map(item => {
     return <ItemShelves
-      className='item-cards'
-      key={lgTvsItems.id}
-      href={lgTvsItems.href}
-      imgSrc={lgTvsItems.imgSrc}
-      imgAlt={lgTvsItems.imgAlt}
-      itemDescription={lgTvsItems.itemDescription}
-      price={lgTvsItems.price}
-      currency={lgTvsItems.currency}
-      period={lgTvsItems.period}
+      className={'item-cards'}
+      key={item.id}
+      item={item}
     />
   })
 
 
   return (
-    
+
     <>
 
       <ShelveConainer href='https://www.google.com/' title='LG'>

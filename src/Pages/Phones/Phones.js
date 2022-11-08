@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { ShelveConainer, ItemShelves, BigMoreButton } from "../../Components"
 import './Phones.css'
 
-
 import ApplePhonesItemsData from '../../Data/PhonesData/ApplePhonesData'
 import SamsungPhonesItemsData from '../../Data/PhonesData/SamsungPhonesData'
 import GooglePhonesItemsData from '../../Data/PhonesData/GooglePhonesData'
@@ -18,50 +17,30 @@ const Phones = () => {
 
 
     // Loop on Data
-    const googlePhonesItems = GooglePhonesItemsData.map(googlePhonesItems => {
+    const googlePhonesItems = GooglePhonesItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={googlePhonesItems.id}
-            href={googlePhonesItems.href}
-            imgSrc={googlePhonesItems.imgSrc}
-            imgAlt={googlePhonesItems.imgAlt}
-            itemDescription={googlePhonesItems.itemDescription}
-            price={googlePhonesItems.price}
-            currency={googlePhonesItems.currency}
-            period={googlePhonesItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
 
-    const samsungPhonesItems = SamsungPhonesItemsData.map(samsungPhonesItems => {
+    const samsungPhonesItems = SamsungPhonesItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={samsungPhonesItems.id}
-            href={samsungPhonesItems.href}
-            imgSrc={samsungPhonesItems.imgSrc}
-            imgAlt={samsungPhonesItems.imgAlt}
-            itemDescription={samsungPhonesItems.itemDescription}
-            price={samsungPhonesItems.price}
-            currency={samsungPhonesItems.currency}
-            period={samsungPhonesItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
 
 
-    const applePhonesItems = ApplePhonesItemsData.map(applePhonesItems => {
+    const applePhonesItems = ApplePhonesItemsData.map(item => {
         return <ItemShelves
-            className='item-cards'
-            key={applePhonesItems.id}
-            href={applePhonesItems.href}
-            imgSrc={applePhonesItems.imgSrc}
-            imgAlt={applePhonesItems.imgAlt}
-            itemDescription={applePhonesItems.itemDescription}
-            price={applePhonesItems.price}
-            currency={applePhonesItems.currency}
-            period={applePhonesItems.period}
+            className={'item-cards'}
+            key={item.id}
+            item={item}
         />
     })
-
-
 
 
 
@@ -82,10 +61,6 @@ const Phones = () => {
             <ShelveConainer href='https://www.google.com/' title='Apple'>
                 {applePhonesItems}
             </ShelveConainer>
-
-
-
-
 
 
 

@@ -23,11 +23,11 @@ section .nav-box {
     justify-content: space-between;
 }
 
-span.notifi-dot {
+#notifi-dot {
     position: relative;
 }
 
-span.notifi-dot::before {
+#notifi-dot::before {
     content: '';
     position: absolute;
     width: 9px;

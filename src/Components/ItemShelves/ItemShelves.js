@@ -7,16 +7,16 @@ const ItemShelves = (props) => {
 
     return (
         <motion.div variants={it}>
-            <a href={props.href} className={props.className}>
+            <a href={props.item.href} className={props.className}>
                 <div className="img-of-item">
-                    <img src={props.imgSrc} alt={props.imgAlt} />
+                    <img src={props.item.imgSrc} alt={props.item.imgAlt} />
                 </div>
                 <div className="item-description">
-                    <h4>{props.itemDescription}</h4>
+                    <h4>{props.item.itemDescription}</h4>
                     <h5>
-                        <span className="price">{props.price}</span>
-                        <span className="currency">{props.currency}</span>
-                        <span className="week">{`/` + props.period}</span>
+                        <span className="price">{props.item.price}</span>
+                        <span className="currency">{props.item.currency}</span>
+                        <span className="week">{`/` + props.item.period}</span>
                     </h5>
                 </div>
             </a>

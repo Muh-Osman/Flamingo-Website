@@ -11,17 +11,11 @@ const Watches = () => {
 
 
   // Loop on Data
-  const appleWatchesItems = AppleWatchesItemsData.map(appleWatchesItems => {
+  const appleWatchesItems = AppleWatchesItemsData.map(item => {
     return <ItemShelves
-      className='item-cards'
-      key={appleWatchesItems.id}
-      href={appleWatchesItems.href}
-      imgSrc={appleWatchesItems.imgSrc}
-      imgAlt={appleWatchesItems.imgAlt}
-      itemDescription={appleWatchesItems.itemDescription}
-      price={appleWatchesItems.price}
-      currency={appleWatchesItems.currency}
-      period={appleWatchesItems.period}
+      className={'item-cards'}
+      key={item.id}
+      item={item}
     />
   })
 

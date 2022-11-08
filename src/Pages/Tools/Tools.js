@@ -12,17 +12,11 @@ const Tools = () => {
 
 
   // Loop on Data
-  const electronicsRepairToolsItems = ElectronicsRepairToolsItemsData.map(electronicsRepairToolsItems => {
+  const electronicsRepairToolsItems = ElectronicsRepairToolsItemsData.map(item => {
     return <ItemShelves
-      className='item-cards'
-      key={electronicsRepairToolsItems.id}
-      href={electronicsRepairToolsItems.href}
-      imgSrc={electronicsRepairToolsItems.imgSrc}
-      imgAlt={electronicsRepairToolsItems.imgAlt}
-      itemDescription={electronicsRepairToolsItems.itemDescription}
-      price={electronicsRepairToolsItems.price}
-      currency={electronicsRepairToolsItems.currency}
-      period={electronicsRepairToolsItems.period}
+      className={'item-cards'}
+      key={item.id}
+      item={item}
     />
   })
 
