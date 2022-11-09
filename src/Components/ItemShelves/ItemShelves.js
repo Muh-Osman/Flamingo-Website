@@ -1,13 +1,15 @@
-import './ItemShelves.css'
-
+import { Link } from 'react-router-dom'
 import { motion } from "framer-motion"
 import { it } from '../../animation'
+
+import './ItemShelves.css'
+
 
 const ItemShelves = (props) => {
 
     return (
         <motion.div variants={it}>
-            <a href={props.item.href} className={props.className}>
+            <Link to={props.item.href} className={props.className}>
                 <div className="img-of-item">
                     <img src={props.item.imgSrc} alt={props.item.imgAlt} />
                 </div>
@@ -19,7 +21,7 @@ const ItemShelves = (props) => {
                         <span className="week">{`/` + props.item.period}</span>
                     </h5>
                 </div>
-            </a>
+            </Link>
         </motion.div>
 
     )

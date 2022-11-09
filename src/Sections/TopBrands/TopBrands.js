@@ -11,9 +11,7 @@ const TopBrands = () => {
 
     return <TopBrandsItem
       key={brand.id}
-      divClassName={brand.divClassName}
-      aClassName={brand.aClassName}
-      svg={brand.svg}
+      brand={brand}
     />
 
   })

@@ -17,7 +17,7 @@ const ShelveConainer = (props) => {
             <div className="shelve-cont">
 
 
-                <Anchor onClick={props.onClick} className='shelve-title' href={props.href} title={props.title} />
+                <Anchor className='shelve-title' href={props.href} title={props.title} />
 
                 <div className="items-scroller" tabIndex="0">
 

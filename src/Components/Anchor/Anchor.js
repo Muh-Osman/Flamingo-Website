@@ -6,7 +6,7 @@ const Anchor = (props) => {
 
     return (
         <div className={props.className}>
-            <Link onClick={props.onClick} to={props.href}>{props.title}</Link>
+            <Link to={props.href} className={props.aClassName}>{props.title}</Link>
         </div>
     )
 }

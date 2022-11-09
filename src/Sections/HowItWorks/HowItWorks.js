@@ -37,7 +37,7 @@ const HowItWorks = () => {
 
                 </div>
 
-                <Anchor className='more-details-link' href='https://www.google.com/' title='More details' />
+                <Anchor href='https://www.google.com/' className='more-details-link' title='More details' />
 
             </div>
         </section>

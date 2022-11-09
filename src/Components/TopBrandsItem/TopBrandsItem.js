@@ -1,16 +1,17 @@
+import Anchor from '../Anchor/Anchor'
+
 import './TopBrandsItem.css'
+
 
 
 const TopBrandsItem = (props) => {
 
     return (
-        <div className={props.divClassName + ` brand`}>
-            <a href='https://www.google.com/' className={props.aClassName + ` uniform`}>
-
-                {props.svg}
-
-            </a>
-        </div>
+        <Anchor
+            href={props.brand.href}
+            className={props.brand.divClassName}
+            aClassName={props.brand.aClassName}
+            title={props.brand.svg} />
     )
 }
 

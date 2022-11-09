@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import { NavbarCategoryLink, Button, RentAnchor } from '../../Components'
 import IconsData from '../../Assets/Icons/IconsData'
@@ -9,11 +9,25 @@ const Navbar = () => {
 
 
 
-    // Hide Notifiction Dot
+
+    // Hide "More" Button & add Tools Components
+    const [isMore, setIsMore] = useState(false)
+
+
+    // Hide Notifiction Dot onClick
     const [isDot, setIsDot] = useState(true)
 
-    // Hide More Button & add Tools component
-    const [isMore, setIsMore] = useState(false)
+    useEffect(() => {
+
+        isDot ? (
+            document.querySelector('#notifi-dot').style.setProperty("--clr-notifi-circl", '--clr-notifi-circl')
+        ) : (
+            document.querySelector('#notifi-dot').style.setProperty("--clr-notifi-circl", '--clr-notifi-circl')
+        )
+
+    }, [isDot])
+
+
 
 
     return (
@@ -30,18 +44,6 @@ const Navbar = () => {
                     <Button className={'four-mini-nav'} accessibility={"Notification"} title={IconsData[3].svg}
                         onClick={() => { setIsDot(false) }} id={'notifi-dot'}
                     />
-
-
-                    {/* Hide Notifiction Dot */}
-                    {/* {
-                        isDot ? (
-                            // console.log(document.querySelector('#notifi-dot'))
-                            // document.querySelector('#notifi-dot').style.setProperty("--clr-notifi-circl", "blue")
-                        ) : (
-                            // console.log('bb')
-                            // document.querySelector('#notifi-dot').style.setProperty("--clr-notifi-circl", "red")
-                        )
-                    } */}
 
 
 
@@ -77,7 +79,7 @@ const Navbar = () => {
                     <NavbarCategoryLink to={'/tvs'} title={'TVs'} svg={IconsData[12].svg} />
 
 
-                    {/* Hide Big more Button & add components */}
+                    {/* Hide "More" Button & add Components */}
 
                     {
                         isMore ? (
