@@ -11,10 +11,10 @@ const ItemShelves = (props) => {
         <motion.div variants={it}>
             <Link to={props.item.href} className={props.className}>
                 <div className="img-of-item">
-                    <img src={props.item.imgSrc} alt={props.item.imgAlt} />
+                    <img src={props.item.src} alt={props.item.description} />
                 </div>
                 <div className="item-description">
-                    <h4>{props.item.itemDescription}</h4>
+                    <h4>{props.item.description}</h4>
                     <h5>
                         <span className="price">{props.item.price}</span>
                         <span className="currency">{props.item.currency}</span>

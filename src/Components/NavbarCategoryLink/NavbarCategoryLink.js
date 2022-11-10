@@ -4,7 +4,7 @@ import './NavbarCategoryLink.css'
 
 const NavbarCategoryLink = (props) => {
     return (
-        <NavLink to={props.to} end>
+        <NavLink to={props.to} end={props.end}>
             <div className="cat">
                 <div aria-label={props.title} title={props.title}>
                     {props.svg}
