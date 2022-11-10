@@ -8,7 +8,6 @@ const appleTabletsData = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: evo,
         description: 'LG 83-Inch Class OLED evo C2 Series Alexa built-in 4K Smart TV',
         price: 79,
@@ -18,7 +17,6 @@ const appleTabletsData = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: UHD,
         description: 'LG 65-Inch Class UQ9000 Series Alexa Built-in 4K Smart TV',
         price: 69,
@@ -28,7 +26,6 @@ const appleTabletsData = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: NANO,
         description: 'LG 43-Inch Class NANO75 Series Alexa Built-in 4K Smart TV',
         price: 55,
@@ -38,7 +35,6 @@ const appleTabletsData = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: K4,
         description: 'LG 55SM8600PUA Nano 8 Series 55" 4K Ultra HD Smart LED NanoCell TV',
         price: 88,
@@ -48,7 +44,6 @@ const appleTabletsData = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: OLED,
         description: 'LG OLED55GXPUA Alexa Built-In GX Series 55" Gallery Design 4K',
         price: 69,
@@ -58,7 +53,6 @@ const appleTabletsData = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: evo,
         description: 'LG 83-Inch Class OLED evo C2 Series Alexa built-in 4K Smart TV',
         price: 79,
@@ -68,7 +62,6 @@ const appleTabletsData = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: UHD,
         description: 'LG 65-Inch Class UQ9000 Series Alexa Built-in 4K Smart TV',
         price: 69,
@@ -78,7 +71,6 @@ const appleTabletsData = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: NANO,
         description: 'LG 43-Inch Class NANO75 Series Alexa Built-in 4K Smart TV',
         price: 55,
@@ -88,7 +80,6 @@ const appleTabletsData = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: K4,
         description: 'LG 55SM8600PUA Nano 8 Series 55" 4K Ultra HD Smart LED NanoCell TV',
         price: 88,
@@ -98,7 +89,6 @@ const appleTabletsData = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: OLED,
         description: 'LG OLED55GXPUA Alexa Built-In GX Series 55" Gallery Design 4K',
         price: 69,

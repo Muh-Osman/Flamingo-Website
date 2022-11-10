@@ -7,8 +7,7 @@ import G7X from '../../Assets/Images/product images/Cameras/canon/G7X.jpg'
 const canonData = [
 
     {
-        id: 1,
-        href: 'x',
+        id: '0',
         src: R6,
         description: 'Canon EOS R6 Full-Frame Mirrorless Camera + RF24-105mm F4 L is USM Lens Kit',
         price: 199,
@@ -17,8 +16,7 @@ const canonData = [
     },
 
     {
-        id: 2,
-        href: 'https://www.google.com/',
+        id: '1',
         src: T7,
         description: 'Canon EOS Rebel T7 DSLR Camera with 18-55mm Lens | Built-in Wi-Fi | 24.1 MP CMOS Sensor',
         price: 79,
@@ -27,8 +25,7 @@ const canonData = [
     },
 
     {
-        id: 3,
-        href: 'https://www.google.com/',
+        id: '2',
         src: D5,
         description: 'Canon EOS 5D Mark IV Full Frame Digital SLR Camera Body.',
         price: 150,
@@ -37,8 +34,7 @@ const canonData = [
     },
 
     {
-        id: 4,
-        href: 'https://www.google.com/',
+        id: '3',
         src: EOS,
         description: 'Canon EOS Rebel T7 DSLR Camera|2 Lens Kit with EF18-55mm + EF 75-300mm Lens, Black.',
         price: 55,
@@ -47,8 +43,7 @@ const canonData = [
     },
 
     {
-        id: 5,
-        href: 'https://www.google.com/',
+        id: '4',
         src: G7X,
         description: 'Canon PowerShot G7X Mark III Digital 4K Vlogging Camera, Vertical 4K Video Support with Wi-Fi, NFC and 3.0-Inch Touch Tilt LCD, Black',
         price: 69,
@@ -57,8 +52,7 @@ const canonData = [
     },
 
     {
-        id: 6,
-        href: 'https://www.google.com/',
+        id: '5',
         src: R6,
         description: 'Canon EOS R6 Full-Frame Mirrorless Camera + RF24-105mm F4 L is USM Lens Kit',
         price: 199,
@@ -67,8 +61,7 @@ const canonData = [
     },
 
     {
-        id: 7,
-        href: 'https://www.google.com/',
+        id: '6',
         src: T7,
         description: 'Canon EOS Rebel T7 DSLR Camera with 18-55mm Lens | Built-in Wi-Fi | 24.1 MP CMOS Sensor',
         price: 79,
@@ -77,8 +70,7 @@ const canonData = [
     },
 
     {
-        id: 8,
-        href: 'https://www.google.com/',
+        id: '7',
         src: D5,
         description: 'Canon EOS 5D Mark IV Full Frame Digital SLR Camera Body.',
         price: 150,
@@ -87,8 +79,7 @@ const canonData = [
     },
 
     {
-        id: 9,
-        href: 'https://www.google.com/',
+        id: '8',
         src: EOS,
         description: 'Canon EOS Rebel T7 DSLR Camera|2 Lens Kit with EF18-55mm + EF 75-300mm Lens, Black.',
         price: 55,
@@ -97,8 +88,7 @@ const canonData = [
     },
 
     {
-        id: 10,
-        href: 'https://www.google.com/',
+        id: '9',
         src: G7X,
         description: 'Canon PowerShot G7X Mark III Digital 4K Vlogging Camera, Vertical 4K Video Support with Wi-Fi, NFC and 3.0-Inch Touch Tilt LCD, Black',
         price: 69,

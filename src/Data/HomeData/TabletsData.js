@@ -8,7 +8,6 @@ const smartWatchesItems = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: Air,
         description: 'Apple iPad Air (10.9-inch, Wi-Fi + Cellular, 256GB) - Starlight (5th Generation)',
         price: 40,
@@ -18,7 +17,6 @@ const smartWatchesItems = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: Lenovo,
         description: 'Lenovo - Tab P11 Plus - Tablet - 11" 2K Display - MediaTek Octa-Core Processor - 4GB Memory - 128GB Storage - Dolby Atmos - Android 11 - Bluetooth & Wi-Fi - Long Battery Life',
         price: 33,
@@ -28,7 +26,6 @@ const smartWatchesItems = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: Pink,
         description: '2022 Apple 10.9-inch iPad (Wi-Fi, 64GB) - Pink (10th Generation)',
         price: 49,
@@ -38,7 +35,6 @@ const smartWatchesItems = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: Pro,
         description: 'Apple iPad Pro (Wi-Fi, 128GB) - Space Gray (6th Generation)',
         price: 69,
@@ -48,7 +44,6 @@ const smartWatchesItems = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: SAMSUNG,
         description: 'SAMSUNG Galaxy Tab S8 11” 128GB WiFi 6E Android Tablet w/ Large LCD Screen, Long Lasting Battery, S Pen Included, Ultra Wide Camera, US Version, Graphite',
         price: 39,
@@ -58,7 +53,6 @@ const smartWatchesItems = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: Air,
         description: 'Apple iPad Air (10.9-inch, Wi-Fi + Cellular, 256GB) - Starlight (5th Generation)',
         price: 40,
@@ -68,7 +62,6 @@ const smartWatchesItems = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: Lenovo,
         description: 'Lenovo - Tab P11 Plus - Tablet - 11" 2K Display - MediaTek Octa-Core Processor - 4GB Memory - 128GB Storage - Dolby Atmos - Android 11 - Bluetooth & Wi-Fi - Long Battery Life',
         price: 33,
@@ -78,7 +71,6 @@ const smartWatchesItems = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: Pink,
         description: '2022 Apple 10.9-inch iPad (Wi-Fi, 64GB) - Pink (10th Generation)',
         price: 49,
@@ -88,7 +80,6 @@ const smartWatchesItems = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: Pro,
         description: 'Apple iPad Pro (Wi-Fi, 128GB) - Space Gray (6th Generation)',
         price: 69,
@@ -98,7 +89,6 @@ const smartWatchesItems = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: SAMSUNG,
         description: 'SAMSUNG Galaxy Tab S8 11” 128GB WiFi 6E Android Tablet w/ Large LCD Screen, Long Lasting Battery, S Pen Included, Ultra Wide Camera, US Version, Graphite',
         price: 39,

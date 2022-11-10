@@ -2,7 +2,10 @@ import './Cameras.css'
 import { useState } from 'react'
 import CanonItemsData from '../../Data/CamerasData/CanonData'
 import { ShelveConainer, ItemShelves, BigMoreButton } from '../../Components'
-import { Outlet } from 'react-router-dom'
+
+
+
+
 
 const Cameras = () => {
 

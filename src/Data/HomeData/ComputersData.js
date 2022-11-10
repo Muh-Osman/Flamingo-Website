@@ -8,7 +8,6 @@ const computersItems = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: Acer,
         description: 'Acer Nitro 5 AN515-55-53E5 Gaming Laptop | Intel Core i5-10300H',
         price: 70,
@@ -18,7 +17,6 @@ const computersItems = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: Lenovo,
         description: 'Lenovo Ideapad Laptop With FHD 11.6-Inch',
         price: 60,
@@ -28,7 +26,6 @@ const computersItems = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: HP,
         description: 'HP Laptop 15-da2029nx 15.6" HD, Intel Core i3',
         price: 66,
@@ -38,7 +35,6 @@ const computersItems = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: Dell,
         description: 'Dell XPS 15 FHD+ Intel Core i7-11800H, GeForce RTX 3050Ti 4GB GDDR6',
         price: 89,
@@ -48,7 +44,6 @@ const computersItems = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: iMac,
         description: 'New Apple iMac Retina 5K Display (27-inch, 8GB RAM, 256GB SSD Storage)',
         price: 99,
@@ -58,7 +53,6 @@ const computersItems = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: Acer,
         description: 'Acer Nitro 5 AN515-55-53E5 Gaming Laptop | Intel Core i5-10300H',
         price: 70,
@@ -68,7 +62,6 @@ const computersItems = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: Lenovo,
         description: 'Lenovo Ideapad Laptop With FHD 11.6-Inch',
         price: 60,
@@ -78,7 +71,6 @@ const computersItems = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: HP,
         description: 'HP Laptop 15-da2029nx 15.6" HD, Intel Core i3',
         price: 66,
@@ -88,7 +80,6 @@ const computersItems = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: Dell,
         description: 'Dell XPS 15 FHD+ Intel Core i7-11800H, GeForce RTX 3050Ti 4GB GDDR6',
         price: 89,
@@ -98,7 +89,6 @@ const computersItems = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: iMac,
         description: 'New Apple iMac Retina 5K Display (27-inch, 8GB RAM, 256GB SSD Storage)',
         price: 99,

@@ -8,7 +8,6 @@ const appleData = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: Silver,
         description: 'Apple iPad (10.2-inch, Wi-Fi, 128GB) - Silver (7th Generation)',
         price: 39,
@@ -18,7 +17,6 @@ const appleData = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: Air,
         description: 'Apple iPad Air (10.9-inch, Wi-Fi, 64GB) - Purple (5th Generation)',
         price: 49,
@@ -28,7 +26,6 @@ const appleData = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: Pro,
         description: 'Apple 11-inch iPad Pro Wi-Fi + Cellular 256GB - Silver',
         price: 54,
@@ -38,7 +35,6 @@ const appleData = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: Mini,
         description: 'Apple iPad Mini (Wi-Fi, 64GB) - Starlight',
         price: 45,
@@ -48,7 +44,6 @@ const appleData = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: Gray,
         description: 'Apple iPad Pro (11-inch, Wi-Fi, 512GB) - Space Gray (2nd Generation)',
         price: 69,
@@ -58,7 +53,6 @@ const appleData = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: Silver,
         description: 'Apple iPad (10.2-inch, Wi-Fi, 128GB) - Silver (7th Generation)',
         price: 39,
@@ -68,7 +62,6 @@ const appleData = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: Air,
         description: 'Apple iPad Air (10.9-inch, Wi-Fi, 64GB) - Purple (5th Generation)',
         price: 49,
@@ -78,7 +71,6 @@ const appleData = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: Pro,
         description: 'Apple 11-inch iPad Pro Wi-Fi + Cellular 256GB - Silver',
         price: 54,
@@ -88,7 +80,6 @@ const appleData = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: Mini,
         description: 'Apple iPad Mini (Wi-Fi, 64GB) - Starlight',
         price: 45,
@@ -98,7 +89,6 @@ const appleData = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: Gray,
         description: 'Apple iPad Pro (11-inch, Wi-Fi, 512GB) - Space Gray (2nd Generation)',
         price: 69,

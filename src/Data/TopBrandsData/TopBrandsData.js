@@ -4,7 +4,6 @@ const TopBrandsData = [
         id: 1,
         divClassName: 'nin brand',
         aClassName: 'nintendo uniform',
-        href: 'https://www.google.com/',
         svg:
             < svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756" >
                 < g fillRule="evenodd" clipRule="evenodd" >
@@ -20,7 +19,6 @@ const TopBrandsData = [
         id: 2,
         divClassName: 'del brand',
         aClassName: 'dell uniform',
-        href: 'https://www.google.com/',
         svg:
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.756 192.756">
                 <g fillRule="evenodd" clipRule="evenodd">
@@ -34,7 +32,6 @@ const TopBrandsData = [
         id: 3,
         divClassName: 'can brand',
         aClassName: 'canon uniform',
-        href: 'https://www.google.com/',
         svg:
             <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 800 167.326">
                 <g>
@@ -62,7 +59,6 @@ const TopBrandsData = [
         id: 4,
         divClassName: 'son brand',
         aClassName: 'sony uniform',
-        href: 'https://www.google.com/',
         svg:
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 89.677">
                 <path
@@ -76,7 +72,6 @@ const TopBrandsData = [
         id: 5,
         divClassName: 'sam brand',
         aClassName: 'samsung uniform',
-        href: 'https://www.google.com/',
         svg:
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +91,6 @@ const TopBrandsData = [
         id: 6,
         divClassName: 'ap brand',
         aClassName: 'apple uniform',
-        href: 'https://www.google.com/',
         svg:
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 <path

@@ -18,7 +18,6 @@ const forYouItems = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: cam80D,
         description: 'Canon DSLR Camera EOS 80D (4K Video)',
         price: 149,
@@ -28,7 +27,6 @@ const forYouItems = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: mac,
         description: 'Apple MacBook Pro M1 Max chip 16GB RAM',
         price: 139,
@@ -38,7 +36,6 @@ const forYouItems = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: mini,
         description: 'Apple iPad Mini (Wi-Fi, 64GB) - Starlight',
         price: 49,
@@ -48,7 +45,6 @@ const forYouItems = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: iphone,
         description: 'Apple iPhone 13 Pro (128GB) - Dual SIM',
         price: 99,
@@ -58,7 +54,6 @@ const forYouItems = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: ps5,
         description: 'Sony PlayStation 5 DualSense Controller with DualSense Controller',
         price: 99,
@@ -68,7 +63,6 @@ const forYouItems = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: cam80D,
         description: 'Canon DSLR Camera EOS 80D (4K Video)',
         price: 149,
@@ -78,7 +72,6 @@ const forYouItems = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: mac,
         description: 'Apple MacBook Pro M1 Max chip 16GB RAM',
         price: 139,
@@ -88,7 +81,6 @@ const forYouItems = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: mini,
         description: 'Apple iPad Mini (Wi-Fi, 64GB) - Starlight',
         price: 49,
@@ -98,7 +90,6 @@ const forYouItems = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: iphone,
         description: 'Apple iPhone 13 Pro (128GB) - Dual SIM',
         price: 99,

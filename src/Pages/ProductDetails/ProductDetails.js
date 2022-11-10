@@ -1,27 +1,24 @@
+import { useParams } from 'react-router-dom'
 import './ProductDetails.css'
-// import CanonData from '../../Data/CamerasData/CanonData'
 
 const ProductDetails = (props) => {
 
 
-
-    // CanonData.map(data => {
-    //     return data
-    // })
+    const params = useParams()
 
 
     return (
         <>
-            {/* <div>{props.data.description}</div> */}
 
-            <div>Product ID:</div>
-            <div>Product Image-src:</div>
-            <div>Product href:</div>
-            <div>Product Description:</div>
-            <div>Product price:</div>
-            <div>Product Currency:</div>
-            <div>Product Period:</div>
-            <div>Done</div>
+            <div>Product ID:          {props.item[params.productId].id}         </div>
+            <div>Product Image-src:   {props.item[params.productId].src}        </div>
+            <div>Product Description: {props.item[params.productId].description}</div>
+            <div>Product price:       {props.item[params.productId].price}      </div>
+            <div>Product Currency:    {props.item[params.productId].currency}   </div>
+            <div>Product Period:      {props.item[params.productId].period}     </div>
+
+            <div>Done my param page:    {params.page}</div>
+            <div>Done my param ID:      {params.productId}</div>
 
 
         </>

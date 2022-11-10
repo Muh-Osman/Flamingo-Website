@@ -8,7 +8,6 @@ const addedRecentlyData = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: Canon,
         description: 'Canon EOS-1D X Mark III Body Only',
         price: 199,
@@ -18,7 +17,6 @@ const addedRecentlyData = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: Xbox,
         description: 'Xbox Series X Console 1TB (KSA Version)',
         price: 69,
@@ -28,7 +26,6 @@ const addedRecentlyData = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: vr,
         description: 'PlayStation VR Iron Man and Star Wars Set, Compatible with PS4 & PS5',
         price: 89,
@@ -38,7 +35,6 @@ const addedRecentlyData = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: Steam,
         description: 'Valve Steam Deck, Game Console with FHD Screen',
         price: 49,
@@ -48,7 +44,6 @@ const addedRecentlyData = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: printer,
         description: 'Canon PIXMA MG3620 Wireless All-In-One Color Inkjet Printer with Mobile and Tablet Printing, Red, 17.7 (W) X 12.0 (D) X 6.0 (H)',
         price: 39,
@@ -58,7 +53,6 @@ const addedRecentlyData = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: Xbox,
         description: 'Xbox Series X Console 1TB (KSA Version)',
         price: 69,
@@ -68,7 +62,6 @@ const addedRecentlyData = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: vr,
         description: 'PlayStation VR Iron Man and Star Wars Set, Compatible with PS4 & PS5',
         price: 89,
@@ -78,7 +71,6 @@ const addedRecentlyData = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: Steam,
         description: 'Valve Steam Deck, Game Console with FHD Screen',
         price: 49,

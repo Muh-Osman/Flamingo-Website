@@ -8,7 +8,6 @@ const samsungPhonesData = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: S22,
         description: 'SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android smartphone, 256GB',
         price: 59,
@@ -18,7 +17,6 @@ const samsungPhonesData = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: Galaxy,
         description: 'SAMSUNG Galaxy S22 Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera',
         price: 55,
@@ -28,7 +26,6 @@ const samsungPhonesData = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: Fold,
         description: 'SAMSUNG Galaxy Z Fold 4 Cell Phone, Factory Unlocked Android Smartphone',
         price: 69,
@@ -38,7 +35,6 @@ const samsungPhonesData = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: Flip,
         description: 'SAMSUNG Galaxy Z Flip 3 5G Cell Phone, Factory Unlocked Android Smartphone, 256GB',
         price: 55,
@@ -48,7 +44,6 @@ const samsungPhonesData = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: Note,
         description: 'Samsung Galaxy Note 10+, 256GB, Aura Black',
         price: 49,
@@ -58,7 +53,6 @@ const samsungPhonesData = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: S22,
         description: 'SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android smartphone, 256GB',
         price: 59,
@@ -68,7 +62,6 @@ const samsungPhonesData = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: Galaxy,
         description: 'SAMSUNG Galaxy S22 Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera',
         price: 55,
@@ -78,7 +71,6 @@ const samsungPhonesData = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: Fold,
         description: 'SAMSUNG Galaxy Z Fold 4 Cell Phone, Factory Unlocked Android Smartphone',
         price: 69,
@@ -88,7 +80,6 @@ const samsungPhonesData = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: Flip,
         description: 'SAMSUNG Galaxy Z Flip 3 5G Cell Phone, Factory Unlocked Android Smartphone, 256GB',
         price: 55,
@@ -98,7 +89,6 @@ const samsungPhonesData = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: Note,
         description: 'Samsung Galaxy Note 10+, 256GB, Aura Black',
         price: 49,

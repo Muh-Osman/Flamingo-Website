@@ -8,7 +8,6 @@ const playstationsData = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: Slim,
         description: 'PlayStation 4 Slim 1TB Console',
         price: 49,
@@ -18,7 +17,6 @@ const playstationsData = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: Controller,
         description: 'DualShock 4 Wireless Controller for PlayStation 4 - Green Camouflage',
         price: 25,
@@ -28,7 +26,6 @@ const playstationsData = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: PlayStation3,
         description: 'PlayStation 3 - 320 GB System/PlayStation Move Bundle',
         price: 49,
@@ -38,7 +35,6 @@ const playstationsData = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: Headset,
         description: 'PlayStation PULSE 3D Wireless Headset',
         price: 45,
@@ -48,7 +44,6 @@ const playstationsData = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: PlayStation5,
         description: 'PlayStation 5 Console',
         price: 59,
@@ -58,7 +53,6 @@ const playstationsData = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: Slim,
         description: 'PlayStation 4 Slim 1TB Console',
         price: 49,
@@ -68,7 +62,6 @@ const playstationsData = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: Controller,
         description: 'DualShock 4 Wireless Controller for PlayStation 4 - Green Camouflage',
         price: 25,
@@ -78,7 +71,6 @@ const playstationsData = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: PlayStation3,
         description: 'PlayStation 3 - 320 GB System/PlayStation Move Bundle',
         price: 49,
@@ -88,7 +80,6 @@ const playstationsData = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: Headset,
         description: 'PlayStation PULSE 3D Wireless Headset',
         price: 45,
@@ -98,7 +89,6 @@ const playstationsData = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: PlayStation5,
         description: 'PlayStation 5 Console',
         price: 59,

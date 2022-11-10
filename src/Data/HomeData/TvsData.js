@@ -8,7 +8,6 @@ const smartWatchesItems = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: TCL,
         description: 'TCL 32-inch Class 3-Series HD LED Smart Android TV - 32S334, 2021 Model',
         price: 49,
@@ -18,7 +17,6 @@ const smartWatchesItems = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: Sony,
         description: 'Sony 85 Inch 4K Ultra HD TV X80K Series: LED Smart Google TV with Dolby Vision',
         price: 66,
@@ -28,7 +26,6 @@ const smartWatchesItems = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: LG,
         description: 'LG 55-inch Class UQ9000 Series 4K Smart TV with Alexa Built-in 55UQ9000PUD & LG S75Q 3.1.2ch',
         price: 49,
@@ -38,7 +35,6 @@ const smartWatchesItems = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: BRAVIA,
         description: 'Sony OLED 55 inch BRAVIA XR A80K Series 4K Ultra HD TV: Smart Google TV with Dolby Vision HDR',
         price: 75,
@@ -48,7 +44,6 @@ const smartWatchesItems = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: Smart,
         description: 'TCL 55-inch 6-Series 4K UHD Dolby Vision HDR QLED Roku Smart TV - 55R635, 2021 Model , Black',
         price: 49,
@@ -58,7 +53,6 @@ const smartWatchesItems = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: TCL,
         description: 'TCL 32-inch Class 3-Series HD LED Smart Android TV - 32S334, 2021 Model',
         price: 49,
@@ -68,7 +62,6 @@ const smartWatchesItems = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: Sony,
         description: 'Sony 85 Inch 4K Ultra HD TV X80K Series: LED Smart Google TV with Dolby Vision',
         price: 66,
@@ -78,7 +71,6 @@ const smartWatchesItems = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: LG,
         description: 'LG 55-inch Class UQ9000 Series 4K Smart TV with Alexa Built-in 55UQ9000PUD & LG S75Q 3.1.2ch',
         price: 49,
@@ -88,7 +80,6 @@ const smartWatchesItems = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: BRAVIA,
         description: 'Sony OLED 55 inch BRAVIA XR A80K Series 4K Ultra HD TV: Smart Google TV with Dolby Vision HDR',
         price: 75,
@@ -98,7 +89,6 @@ const smartWatchesItems = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: Smart,
         description: 'TCL 55-inch 6-Series 4K UHD Dolby Vision HDR QLED Roku Smart TV - 55R635, 2021 Model , Black',
         price: 49,

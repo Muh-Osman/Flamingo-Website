@@ -8,7 +8,6 @@ const mobilePhonesItems = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: iphone,
         description: 'Apple iPhone 12 Pro (128GB) - Dual SIM',
         price: 99,
@@ -18,7 +17,6 @@ const mobilePhonesItems = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: s22,
         description: 'SAMSUNG Galaxy S22 FE 5G',
         price: 89,
@@ -28,7 +26,6 @@ const mobilePhonesItems = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: fold,
         description: 'SAMSUNG Galaxy Z Fold 3 128GB - Dual SIM',
         price: 144,
@@ -38,7 +35,6 @@ const mobilePhonesItems = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: flip,
         description: 'SAMSUNG ZFlip 3 SAMSUNG Electronics Galaxy ZFlip 3 5G',
         price: 99,
@@ -48,7 +44,6 @@ const mobilePhonesItems = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: pixel,
         description: 'Google Pixel 5a 128GB, 6GB RAM, 5G',
         price: 79,
@@ -58,7 +53,6 @@ const mobilePhonesItems = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: iphone,
         description: 'Apple iPhone 12 Pro (128GB) - Dual SIM',
         price: 99,
@@ -68,7 +62,6 @@ const mobilePhonesItems = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: s22,
         description: 'SAMSUNG Galaxy S22 FE 5G',
         price: 89,
@@ -78,7 +71,6 @@ const mobilePhonesItems = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: fold,
         description: 'SAMSUNG Galaxy Z Fold 3 128GB - Dual SIM',
         price: 144,
@@ -88,7 +80,6 @@ const mobilePhonesItems = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: flip,
         description: 'SAMSUNG ZFlip 3 SAMSUNG Electronics Galaxy ZFlip 3 5G',
         price: 99,
@@ -98,7 +89,6 @@ const mobilePhonesItems = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: pixel,
         description: 'Google Pixel 5a 128GB, 6GB RAM, 5G',
         price: 79,

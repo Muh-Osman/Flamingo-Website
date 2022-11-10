@@ -8,7 +8,6 @@ const applePhonesData = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: pro12,
         description: 'Apple iPhone 12, 64GB, Black - Fully Unlocked',
         price: 59,
@@ -18,7 +17,6 @@ const applePhonesData = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: pro13,
         description: 'Apple iPhone 13 Pro Max, 128GB, Sierra Blue',
         price: 75,
@@ -28,7 +26,6 @@ const applePhonesData = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: XS,
         description: 'Apple iPhone XS, US Version, 256GB, Space Gray',
         price: 39,
@@ -38,7 +35,6 @@ const applePhonesData = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: SE,
         description: 'iPhone SE 64GB Factory Unlocked, Rose Gold',
         price: 25,
@@ -48,7 +44,6 @@ const applePhonesData = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: iPhone7,
         description: 'iPhone 7 64GB Unlocked ATT Tmobile Verizon - Gray',
         price: 39,
@@ -58,7 +53,6 @@ const applePhonesData = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: pro12,
         description: 'Apple iPhone 12, 64GB, Black - Fully Unlocked',
         price: 59,
@@ -68,7 +62,6 @@ const applePhonesData = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: pro13,
         description: 'Apple iPhone 13 Pro Max, 128GB, Sierra Blue',
         price: 75,
@@ -78,7 +71,6 @@ const applePhonesData = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: XS,
         description: 'Apple iPhone XS, US Version, 256GB, Space Gray',
         price: 39,
@@ -88,7 +80,6 @@ const applePhonesData = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: SE,
         description: 'iPhone SE 64GB Factory Unlocked, Rose Gold',
         price: 25,
@@ -98,7 +89,6 @@ const applePhonesData = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: iPhone7,
         description: 'iPhone 7 64GB Unlocked ATT Tmobile Verizon - Gray',
         price: 39,

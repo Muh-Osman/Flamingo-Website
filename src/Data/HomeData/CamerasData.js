@@ -8,7 +8,6 @@ const camerasItems = [
 
     {
         id: 1,
-        href: 'https://www.google.com/',
         src: Alpha,
         description: 'Sony Alpha A7 III Full-Frame Camera 35mm',
         price: 199,
@@ -18,7 +17,6 @@ const camerasItems = [
 
     {
         id: 2,
-        href: 'https://www.google.com/',
         src: Nikon,
         description: 'Nikon Coolpix B600 Digital Camera, Black',
         price: 80,
@@ -28,7 +26,6 @@ const camerasItems = [
 
     {
         id: 3,
-        href: 'https://www.google.com/',
         src: Canon,
         description: 'Canon RF 100-500mm F4.5-7.1L IS USM',
         price: 199,
@@ -38,7 +35,6 @@ const camerasItems = [
 
     {
         id: 4,
-        href: 'https://www.google.com/',
         src: EOS,
         description: 'Canon EOS 5D Mark IV 24-105mm F/4L USM Lens',
         price: 99,
@@ -48,7 +44,6 @@ const camerasItems = [
 
     {
         id: 5,
-        href: 'https://www.google.com/',
         src: GoPro,
         description: 'GoPro HERO9 Black Waterproof Action Camera',
         price: 80,
@@ -58,7 +53,6 @@ const camerasItems = [
 
     {
         id: 6,
-        href: 'https://www.google.com/',
         src: Alpha,
         description: 'Sony Alpha A7 III Full-Frame Camera 35mm',
         price: 199,
@@ -68,7 +62,6 @@ const camerasItems = [
 
     {
         id: 7,
-        href: 'https://www.google.com/',
         src: Nikon,
         description: 'Nikon Coolpix B600 Digital Camera, Black',
         price: 80,
@@ -78,7 +71,6 @@ const camerasItems = [
 
     {
         id: 8,
-        href: 'https://www.google.com/',
         src: Canon,
         description: 'Canon RF 100-500mm F4.5-7.1L IS USM',
         price: 199,
@@ -88,7 +80,6 @@ const camerasItems = [
 
     {
         id: 9,
-        href: 'https://www.google.com/',
         src: EOS,
         description: 'Canon EOS 5D Mark IV 24-105mm F/4L USM Lens',
         price: 99,
@@ -98,7 +89,6 @@ const camerasItems = [
 
     {
         id: 10,
-        href: 'https://www.google.com/',
         src: GoPro,
         description: 'GoPro HERO9 Black Waterproof Action Camera',
         price: 80,
