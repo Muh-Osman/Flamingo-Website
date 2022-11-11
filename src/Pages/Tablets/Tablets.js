@@ -1,7 +1,7 @@
 import './Tablets.css'
 import { useState } from 'react'
 import AppleTabletsItemsData from '../../Data/TabletsData/AppleTabletsData'
-import { ShelveConainer, ItemShelves, BigMoreButton } from '../../Components'
+import { ShelveConainer, ItemShelves, Button } from '../../Components'
 
 const Tablets = () => {
 
@@ -61,7 +61,8 @@ const Tablets = () => {
 
         ) : (
 
-          <BigMoreButton onClick={() => setState(true)} />
+          //  <Big More Button 
+          <Button onClick={() => setState(true)} className='big-more-btn' title='More' />
 
         )
       }

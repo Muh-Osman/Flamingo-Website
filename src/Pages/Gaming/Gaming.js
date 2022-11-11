@@ -2,7 +2,7 @@ import './Gaming.css'
 import { useState } from 'react'
 
 import PlaystationsItemsData from '../../Data/Gaming/PlaystationsData'
-import { ShelveConainer, ItemShelves, BigMoreButton } from '../../Components'
+import { ShelveConainer, ItemShelves, Button } from '../../Components'
 
 
 
@@ -62,7 +62,8 @@ const Gaming = () => {
 
         ) : (
 
-          <BigMoreButton onClick={() => setState(true)} />
+          //  <Big More Button 
+          <Button onClick={() => setState(true)} className='big-more-btn' title='More' />
 
         )
       }

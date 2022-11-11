@@ -16,7 +16,6 @@ export { default as CarouselAndShelvesContainer } from './CarouselAndShelvesCont
 export { default as ShelvesBox } from './ShelvesBox/ShelvesBox'
 export { default as ShelveConainer } from './ShelveConainer/ShelveConainer'
 export { default as ItemShelves } from './ItemShelves/ItemShelves'
-export { default as BigMoreButton } from './BigMoreButton/BigMoreButton'
 
 export { default as HowItWorksItem } from './HowItWorksItem/HowItWorksItem'
 

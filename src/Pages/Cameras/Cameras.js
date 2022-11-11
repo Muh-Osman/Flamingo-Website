@@ -1,7 +1,7 @@
 import './Cameras.css'
 import { useState } from 'react'
 import CanonItemsData from '../../Data/CamerasData/CanonData'
-import { ShelveConainer, ItemShelves, BigMoreButton } from '../../Components'
+import { ShelveConainer, ItemShelves, Button } from '../../Components'
 
 
 
@@ -64,7 +64,8 @@ const Cameras = () => {
 
         ) : (
 
-          <BigMoreButton onClick={() => setState(true)} />
+          //  <Big More Button 
+          <Button onClick={() => setState(true)} className='big-more-btn' title='More' />
 
         )
       }

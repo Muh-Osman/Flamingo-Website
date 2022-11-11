@@ -1,7 +1,7 @@
 import './Tvs.css'
 import { useState } from 'react'
 import LgTvsItemsData from '../../Data/TVsData/LGTVsData'
-import { ShelveConainer, ItemShelves, BigMoreButton } from '../../Components'
+import { ShelveConainer, ItemShelves, Button } from '../../Components'
 
 
 
@@ -62,7 +62,8 @@ const Tvs = () => {
 
         ) : (
 
-          <BigMoreButton onClick={() => setState(true)} />
+          //  <Big More Button 
+          <Button onClick={() => setState(true)} className='big-more-btn' title='More' />
 
         )
       }
