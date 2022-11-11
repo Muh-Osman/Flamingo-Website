@@ -7,7 +7,7 @@ import Series3 from '../../Assets/Images/product images/Watches/apple watches/Se
 const appleWatchesData = [
 
     {
-        id: 1,
+        id: '0',
         src: Ultra,
         description: 'Apple Watch Ultra [GPS + Cellular 49mm] Smart Watch w/Rugged Titanium Case & Orange Alpine',
         price: 55,
@@ -16,7 +16,7 @@ const appleWatchesData = [
     },
 
     {
-        id: 2,
+        id: '1',
         src: SE,
         description: 'Apple Watch SE (2nd Gen) [GPS 44mm] Smart Watch w/Midnight Aluminum Case & Midnight Sport Band',
         price: 24,
@@ -25,7 +25,7 @@ const appleWatchesData = [
     },
 
     {
-        id: 3,
+        id: '2',
         src: Series7,
         description: 'Apple Watch Series 7 [GPS + Cellular 41mm] Smart Watch w/ Blue Aluminum Case with Abyss Blue Sport Band.',
         price: 35,
@@ -34,7 +34,7 @@ const appleWatchesData = [
     },
 
     {
-        id: 4,
+        id: '3',
         src: Series,
         description: 'Apple Watch Series 7 [GPS + Cellular 45mm] Smart Watch w/ Silver Stainless Steel Case with Starlight Sport Band.',
         price: 49,
@@ -43,7 +43,7 @@ const appleWatchesData = [
     },
 
     {
-        id: 5,
+        id: '4',
         src: Series3,
         description: 'Apple Watch Series 3 [GPS 38mm] Smart Watch w/ Space Gray Aluminum Case',
         price: 39,
@@ -52,7 +52,7 @@ const appleWatchesData = [
     },
 
     {
-        id: 6,
+        id: '5',
         src: Ultra,
         description: 'Apple Watch Ultra [GPS + Cellular 49mm] Smart Watch w/Rugged Titanium Case & Orange Alpine',
         price: 55,
@@ -61,7 +61,7 @@ const appleWatchesData = [
     },
 
     {
-        id: 7,
+        id: '6',
         src: SE,
         description: 'Apple Watch SE (2nd Gen) [GPS 44mm] Smart Watch w/Midnight Aluminum Case & Midnight Sport Band',
         price: 24,
@@ -70,7 +70,7 @@ const appleWatchesData = [
     },
 
     {
-        id: 8,
+        id: '7',
         src: Series7,
         description: 'Apple Watch Series 7 [GPS + Cellular 41mm] Smart Watch w/ Blue Aluminum Case with Abyss Blue Sport Band.',
         price: 35,
@@ -79,7 +79,7 @@ const appleWatchesData = [
     },
 
     {
-        id: 9,
+        id: '8',
         src: Series,
         description: 'Apple Watch Series 7 [GPS + Cellular 45mm] Smart Watch w/ Silver Stainless Steel Case with Starlight Sport Band.',
         price: 49,
@@ -88,7 +88,7 @@ const appleWatchesData = [
     },
 
     {
-        id: 10,
+        id: '9',
         src: Series3,
         description: 'Apple Watch Series 3 [GPS 38mm] Smart Watch w/ Space Gray Aluminum Case',
         price: 39,

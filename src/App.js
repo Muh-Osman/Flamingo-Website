@@ -1,10 +1,11 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 
 import { Header, Navbar, Carousel, HowItWorks, NewSectionShelves, TopBrands, Footer, MobileNavbar, FloatSearchMobile } from "./Sections"
 import { MainSiteContainer, CarouselAndShelvesContainer, ShelvesBox } from "./Components"
 import { Home, Phones, Computers, Watches, Cameras, Gaming, Tablets, Tvs, Tools, ProductDetails } from "./Pages"
 
 import CanonItemsData from './Data/CamerasData/CanonData'
+import AppleWatchesData from './Data/WatchesData/AppleWatchesData'
 
 
 
@@ -30,62 +31,56 @@ const App = () => {
   return (
     <>
 
-      <Router basename={'/'}>
+      <Header />
 
-        <Header />
+      <MainSiteContainer>
 
-        <MainSiteContainer>
+        <Navbar />
 
-          <Navbar />
+        <CarouselAndShelvesContainer>
 
-          <CarouselAndShelvesContainer>
+          <Carousel />
 
-            <Carousel />
+          <ShelvesBox>
 
-            <ShelvesBox>
+            <Routes>
+              <Route path='/' element={<Home />} />
 
-              <Routes>
+              <Route path='/phones' element={<Phones />} />
 
-                <Route path='/' element={<Home />} />
+              <Route path='/gaming' element={<Gaming />} />
 
-                <Route path='/phones' element={<Phones />} />
+              <Route path='/watches' element={<Watches />} />
+              <Route path='/watches/:productId' element={<ProductDetails item={AppleWatchesData} />} />
 
-                <Route path='/gaming' element={<Gaming />} />
+              <Route path='/cameras' element={<Cameras />} />
+              <Route path='/cameras/:productId' element={<ProductDetails item={CanonItemsData} />} />
 
-                <Route path='/watches' element={<Watches />} />
+              <Route path='/computers' element={<Computers />} />
 
-                <Route path='/cameras' element={<Cameras />} />
-                <Route path='/cameras/:productId' element={<ProductDetails item={CanonItemsData} />} />
+              <Route path='/tablets' element={<Tablets />} />
 
-                <Route path='/computers' element={<Computers />} />
+              <Route path='/tvs' element={<Tvs />} />
 
-                <Route path='/tablets' element={<Tablets />} />
+              <Route path='/tools' element={<Tools />} />
+            </Routes>
 
-                <Route path='/tvs' element={<Tvs />} />
+          </ShelvesBox>
 
-                <Route path='/tools' element={<Tools />} />
+        </CarouselAndShelvesContainer>
 
+      </MainSiteContainer>
 
+      <HowItWorks />
+      <NewSectionShelves />
+      <TopBrands />
+      <Footer />
 
-              </Routes>
+      <MobileNavbar />
+      <FloatSearchMobile />
 
-            </ShelvesBox>
+      {loadScript('main.js')}
 
-          </CarouselAndShelvesContainer>
-
-        </MainSiteContainer>
-
-        <HowItWorks />
-        <NewSectionShelves />
-        <TopBrands />
-        <Footer />
-
-        <MobileNavbar />
-        <FloatSearchMobile />
-
-        {loadScript('main.js')}
-
-      </Router>
 
     </>
 

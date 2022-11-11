@@ -1,14 +1,20 @@
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
+import Button from '../../Components/Button/Button';
 import './ProductDetails.css'
 
 const ProductDetails = (props) => {
 
 
     const params = useParams()
+    const navigate = useNavigate();
+
+
 
 
     return (
         <>
+
+            <Button onClick={() => navigate(-1)} accessibility={'Back'} title={'Back'} />
 
             <div>Product ID:          {props.item[params.productId].id}         </div>
             <div>Product Image-src:   {props.item[params.productId].src}        </div>
