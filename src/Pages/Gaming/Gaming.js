@@ -1,7 +1,7 @@
 import './Gaming.css'
 import { useState } from 'react'
 
-import PlaystationsItemsData from '../../Data/Gaming/PlaystationsData'
+import SonyItemsData from '../../Data/GamingData/SonyGamingData'
 import { ShelveConainer, ItemShelves, Button } from '../../Components'
 
 
@@ -15,7 +15,7 @@ const Gaming = () => {
 
 
   // Loop on Data
-  const playstationsItems = PlaystationsItemsData.map(item => {
+  const sonyItems = SonyItemsData.map(item => {
     return <ItemShelves
       className={'item-cards'}
       key={item.id}
@@ -28,8 +28,8 @@ const Gaming = () => {
   return (
     <>
 
-      <ShelveConainer href='https://www.google.com/' title='PlayStation'>
-        {playstationsItems}
+      <ShelveConainer href='https://www.google.com/' title='Sony'>
+        {sonyItems}
       </ShelveConainer>
 
 
@@ -41,20 +41,12 @@ const Gaming = () => {
         state ? (
           <>
 
-            < ShelveConainer href='https://www.google.com/' title='Xbox'>
+            < ShelveConainer href='https://www.google.com/' title='Microsoft'>
               { }
             </ShelveConainer>
 
 
             <ShelveConainer href='https://www.google.com/' title='Nintendo'>
-              { }
-            </ShelveConainer>
-
-            <ShelveConainer href='https://www.google.com/' title='VR'>
-              { }
-            </ShelveConainer>
-
-            <ShelveConainer href='https://www.google.com/' title='Blu-ray'>
               { }
             </ShelveConainer>
 

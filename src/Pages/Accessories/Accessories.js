@@ -1,9 +1,9 @@
-import './Tools.css'
+import './Accessories.css'
 import { useState } from 'react'
-import ElectronicsRepairToolsItemsData from '../../Data/ToolsData/ElectronicsRepairToolsData'
+import ToolsItemsData from '../../Data/AccessoriesData/ToolsData'
 import { ShelveConainer, ItemShelves, Button } from '../../Components'
 
-const Tools = () => {
+const Accessories = () => {
 
 
 
@@ -12,7 +12,7 @@ const Tools = () => {
 
 
   // Loop on Data
-  const electronicsRepairToolsItems = ElectronicsRepairToolsItemsData.map(item => {
+  const toolsItems = ToolsItemsData.map(item => {
     return <ItemShelves
       className={'item-cards'}
       key={item.id}
@@ -27,8 +27,8 @@ const Tools = () => {
   return (
     <>
 
-      <ShelveConainer href='https://www.google.com/' title='Electronics repair tools'>
-        {electronicsRepairToolsItems}
+      <ShelveConainer href='https://www.google.com/' title='Tools'>
+        {toolsItems}
       </ShelveConainer>
 
 
@@ -39,7 +39,7 @@ const Tools = () => {
       {
         state ? (
           <>
-            < ShelveConainer href='https://www.google.com/' title='Home tools'>
+            < ShelveConainer href='https://www.google.com/' title='Apple'>
               { }
             </ShelveConainer>
           </>
@@ -56,4 +56,4 @@ const Tools = () => {
   )
 }
 
-export default Tools
+export default Accessories

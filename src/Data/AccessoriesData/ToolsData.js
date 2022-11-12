@@ -1,17 +1,17 @@
-import FLIR from '../../Assets/Images/product images/Tools/electronics repair tools/FLIR.jpg'
-import Kaisi from '../../Assets/Images/product images/Tools/electronics repair tools/Kaisi.jpg'
-import Etekcity from '../../Assets/Images/product images/Tools/electronics repair tools/Etekcity.jpg'
-import Klein from '../../Assets/Images/product images/Tools/electronics repair tools/Klein.jpg'
-import BLACK from '../../Assets/Images/product images/Tools/electronics repair tools/BLACK.jpg'
-import KAIWEETS from '../../Assets/Images/product images/Tools/electronics repair tools/KAIWEETS.jpg'
+import FLIR from '../../Assets/Images/product images/Accessories/tools/FLIR.jpg'
+import Kaisi from '../../Assets/Images/product images/Accessories/tools/Kaisi.jpg'
+import Etekcity from '../../Assets/Images/product images/Accessories/tools/Etekcity.jpg'
+import Klein from '../../Assets/Images/product images/Accessories/tools/Klein.jpg'
+import BLACK from '../../Assets/Images/product images/Accessories/tools/BLACK.jpg'
+import KAIWEETS from '../../Assets/Images/product images/Accessories/tools/KAIWEETS.jpg'
 
-const appleData = [
+const toolsData = [
 
     {
         id: 1,
         src: FLIR,
         description: 'FLIR TG165-X Thermal Camera imaging tool & ONE Pro',
-        brand: 'flair',
+        shelve: 'tools',
         price: 80,
         currency: 'SAR',
         period: 'week',
@@ -21,7 +21,7 @@ const appleData = [
         id: 2,
         src: Kaisi,
         description: 'Kaisi 126 in 1 Precision Screwdriver Set with 111 Bits Magnetic Driver Kit Professional Electronics Repair Tool Kit',
-        brand: 'kaisi',
+        shelve: 'tools',
         price: 30,
         currency: 'SAR',
         period: 'week',
@@ -31,7 +31,7 @@ const appleData = [
         id: 3,
         src: Etekcity,
         description: 'Etekcity Infrared Thermometer 1080, Heat Temperature Temp Gun',
-        brand: 'etekcity',
+        shelve: 'tools',
         price: 30,
         currency: 'SAR',
         period: 'week',
@@ -41,7 +41,7 @@ const appleData = [
         id: 4,
         src: Klein,
         description: 'Klein Tools 935DAG Digital Electronic Level and Angle Gauge, Measures 0 - 90 and 0',
-        brand: 'klein',
+        shelve: 'tools',
         price: 45,
         currency: 'SAR',
         period: 'week',
@@ -51,7 +51,7 @@ const appleData = [
         id: 5,
         src: BLACK,
         description: 'BLACK+DECKER Heat Gun, Dual Temperature',
-        brand: 'blackdecker',
+        shelve: 'tools',
         price: 49,
         currency: 'SAR',
         period: 'week',
@@ -61,7 +61,7 @@ const appleData = [
         id: 6,
         src: KAIWEETS,
         description: 'KAIWEETS KM100 Multimeter & HT206A Clamp Meter',
-        brand: 'kaiweets',
+        shelve: 'tools',
         price: 39,
         currency: 'SAR',
         period: 'week',
@@ -71,7 +71,7 @@ const appleData = [
         id: 7,
         src: FLIR,
         description: 'FLIR TG165-X Thermal Camera imaging tool & ONE Pro',
-        brand: 'flir',
+        shelve: 'tools',
         price: 80,
         currency: 'SAR',
         period: 'week',
@@ -81,7 +81,7 @@ const appleData = [
         id: 8,
         src: Kaisi,
         description: 'Kaisi 126 in 1 Precision Screwdriver Set with 111 Bits Magnetic Driver Kit Professional Electronics Repair Tool Kit',
-        brand: 'kaisi',
+        shelve: 'tools',
         price: 30,
         currency: 'SAR',
         period: 'week',
@@ -91,7 +91,7 @@ const appleData = [
         id: 9,
         src: Etekcity,
         description: 'Etekcity Infrared Thermometer 1080, Heat Temperature Temp Gun',
-        brand: 'etekcity',
+        shelve: 'tools',
         price: 30,
         currency: 'SAR',
         period: 'week',
@@ -101,7 +101,7 @@ const appleData = [
         id: 10,
         src: Klein,
         description: 'Klein Tools 935DAG Digital Electronic Level and Angle Gauge, Measures 0 - 90 and 0',
-        brand: 'klein',
+        shelve: 'tools',
         price: 45,
         currency: 'SAR',
         period: 'week',
@@ -109,4 +109,4 @@ const appleData = [
 
 ]
 
-export default appleData
+export default toolsData

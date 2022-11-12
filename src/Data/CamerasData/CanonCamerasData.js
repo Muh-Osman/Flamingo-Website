@@ -4,14 +4,13 @@ import D5 from '../../Assets/Images/product images/Cameras/canon/D5.jpg'
 import EOS from '../../Assets/Images/product images/Cameras/canon/EOS.jpg'
 import G7X from '../../Assets/Images/product images/Cameras/canon/G7X.jpg'
 
-const canonData = [
+const canonCamerasData = [
 
     {
         id: 1,
         src: R6,
         description: 'Canon EOS R6 Full-Frame Mirrorless Camera + RF24-105mm F4 L is USM Lens Kit',
-        brand: 'canon',
-        category: 'cameras',
+        shelve: 'canon',
         price: 199,
         currency: 'SAR',
         period: 'week',
@@ -21,8 +20,7 @@ const canonData = [
         id: 2,
         src: T7,
         description: 'Canon EOS Rebel T7 DSLR Camera with 18-55mm Lens | Built-in Wi-Fi | 24.1 MP CMOS Sensor',
-        brand: 'canon',
-        category: 'cameras',
+        shelve: 'canon',
         price: 79,
         currency: 'SAR',
         period: 'week',
@@ -32,8 +30,7 @@ const canonData = [
         id: 3,
         src: D5,
         description: 'Canon EOS 5D Mark IV Full Frame Digital SLR Camera Body.',
-        brand: 'canon',
-        category: 'cameras',
+        shelve: 'canon',
         price: 150,
         currency: 'SAR',
         period: 'week',
@@ -43,8 +40,7 @@ const canonData = [
         id: 4,
         src: EOS,
         description: 'Canon EOS Rebel T7 DSLR Camera|2 Lens Kit with EF18-55mm + EF 75-300mm Lens, Black.',
-        brand: 'canon',
-        category: 'cameras',
+        shelve: 'canon',
         price: 55,
         currency: 'SAR',
         period: 'week',
@@ -54,8 +50,7 @@ const canonData = [
         id: 5,
         src: G7X,
         description: 'Canon PowerShot G7X Mark III Digital 4K Vlogging Camera, Vertical 4K Video Support with Wi-Fi, NFC and 3.0-Inch Touch Tilt LCD, Black',
-        brand: 'canon',
-        category: 'cameras',
+        shelve: 'canon',
         price: 69,
         currency: 'SAR',
         period: 'week',
@@ -65,8 +60,7 @@ const canonData = [
         id: 6,
         src: R6,
         description: 'Canon EOS R6 Full-Frame Mirrorless Camera + RF24-105mm F4 L is USM Lens Kit',
-        brand: 'canon',
-        category: 'cameras',
+        shelve: 'canon',
         price: 199,
         currency: 'SAR',
         period: 'week',
@@ -76,8 +70,7 @@ const canonData = [
         id: 7,
         src: T7,
         description: 'Canon EOS Rebel T7 DSLR Camera with 18-55mm Lens | Built-in Wi-Fi | 24.1 MP CMOS Sensor',
-        brand: 'canon',
-        category: 'cameras',
+        shelve: 'canon',
         price: 79,
         currency: 'SAR',
         period: 'week',
@@ -87,8 +80,7 @@ const canonData = [
         id: 8,
         src: D5,
         description: 'Canon EOS 5D Mark IV Full Frame Digital SLR Camera Body.',
-        brand: 'canon',
-        category: 'cameras',
+        shelve: 'canon',
         price: 150,
         currency: 'SAR',
         period: 'week',
@@ -98,8 +90,7 @@ const canonData = [
         id: 9,
         src: EOS,
         description: 'Canon EOS Rebel T7 DSLR Camera|2 Lens Kit with EF18-55mm + EF 75-300mm Lens, Black.',
-        brand: 'canon',
-        category: 'cameras',
+        shelve: 'canon',
         price: 55,
         currency: 'SAR',
         period: 'week',
@@ -109,8 +100,7 @@ const canonData = [
         id: 10,
         src: G7X,
         description: 'Canon PowerShot G7X Mark III Digital 4K Vlogging Camera, Vertical 4K Video Support with Wi-Fi, NFC and 3.0-Inch Touch Tilt LCD, Black',
-        brand: 'canon',
-        category: 'cameras',
+        shelve: 'canon',
         price: 69,
         currency: 'SAR',
         period: 'week',
@@ -118,4 +108,4 @@ const canonData = [
 
 ]
 
-export default canonData
+export default canonCamerasData

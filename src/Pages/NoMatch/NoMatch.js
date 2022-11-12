@@ -8,7 +8,7 @@ const NoMatch = () => {
 
   return (
     <>
-      <div>NoMatch 404</div>
+      <div>404 Page not found</div>
       <Button onClick={() => navigate(-1)} accessibility={'Back'} title={'Back'} />
     </>
   )

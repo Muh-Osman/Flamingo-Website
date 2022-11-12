@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
 
-    // Hide "More" Button & add Tools Components
+    // Hide "More" Button & add Accessories Components
     const [isMore, setIsMore] = useState(false)
 
 
@@ -83,7 +83,7 @@ const Navbar = () => {
 
                     {
                         isMore ? (
-                            <NavbarCategoryLink to={'/tools'} title={'Tools'} svg={IconsData[13].svg} />
+                            <NavbarCategoryLink to={'/accessories'} title={'Accessories'} svg={IconsData[13].svg} />
                         ) : (
                             // More Button in Nav
                             < Button onClick={() => setIsMore(true)} className='more-btn-nav-box' title='More' />

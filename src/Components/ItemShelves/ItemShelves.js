@@ -9,7 +9,7 @@ const ItemShelves = (props) => {
 
     return (
         <motion.div variants={it}>
-            <Link to={props.item.brand + `/` + props.item.id} className={props.className}>
+            <Link to={props.item.shelve + `/` + props.item.id} className={props.className}>
                 <div className="img-of-item">
                     <img src={props.item.src} alt={props.item.description} />
                 </div>

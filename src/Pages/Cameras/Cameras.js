@@ -1,6 +1,6 @@
 import './Cameras.css'
 import { useState } from 'react'
-import CanonItemsData from '../../Data/CamerasData/CanonData'
+import CanonItemsData from '../../Data/CamerasData/CanonCamerasData'
 import { ShelveConainer, ItemShelves, Button } from '../../Components'
 
 
