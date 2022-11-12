@@ -66,7 +66,7 @@ const Computers = () => {
         ) : (
 
           //  <Big More Button 
-          <Button onClick={() => setState(true)} className='big-more-btn' title='More' />
+          <Button onClick={() => setState(true)} className={'big-more-btn'} title={'More'} />
 
         )
       }

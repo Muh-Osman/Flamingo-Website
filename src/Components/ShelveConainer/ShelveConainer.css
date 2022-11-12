@@ -30,10 +30,6 @@ section .items-scroller .item-cards:hover div.item-description h4 {
     transition: .2s;
 }
 
-.shelves-box .contin-product .shelves:nth-child(1) .shelve-cont .shelve-title a {
-    cursor: auto;
-}
-
 section .items-scroller {
     display: grid;
     gap: 9px;

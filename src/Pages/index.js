@@ -9,3 +9,5 @@ export { default as Tvs } from './Tvs/Tvs'
 export { default as Tools } from './Tools/Tools'
 
 export { default as ProductDetails } from './ProductDetails/ProductDetails'
+
+export { default as NoMatch } from './NoMatch/NoMatch'
