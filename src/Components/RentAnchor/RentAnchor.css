@@ -1,15 +1,16 @@
 /* Rent Button */
-section nav .rent-btn-nav-box {
+
+div.rent-box {
     width: 100%;
-    align-self: center;
-    padding: 0 !important;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: center;
+    padding: 0 !important;
     margin-top: 20px;
 }
 
-section nav .rent-btn-nav-box a.rent-btn-text {
+section nav .rent-box a.rent-btn-text {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,23 +27,29 @@ section nav .rent-btn-nav-box a.rent-btn-text {
     transition: 0.2s;
 }
 
-section nav .rent-btn-nav-box a.rent-btn-text:hover {
+section nav .rent-box a.rent-btn-text:hover {
     color: var(--clr-rent-btn-hover);
     border: 1px solid var(--clr-border-rent-btn-hover);
     background-color: var(--clr-background-rent-btn-hover);
 }
 
-section nav .rent-btn-nav-box a.rent-btn-icon {
+
+
+section nav .rent-icon-box {
     display: none;
     width: 100%;
     fill: var(--clr-rent-btn-icon);
 }
 
-section nav .rent-btn-nav-box a.rent-btn-icon:hover {
+section nav .rent-btn-icon {
+    fill: var(--clr-rent-btn-icon);
+}
+
+section nav .rent-box a.rent-btn-icon:hover {
     background-color: transparent;
 }
 
-section nav .rent-btn-nav-box a.rent-btn-icon svg:hover {
+section nav .rent-box a.rent-btn-icon svg:hover {
     fill: var(--clr-rent-btn-icon-hover);
     transition: .2s;
 }
@@ -59,11 +66,11 @@ a.rent-btn-icon {
 @media (max-width: 1279px) {
 
     /* Rent Button */
-    section nav .rent-btn-nav-box a.rent-btn-text {
+    section nav .rent-text-box {
         display: none;
     }
 
-    section nav .rent-btn-nav-box a.rent-btn-icon {
+    section nav .rent-icon-box {
         display: block;
     }
 

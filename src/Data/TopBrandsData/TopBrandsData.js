@@ -2,6 +2,7 @@ const TopBrandsData = [
 
     {
         id: 1,
+        brand: 'nintendo',
         divClassName: 'nin brand',
         aClassName: 'nintendo uniform',
         svg:
@@ -17,6 +18,7 @@ const TopBrandsData = [
 
     {
         id: 2,
+        brand: 'dell',
         divClassName: 'del brand',
         aClassName: 'dell uniform',
         svg:
@@ -30,6 +32,7 @@ const TopBrandsData = [
 
     {
         id: 3,
+        brand: 'canon',
         divClassName: 'can brand',
         aClassName: 'canon uniform',
         svg:
@@ -57,6 +60,7 @@ const TopBrandsData = [
 
     {
         id: 4,
+        brand: 'sony',
         divClassName: 'son brand',
         aClassName: 'sony uniform',
         svg:
@@ -70,6 +74,7 @@ const TopBrandsData = [
 
     {
         id: 5,
+        brand: 'samsung',
         divClassName: 'sam brand',
         aClassName: 'samsung uniform',
         svg:
@@ -89,6 +94,7 @@ const TopBrandsData = [
 
     {
         id: 6,
+        brand: 'apple',
         divClassName: 'ap brand',
         aClassName: 'apple uniform',
         svg:

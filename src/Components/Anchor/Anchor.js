@@ -6,7 +6,15 @@ const Anchor = (props) => {
 
     return (
         <div className={props.className}>
-            <Link to={props.href} className={props.aClassName}>{props.title}</Link>
+
+            <Link to={props.href}
+                className={props.aClassName}
+                id={props.id}
+                aria-label={props.accessibility} title={props.accessibility}
+            >
+                {props.title}
+            </Link>
+
         </div>
     )
 }
