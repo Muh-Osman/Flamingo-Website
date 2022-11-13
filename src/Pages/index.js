@@ -16,6 +16,11 @@ export { default as ProductDetails } from './ProductDetails/ProductDetails'
 
 
 export { default as Apple } from './Apple/Apple'
+export { default as Samsung } from './Samsung/Samsung'
+export { default as Sony } from './Sony/Sony'
+export { default as Canon } from './Canon/Canon'
+export { default as Dell } from './Dell/Dell'
+export { default as Nintendo } from './Nintendo/Nintendo'
 
 
 export { default as NoMatch } from './NoMatch/NoMatch'

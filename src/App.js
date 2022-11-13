@@ -2,7 +2,7 @@ import { Route, Routes, Navigate } from 'react-router-dom'
 
 import { Header, Navbar, Carousel, HowItWorks, NewSectionShelves, TopBrands, Footer, MobileNavbar, FloatSearchMobile } from "./Sections"
 import { MainSiteContainer, CarouselAndShelvesContainer, ShelvesBox } from "./Components"
-import { Home, Phones, Computers, Watches, Cameras, Gaming, Tablets, Tvs, Accessories, Rent, ProductDetails, NoMatch, Apple } from "./Pages"
+import { Home, Phones, Computers, Watches, Cameras, Gaming, Tablets, Tvs, Accessories, Rent, ProductDetails, Apple, Samsung, Sony, Canon, Dell, Nintendo, NoMatch } from "./Pages"
 
 // Import Home Page Data
 import ForYouData from './Data/HomeData/ForYouData'
@@ -124,7 +124,13 @@ const App = () => {
 
               <Route path="/rent" element={<Rent />} />
 
+
               <Route path="/apple" element={<Apple />} />
+              <Route path="/samsung" element={<Samsung />} />
+              <Route path="/sony" element={<Sony />} />
+              <Route path="/canon" element={<Canon />} />
+              <Route path="/dell" element={<Dell />} />
+              <Route path="/nintendo" element={<Nintendo />} />
 
 
               <Route path="*" element={<NoMatch />} />
