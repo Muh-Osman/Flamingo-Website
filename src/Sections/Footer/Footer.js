@@ -11,14 +11,16 @@ const Footer = () => {
                     {/* <!-- Box of table --> */}
                     <div className="tab">
                         <table>
-                            <tbody>
+
+                            <thead>
                                 <tr>
                                     <th>About<span> Flamingo</span></th>
                                     <th>Account</th>
                                     <th>Offerings</th>
                                     <th>Help<span> & Contact</span></th>
                                 </tr>
-
+                            </thead>
+                            <tbody>
                                 <tr>
                                     <td><a href='https://www.google.com/'>Company info</a></td>
                                     <td><a href='https://www.google.com/'>Manage your account</a></td>

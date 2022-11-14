@@ -7,6 +7,8 @@ import './ItemShelves.css'
 
 const ItemShelves = (props) => {
 
+
+
     return (
         <motion.div variants={it}>
             <Link to={props.item.shelve + `/` + props.item.id} className={props.className}>

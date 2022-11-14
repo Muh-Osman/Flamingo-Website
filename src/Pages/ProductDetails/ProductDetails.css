@@ -1,0 +1,38 @@
+/* This CSS File Will Apply Only When <ProductDetails /> Render */
+
+
+section nav .mini-nav .nine-dots-box {
+    display: flex;
+}
+
+section nav .mini-nav .four-mini-nav,
+section nav .categories-box .text {
+    display: none;
+}
+
+section nav {
+    width: 78px !important;
+    border-radius: 0 15px 15px 0;
+}
+
+section .carousel-section {
+    width: calc(100% - 78px) !important;
+}
+
+section nav .categories-box {
+    align-items: center !important;
+    padding: 0 0 20px;
+}
+
+section nav .categories-box a {
+    border-radius: 5px;
+}
+
+/* Rent Button */
+section nav .rent-text-box {
+    display: none;
+}
+
+section nav .rent-icon-box {
+    display: block;
+}
