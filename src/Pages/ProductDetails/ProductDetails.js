@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom'
 import Button from '../../Components/Button/Button';
+import './/ProductDetails.css'
 
 const ProductDetails = (props) => {
 
@@ -9,18 +10,19 @@ const ProductDetails = (props) => {
     // Back to last page
     const navigate = useNavigate()
 
-    // Apply some CSS Style onmount
+
+
+
+    // Apply some CSS Style onmount <ProductDetails /> Component
     useEffect(() => {
 
-        require('./ProductDetails.css')
-
+        const webStyle = document.getElementById('root')
+        webStyle.classList.add('style-onclick-item')
 
         // CleanUp (remove class onUnmount)
         return () => {
 
-            // unrequire('./ProductDetails.css')
-            
-            
+            webStyle.classList.remove('style-onclick-item')
         }
 
     }, [])

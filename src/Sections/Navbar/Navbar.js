@@ -17,15 +17,16 @@ const Navbar = () => {
     // Hide Notifiction Dot onClick
     const [isDot, setIsDot] = useState(true)
 
-    // useEffect(() => {
+    useEffect(() => {
 
-    //     isDot ? (
-    //         document.querySelector('#notifi-dot').style.setProperty("--clr-notifi-circl", '--clr-notifi-circl')
-    //     ) : (
-    //         document.querySelector('#notifi-dot').style.setProperty("--clr-notifi-circl", '--clr-notifi-circl')
-    //     )
+        isDot ? (
+            document.getElementById('root').classList.remove('notif-dot')
+        ) : (
+            document.getElementById('root').classList.add('notif-dot')
+        )
 
-    // }, [isDot])
+
+    }, [isDot])
 
 
 
@@ -41,8 +42,8 @@ const Navbar = () => {
                     <Button className={'four-mini-nav'} accessibility={"Search"} title={IconsData[0].svg} />
                     <Button className={'four-mini-nav'} accessibility={"User"} title={IconsData[1].svg} />
                     <Button className={'four-mini-nav'} accessibility={"Loved"} title={IconsData[2].svg} />
-                    <Button className={'four-mini-nav'} accessibility={"Notification"} title={IconsData[3].svg}
-                        onClick={() => { setIsDot(false) }} id={'notifi-dot'}
+                    <Button className={'four-mini-nav not-dot'} accessibility={"Notification"} title={IconsData[3].svg}
+                        onClick={() => { setIsDot(false) }}
                     />
 
 
@@ -58,7 +59,9 @@ const Navbar = () => {
                             <Button accessibility={"Search"} title={IconsData[0].svg} id={'search-icon-drop-nav'} />
                             <Button accessibility={"User"} title={IconsData[1].svg} />
                             <Button accessibility={"Loved"} title={IconsData[2].svg} />
-                            <Button accessibility={"Notification"} title={IconsData[3].svg} />
+                            <Button className={'not-dot'} accessibility={"Notification"} title={IconsData[3].svg}
+                                onClick={() => { setIsDot(false) }}
+                            />
                         </div>
 
                     </div>

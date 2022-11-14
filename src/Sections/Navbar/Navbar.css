@@ -7,9 +7,9 @@ section nav {
     z-index: 99;
     height: 100vh;
     padding: 0 !important;
-    border-radius: 0 50px 50px 0;
+    border-radius: var(--nav-radius-50-to-15);
     background: var(--background-nav-gradient);
-    width: 18.5% !important;
+    width: var(--nav-width-18-to-78);
     transition: .3s;
     /* Edit Nav Width */
 }
@@ -24,18 +24,19 @@ section .nav-box {
     justify-content: space-between;
 }
 
-#notifi-dot {
+.not-dot button {
     position: relative;
 }
 
-#notifi-dot::before {
+.not-dot button::before {
     content: '';
+    display: var(--notif-dot-block-to-none);
     position: absolute;
-    width: 9px;
-    height: 9px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    top: 0px;
-    left: 0px;
+    top: -3px;
+    left: 18px;
     background-color: var(--clr-notifi-circl);
 }
 
@@ -82,7 +83,7 @@ section nav .mini-nav .nine-dots-box {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: none;
+    display: var(--nine-dot-none-to-flex);
     /* display: flex in media query */
     flex-direction: column;
     align-items: center;
@@ -146,15 +147,16 @@ section nav .mini-nav .nine-dots-box:hover .nine-dots svg .group-three {
 
 /* Start Nav Categories */
 section nav .categories-box {
-    padding: 0 8px 20px;
+    padding: var(--categories-box-padding-8-to-20);
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: var(--categories-box-flex-start-to-center);
     justify-content: space-around;
     overflow-y: auto;
     overflow-x: hidden;
+    transition: .3s;
     /* Hide & remove the functionality of the scrollbar on X axis */
 }
 
@@ -175,7 +177,7 @@ section nav .categories-box a {
     font-weight: 300;
     color: #fff;
     padding: 5px 15px;
-    border-radius: 50px;
+    border-radius: var(--categories-box-radius-50-to-5px);
     margin: 0 !important;
     /* height: calc(100vh / 11); */
     transition: all 0.1s;
@@ -230,6 +232,11 @@ section nav .more-btn-nav-box > button:hover {
     color: var(--clr-more-btn-nav-hover);
     font-weight: 700;
     background-color: var(--clr-background-more-btn-nav-hover);
+}
+
+section nav .mini-nav .four-mini-nav,
+section nav .categories-box .text {
+    display: var(--nine-dots-and-categories-text-flex-to-none);
 }
 
 

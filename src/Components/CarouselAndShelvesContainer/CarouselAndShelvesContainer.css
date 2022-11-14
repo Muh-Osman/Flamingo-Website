@@ -1,5 +1,6 @@
 /* Carousel And Shelves Container */
 section .carousel-section {
     padding: 0 12px;
-    width: 81.5%;
+    width: var(--carousel-width-81-to-78);
+    transition: .3s;
 }

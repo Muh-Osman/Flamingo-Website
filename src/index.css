@@ -36,6 +36,7 @@ Text Domain: This theme, like SS, is licensed under the GPL.
   --clr-signup-font: #fff;
 
   /* Navbar */
+  --notif-dot-block-to-none: block;
   --background-nav-gradient: linear-gradient(180deg, #FE1251 0%, #FF0045 100%);
   --clr-notifi-circl: #fff;
   --clr-mini-nav-svg-hover: #333;
@@ -80,7 +81,22 @@ Text Domain: This theme, like SS, is licensed under the GPL.
   --clr-border-lang-and-loc: transparent;
   --clr-border-in-hid: #33333312;
   --clr-background-lang-and-loc-hover: #f1f1f1;
+
+
+
+  /* This Style Will Apply Only When <ProductDetails /> Render */
+  --nine-dot-none-to-flex: none;
+  --nine-dots-and-categories-text-flex-to-none: flex;
+  --nav-width-18-to-78: 18.5% !important;
+  --nav-radius-50-to-15: 0 50px 50px 0;
+  --carousel-width-81-to-78: 81.5%;
+  --categories-box-flex-start-to-center: flex-start;
+  --categories-box-padding-8-to-20: 0 8px 20px;
+  --categories-box-radius-50-to-5px: 50px;
+  --rent-text-box-flex-to-none: flex;
+  --rent-icon-box-none-to-block: none;
 }
+
 
 .darkmode {
   --clr-background: #121212;
@@ -148,6 +164,27 @@ Text Domain: This theme, like SS, is licensed under the GPL.
   --clr-border-lang-and-loc: #aaa;
   --clr-border-in-hid: transparent;
   --clr-background-lang-and-loc-hover: #292929;
+}
+
+/* Hide Notification Dot */
+.notif-dot {
+  --notif-dot-block-to-none: none;
+}
+
+
+
+/* This Style Will Apply Only When <ProductDetails /> Render */
+.style-onclick-item {
+  --nine-dot-none-to-flex: flex;
+  --nine-dots-and-categories-text-flex-to-none: none;
+  --nav-width-18-to-78: 78px !important;
+  --nav-radius-50-to-15: 0 15px 15px 0;
+  --carousel-width-81-to-78: calc(100% - 78px) !important;
+  --categories-box-flex-start-to-center: center !important;
+  --categories-box-padding-8-to-20: 0 0 20px;
+  --categories-box-radius-50-to-5px: 5px;
+  --rent-text-box-flex-to-none: none;
+  --rent-icon-box-none-to-block: block;
 }
 
 *,

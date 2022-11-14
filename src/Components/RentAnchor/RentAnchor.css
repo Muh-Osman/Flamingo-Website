@@ -2,12 +2,15 @@
 
 div.rent-box {
     width: 100%;
-    display: flex;
+    padding: 0 !important;
+    margin-top: 20px;
+}
+
+section nav .rent-text-box {
+    display: var(--rent-text-box-flex-to-none);
     align-items: center;
     justify-content: center;
     align-self: center;
-    padding: 0 !important;
-    margin-top: 20px;
 }
 
 section nav .rent-box a.rent-btn-text {
@@ -36,7 +39,7 @@ section nav .rent-box a.rent-btn-text:hover {
 
 
 section nav .rent-icon-box {
-    display: none;
+    display: var(--rent-icon-box-none-to-block);
     width: 100%;
     fill: var(--clr-rent-btn-icon);
 }
