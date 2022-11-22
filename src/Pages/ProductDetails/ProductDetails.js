@@ -44,6 +44,18 @@ const ProductDetails = (props) => {
             <div>Done my param page#    {params.page}</div>
             <div>Done my param ID#      {params.productId}</div>
 
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+
 
         </>
     )

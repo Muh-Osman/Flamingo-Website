@@ -36,7 +36,7 @@ const IconsData = [
     {
         id: 4,
         svg:
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <svg className="nine-dots-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 xmlns="http://www.w3.org/2000/svg" data-testid="category-menu-icon">
                 <path
                     d="M7.58594 7.21875C7.2207 7.69336 6.64648 8 6 8C5.54883 8 5.13281 7.85156 4.79688 7.59961C4.3125 7.23438 4 6.6543 4 6C4 4.89453 4.89453 4 6 4C7.10547 4 8 4.89453 8 6C8 6.45898 7.8457 6.88281 7.58594 7.21875Z"
