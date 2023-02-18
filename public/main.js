@@ -238,7 +238,7 @@ function showCatShelve() {
         mobPhoneNav.style.bottom = "0";
 
     } else {
-        mobPhoneNav.style.bottom == "0";
+        mobPhoneNav.style.bottom = "0";
         mobPhoneNav.style.bottom = "-70px";
     }
 
