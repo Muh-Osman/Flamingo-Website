@@ -79,12 +79,6 @@ darkModeToggle.addEventListener('change', () => {
 
 
 
-// Hide Dot Up Notification Bill
-document.getElementById('dot-func').addEventListener('click', () => {
-    document.querySelector(".notifi-dot").style.display = "none";
-});
-
-
 
 
 
@@ -133,7 +127,7 @@ function fillCarouselIndicator(index) {
 
 // Focus on Search input in top page onclick on search icon in drop nav
 let searchInput = document.querySelector('.input-search');
-let searchIconInNav = document.querySelector('.search-icon-drop-nav');
+let searchIconInNav = document.querySelector('#search-icon-drop-nav');
 
 searchIconInNav.addEventListener("click", () => {
 
@@ -145,35 +139,6 @@ searchIconInNav.addEventListener("click", () => {
 
 
 
-// No need in Reract
-// Add active-btn class to button onclick to Nav Categories
-// let btn = document.querySelectorAll(".cat-items");
-// let btnArray = Array.from(btn);
-
-// btnArray.forEach((ele) => {
-//     ele.addEventListener("click", function (e) {
-
-//         btnArray.forEach((el) => {
-//             el.classList.remove("active-btn");
-//         })
-//         e.currentTarget.classList.add("active-btn");
-
-
-
-
-
-
-// No need in Reract
-//         // Prevent reload page when click on Nav buttons that take you to the same page you are in.
-//         let activeBtn = document.querySelector(".active-btn");
-//         let currentLocation = location.href;
-
-//         if (activeBtn.href === currentLocation) {
-//             e.preventDefault();
-//         }
-
-//     });
-// });
 
 
 
@@ -273,7 +238,7 @@ function showCatShelve() {
         mobPhoneNav.style.bottom = "0";
 
     } else {
-        mobPhoneNav.style.bottom == "0";
+        mobPhoneNav.style.bottom = "0";
         mobPhoneNav.style.bottom = "-70px";
     }
 

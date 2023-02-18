@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Flamingo-Website/static/css/main.56c1e62b.css",
-    "main.js": "/Flamingo-Website/static/js/main.0dae7bc9.js",
+    "main.css": "/Flamingo-Website/static/css/main.084606b7.css",
+    "main.js": "/Flamingo-Website/static/js/main.1324330c.js",
     "static/media/1.webp": "/Flamingo-Website/static/media/1.3d507e02db5be3edab15.webp",
     "static/media/FLIR.jpg": "/Flamingo-Website/static/media/FLIR.feaeebdeeeacd8955344.jpg",
     "static/media/Smart.jpg": "/Flamingo-Website/static/media/Smart.d2e03617b1d2653018c4.jpg",
@@ -12,6 +12,7 @@
     "static/media/BRAVIA.jpg": "/Flamingo-Website/static/media/BRAVIA.77ad7a7622473d64834c.jpg",
     "static/media/K4.jpg": "/Flamingo-Website/static/media/K4.18e54b815d1b408eca02.jpg",
     "static/media/Ultra.jpg": "/Flamingo-Website/static/media/Ultra.63c1a0db6f4170dae661.jpg",
+    "service-worker.js": "/Flamingo-Website/service-worker.js",
     "static/media/S22.jpg": "/Flamingo-Website/static/media/S22.c2848fbe0c2cf230331b.jpg",
     "static/media/Pro.jpg": "/Flamingo-Website/static/media/Pro.103e06f2490497978593.jpg",
     "static/media/mini.jpg": "/Flamingo-Website/static/media/mini.064c788250b32f1e7626.jpg",
@@ -97,11 +98,11 @@
     "static/media/sun_logo.svg": "/Flamingo-Website/static/media/sun_logo.6ca1e568764f6fd29464.svg",
     "index.html": "/Flamingo-Website/index.html",
     "static/media/moon_logo.svg": "/Flamingo-Website/static/media/moon_logo.fc2b9ecc92c6b72f1609.svg",
-    "main.56c1e62b.css.map": "/Flamingo-Website/static/css/main.56c1e62b.css.map",
-    "main.0dae7bc9.js.map": "/Flamingo-Website/static/js/main.0dae7bc9.js.map"
+    "main.084606b7.css.map": "/Flamingo-Website/static/css/main.084606b7.css.map",
+    "main.1324330c.js.map": "/Flamingo-Website/static/js/main.1324330c.js.map"
   },
   "entrypoints": [
-    "static/css/main.56c1e62b.css",
-    "static/js/main.0dae7bc9.js"
+    "static/css/main.084606b7.css",
+    "static/js/main.1324330c.js"
   ]
 }
