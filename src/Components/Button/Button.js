@@ -1,10 +1,10 @@
+
+
 import './Button.css'
 
 const Button = (props) => {
     return (
-
         <div className={props.className}>
-
             <button
                 id={props.id}
                 onClick={props.onClick}
@@ -13,9 +13,7 @@ const Button = (props) => {
             >
                 {props.title}
             </button>
-
         </div>
-
     )
 }
 

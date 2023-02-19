@@ -11,27 +11,18 @@ const ProductDetails = (props) => {
     const navigate = useNavigate()
 
 
-
-
     // Apply some CSS Style onmount <ProductDetails /> Component
     useEffect(() => {
-
         const webStyle = document.getElementById('root')
         webStyle.classList.add('style-onclick-item')
-
         // CleanUp (remove class onUnmount)
         return () => {
-
             webStyle.classList.remove('style-onclick-item')
         }
-
     }, [])
-
-
 
     return (
         <>
-
             <Button onClick={() => navigate(-1)} accessibility={'Back'} title={'Back'} />
             <h1>Product Details</h1>
             <div>Product ID:          {props.item[params.productId - 1].id}         </div>
@@ -55,8 +46,6 @@ const ProductDetails = (props) => {
             <div>lorem</div>
             <div>lorem</div>
             <div>lorem</div>
-
-
         </>
     )
 }

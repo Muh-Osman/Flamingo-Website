@@ -1,6 +1,6 @@
 import { useState } from 'react'
-
 import { ShelveConainer, ItemShelves, Button } from '../../Components'
+import './Home.css'
 
 import ForYouItemsData from '../../Data/HomeData/ForYouData'
 import MobilePhonesItemsData from '../../Data/HomeData/MobilePhonesData'
@@ -11,14 +11,7 @@ import ComputersItemsData from '../../Data/HomeData/ComputersData'
 import TabletsItemsData from '../../Data/HomeData/TabletsData'
 import TvsItemsData from '../../Data/HomeData/TvsData'
 
-import './Home.css'
-
-
-
-
-
 const Home = () => {
-
 
     // For hide Big more Button & add component
     const [state, setState] = useState(false)
@@ -72,21 +65,7 @@ const Home = () => {
         />
     })
 
-    const tabletsItems = TabletsItemsData.map(item => {
-        return <ItemShelves
-            className={'item-cards'}
-            key={item.id}
-            item={item}
-        />
-    })
 
-    const tvsItems = TvsItemsData.map(item => {
-        return <ItemShelves
-            className={'item-cards'}
-            key={item.id}
-            item={item}
-        />
-    })
 
 
 
@@ -135,24 +114,31 @@ const Home = () => {
                     <>
                         {/* Tablets Shelve */}
                         < ShelveConainer href='/Tablets' title='Tablets'>
-                            {tabletsItems}
+                            {TabletsItemsData.map(item => {
+                                return <ItemShelves
+                                        className={'item-cards'}
+                                        key={item.id}
+                                        item={item}
+                                        />
+                            })}
                         </ShelveConainer>
 
                         {/* Tvs Shelve */}
                         <ShelveConainer href='/Tvs' title='TVs'>
-                            {tvsItems}
+                            {TvsItemsData.map(item => {
+                                return <ItemShelves
+                                        className={'item-cards'}
+                                        key={item.id}
+                                        item={item}
+                                        />
+                            })}
                         </ShelveConainer>
-
                     </>
-
                 ) : (
-
                     //  <Big More Button 
                     <Button onClick={() => setState(true)} className={'big-more-btn'} title={'More'} />
-
                 )
             }
-
 
         </>
     )
