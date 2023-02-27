@@ -29,7 +29,7 @@ import AppleComputersData from './Data/ComputersData/AppleComputersData'
 // Import Tablets Page Data
 import AppleTabletsData from './Data/TabletsData/AppleTabletsData'
 // Import TVs Page Data
-import LgTvsData from './Data/TvsData/LgTvsData'
+import LgTvsData from './Data/ttData/LgTvsData'
 // Import Accessories Page Data
 import ToolsData from './Data/AccessoriesData/ToolsData'
 
