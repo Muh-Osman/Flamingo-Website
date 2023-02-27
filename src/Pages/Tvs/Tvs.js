@@ -1,6 +1,6 @@
 import "./Tvs.css";
 import { useState } from "react";
-import LgTvsItemsData from "../../Data/ttData/LgTvsData";
+import LgTvsItemsData from "../../Data/TvsData/LgTvsData";
 import { ShelveConainer, ItemShelves, Button } from "../../Components";
 
 const Tvs = () => {
