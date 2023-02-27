@@ -40,8 +40,6 @@
     ]
   },
   "devDependencies": {
-    "@types/bootstrap": "^5.2.5",
-    "file-loader": "^6.2.0",
-    "gh-pages": "^4.0.0"
+    "@types/bootstrap": "^5.2.5"
   }
 }
