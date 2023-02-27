@@ -4,7 +4,7 @@ import NANO from '../../Assets/Images/product images/TVs/lg tvs/NANO.jpg'
 import K4 from '../../Assets/Images/product images/TVs/lg tvs/K4.jpg'
 import OLED from '../../Assets/Images/product images/TVs/lg tvs/OLED.jpg'
 
-const lgTvsData = [
+const LgTvsData = [
 
     {
         id: 1,
@@ -109,4 +109,4 @@ const lgTvsData = [
 
 ]
 
-export default lgTvsData
+export default LgTvsData
