@@ -29,7 +29,7 @@ import AppleComputersData from './Data/ComputersData/AppleComputersData'
 // Import Tablets Page Data
 import AppleTabletsData from './Data/TabletsData/AppleTabletsData'
 // Import TVs Page Data
-// import LgTvsData from './Data/TvsData/LgTvsData'
+import LgTvsData from './Data/TabletsData/AppleTabletsData'
 // Import Accessories Page Data
 import ToolsData from './Data/AccessoriesData/ToolsData'
 
@@ -86,7 +86,7 @@ const App = () => {
               <Route path='tablets/apple/:productId' element={<ProductDetails item={AppleTabletsData} />} />
 
               <Route path='/tvs' element={<Tvs />} />
-              {/* <Route path='tvs/lg/:productId' element={<ProductDetails item={LgTvsData} />} /> */}
+              <Route path='tvs/lg/:productId' element={<ProductDetails item={LgTvsData} />} />
 
               <Route path='/accessories' element={<Accessories />} />
               <Route path='accessories/tools/:productId' element={<ProductDetails item={ToolsData} />} />
