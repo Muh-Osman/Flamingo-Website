@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/270d7e59-7fbc-4f22-a23a-136ada7e8676/deploy-status)](https://app.netlify.com/sites/flamingo-store/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
