@@ -18,14 +18,11 @@ const Navbar = () => {
     const [isDot, setIsDot] = useState(true)
 
     useEffect(() => {
-
         isDot ? (
             document.getElementById('root').classList.remove('notif-dot')
         ) : (
             document.getElementById('root').classList.add('notif-dot')
         )
-
-
     }, [isDot])
 
 
@@ -45,7 +42,6 @@ const Navbar = () => {
                     <Button className={'four-mini-nav not-dot'} accessibility={"Notification"} title={IconsData[3].svg}
                         onClick={() => { setIsDot(false) }}
                     />
-
 
 
 

@@ -11,6 +11,7 @@ import ComputersItemsData from '../../Data/HomeData/ComputersData'
 import TabletsItemsData from '../../Data/HomeData/TabletsData'
 import TvsItemsData from '../../Data/HomeData/TvsData'
 
+
 const Home = () => {
 
     // For hide Big more Button & add component

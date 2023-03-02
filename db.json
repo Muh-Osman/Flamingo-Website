@@ -1,0 +1,612 @@
+{
+  "phones": {
+    "applephonesdata": [
+      {
+        "id": 1,
+        "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+        "description": "Apple iPhone 12, 64GB, Black - Fully Unlocked",
+        "shelve": "apple",
+        "price": 59,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 2,
+        "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+        "description": "Apple iPhone 13 Pro Max, 128GB, Sierra Blue",
+        "shelve": "apple",
+        "price": 75,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 3,
+        "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+        "description": "Apple iPhone XS, US Version, 256GB, Space Gray",
+        "shelve": "apple",
+        "price": 39,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 4,
+        "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+        "description": "iPhone SE 64GB Factory Unlocked, Rose Gold",
+        "shelve": "apple",
+        "price": 25,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 5,
+        "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+        "description": "iPhone 7 64GB Unlocked ATT Tmobile Verizon - Gray",
+        "shelve": "apple",
+        "price": 39,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 6,
+        "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+        "description": "Apple iPhone 12, 64GB, Black - Fully Unlocked",
+        "shelve": "apple",
+        "price": 59,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 7,
+        "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+        "description": "Apple iPhone 13 Pro Max, 128GB, Sierra Blue",
+        "shelve": "apple",
+        "price": 75,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 8,
+        "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+        "description": "Apple iPhone XS, US Version, 256GB, Space Gray",
+        "shelve": "apple",
+        "price": 39,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 9,
+        "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+        "description": "iPhone SE 64GB Factory Unlocked, Rose Gold",
+        "shelve": "apple",
+        "price": 25,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 10,
+        "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+        "description": "iPhone 7 64GB Unlocked ATT Tmobile Verizon - Gray",
+        "shelve": "apple",
+        "price": 39,
+        "currency": "SAR",
+        "period": "week"
+      }
+    ],
+
+    "samsungphonesdata": [
+      {
+        "id": 1,
+        "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+        "description": "SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android smartphone, 256GB",
+        "shelve": "samsung",
+        "price": 59,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 2,
+        "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+        "description": "SAMSUNG Galaxy S22 Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera",
+        "shelve": "samsung",
+        "price": 55,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 3,
+        "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+        "description": "SAMSUNG Galaxy Z Fold 4 Cell Phone, Factory Unlocked Android Smartphone",
+        "shelve": "samsung",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 4,
+        "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+        "description": "SAMSUNG Galaxy Z Flip 3 5G Cell Phone, Factory Unlocked Android Smartphone, 256GB",
+        "shelve": "samsung",
+        "price": 55,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 5,
+        "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+        "description": "Samsung Galaxy Note 10+, 256GB, Aura Black",
+        "shelve": "samsung",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 6,
+        "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+        "description": "SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android smartphone, 256GB",
+        "shelve": "samsung",
+        "price": 59,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 7,
+        "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+        "description": "SAMSUNG Galaxy S22 Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera",
+        "shelve": "samsung",
+        "price": 55,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 8,
+        "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+        "description": "SAMSUNG Galaxy Z Fold 4 Cell Phone, Factory Unlocked Android Smartphone",
+        "shelve": "samsung",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 9,
+        "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+        "description": "SAMSUNG Galaxy Z Flip 3 5G Cell Phone, Factory Unlocked Android Smartphone, 256GB",
+        "shelve": "samsung",
+        "price": 55,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 10,
+        "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+        "description": "Samsung Galaxy Note 10+, 256GB, Aura Black",
+        "shelve": "samsung",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      }
+    ],
+
+    "googlephonesdata": [
+      {
+        "id": 1,
+        "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+        "description": "Google Pixel 4 XL - Clearly White - 128GB - Unlocked",
+        "shelve": "google",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 2,
+        "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+        "description": "Google Pixel 2 XL 128GB Unlocked GSM/CDMA 4G LTE Octa-Core Phone w/ 12.2MP Camera - Black & White",
+        "shelve": "google",
+        "price": 45,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 3,
+        "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+        "description": "Google Pixel 6 Pro - 5G Android Phone - Unlocked Smartphone with Advanced Pixel Camera and Telephoto Lens - 256GB - Stormy Black",
+        "shelve": "google",
+        "price": 59,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 4,
+        "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+        "description": "Google Pixel 6 Pro 5G 128GB 12GB RAM Factory Unlocked",
+        "shelve": "google",
+        "price": 44,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 5,
+        "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+        "description": "Google Pixel 6 Pro 5G 128GB 12GB RAM Factory Unlocked",
+        "shelve": "google",
+        "price": 55,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 6,
+        "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+        "description": "Google Pixel 4 XL - Clearly White - 128GB - Unlocked",
+        "shelve": "google",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 7,
+        "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+        "description": "Google Pixel 2 XL 128GB Unlocked GSM/CDMA 4G LTE Octa-Core Phone w/ 12.2MP Camera - Black & White",
+        "shelve": "google",
+        "price": 45,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 8,
+        "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+        "description": "Google Pixel 6 Pro - 5G Android Phone - Unlocked Smartphone with Advanced Pixel Camera and Telephoto Lens - 256GB - Stormy Black",
+        "shelve": "google",
+        "price": 59,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 9,
+        "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+        "description": "Google Pixel 6 Pro 5G 128GB 12GB RAM Factory Unlocked",
+        "shelve": "google",
+        "price": 44,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 10,
+        "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+        "description": "Google Pixel 6 Pro 5G 128GB 12GB RAM Factory Unlocked",
+        "shelve": "google",
+        "price": 55,
+        "currency": "SAR",
+        "period": "week"
+      }
+    ]
+  },
+
+  "gaming": {
+    "sonygamingdata": [
+      {
+        "id": 1,
+        "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+        "description": "PlayStation 4 Slim 1TB Console",
+        "shelve": "sony",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 2,
+        "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+        "description": "DualShock 4 Wireless Controller for PlayStation 4 - Green Camouflage",
+        "shelve": "sony",
+        "price": 25,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 3,
+        "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+        "description": "PlayStation 3 - 320 GB System/PlayStation Move Bundle",
+        "shelve": "sony",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 4,
+        "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+        "description": "PlayStation PULSE 3D Wireless Headset",
+        "shelve": "sony",
+        "price": 45,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 5,
+        "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+        "description": "PlayStation 5 Console",
+        "shelve": "sony",
+        "price": 59,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 6,
+        "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+        "description": "PlayStation 4 Slim 1TB Console",
+        "shelve": "sony",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 7,
+        "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+        "description": "DualShock 4 Wireless Controller for PlayStation 4 - Green Camouflage",
+        "shelve": "sony",
+        "price": 25,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 8,
+        "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+        "description": "PlayStation 3 - 320 GB System/PlayStation Move Bundle",
+        "shelve": "sony",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 9,
+        "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+        "description": "PlayStation PULSE 3D Wireless Headset",
+        "shelve": "sony",
+        "price": 45,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 10,
+        "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+        "description": "PlayStation 5 Console",
+        "shelve": "sony",
+        "price": 59,
+        "currency": "SAR",
+        "period": "week"
+      }
+    ]
+  },
+  
+  "watches": {
+    "applewatchesdata": [
+      {
+        "id": 1,
+        "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+        "description": "Apple Watch Ultra [GPS + Cellular 49mm] Smart Watch w/Rugged Titanium Case & Orange Alpine",
+        "shelve": "apple",
+        "price": 55,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 2,
+        "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+        "description": "Apple Watch SE (2nd Gen) [GPS 44mm] Smart Watch w/Midnight Aluminum Case & Midnight Sport Band",
+        "shelve": "apple",
+        "price": 24,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 3,
+        "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+        "description": "Apple Watch Series 7 [GPS + Cellular 41mm] Smart Watch w/ Blue Aluminum Case with Abyss Blue Sport Band.",
+        "shelve": "apple",
+        "price": 35,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 4,
+        "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+        "description": "Apple Watch Series 7 [GPS + Cellular 45mm] Smart Watch w/ Silver Stainless Steel Case with Starlight Sport Band.",
+        "shelve": "apple",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 5,
+        "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+        "description": "Apple Watch Series 3 [GPS 38mm] Smart Watch w/ Space Gray Aluminum Case",
+        "shelve": "apple",
+        "price": 39,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 6,
+        "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+        "description": "Apple Watch Ultra [GPS + Cellular 49mm] Smart Watch w/Rugged Titanium Case & Orange Alpine",
+        "shelve": "apple",
+        "price": 55,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 7,
+        "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+        "description": "Apple Watch SE (2nd Gen) [GPS 44mm] Smart Watch w/Midnight Aluminum Case & Midnight Sport Band",
+        "shelve": "apple",
+        "price": 24,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 8,
+        "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+        "description": "Apple Watch Series 7 [GPS + Cellular 41mm] Smart Watch w/ Blue Aluminum Case with Abyss Blue Sport Band.",
+        "shelve": "apple",
+        "price": 35,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 9,
+        "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+        "description": "Apple Watch Series 7 [GPS + Cellular 45mm] Smart Watch w/ Silver Stainless Steel Case with Starlight Sport Band.",
+        "shelve": "apple",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 10,
+        "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+        "description": "Apple Watch Series 3 [GPS 38mm] Smart Watch w/ Space Gray Aluminum Case",
+        "shelve": "apple",
+        "price": 39,
+        "currency": "SAR",
+        "period": "week"
+      }
+    ]
+  },
+
+  "tvs": {
+    "lgtvsdata": [
+      {
+        "id": 1,
+        "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+        "description": "LG 83-Inch Class OLED evo C2 Series Alexa built-in 4K Smart TV",
+        "shelve": "lg",
+        "price": 79,
+        "currency": "SAR",
+        "period": "week"
+      },
+      {
+        "id": 2,
+        "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+        "description": "LG 65-Inch Class UQ9000 Series Alexa Built-in 4K Smart TV",
+        "shelve": "lg",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      },
+      {
+        "id": 3,
+        "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+        "description": "LG 43-Inch Class NANO75 Series Alexa Built-in 4K Smart TV",
+        "shelve": "lg",
+        "price": 55,
+        "currency": "SAR",
+        "period": "week"
+      },
+      {
+        "id": 4,
+        "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+        "description": "LG 55SM8600PUA Nano 8 Series 55\" 4K Ultra HD Smart LED NanoCell TV",
+        "shelve": "lg",
+        "price": 88,
+        "currency": "SAR",
+        "period": "week"
+      },
+      {
+        "id": 5,
+        "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+        "description": "LG OLED55GXPUA Alexa Built-In GX Series 55\" Gallery Design 4K",
+        "shelve": "lg",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      },
+      {
+        "id": 6,
+        "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+        "description": "LG 83-Inch Class OLED evo C2 Series Alexa built-in 4K Smart TV",
+        "shelve": "lg",
+        "price": 79,
+        "currency": "SAR",
+        "period": "week"
+      },
+      {
+        "id": 7,
+        "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+        "description": "LG 65-Inch Class UQ9000 Series Alexa Built-in 4K Smart TV",
+        "shelve": "lg",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      },
+      {
+        "id": 8,
+        "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+        "description": "LG 43-Inch Class NANO75 Series Alexa Built-in 4K Smart TV",
+        "shelve": "lg",
+        "price": 55,
+        "currency": "SAR",
+        "period": "week"
+      },
+      {
+        "id": 9,
+        "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+        "description": "LG 55SM8600PUA Nano 8 Series 55\" 4K Ultra HD Smart LED NanoCell TV",
+        "shelve": "lg",
+        "price": 88,
+        "currency": "SAR",
+        "period": "week"
+      },
+      {
+        "id": 10,
+        "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+        "description": "LG OLED55GXPUA Alexa Built-In GX Series 55\" Gallery Design 4K",
+        "shelve": "lg",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      }
+    ]
+  }
+}

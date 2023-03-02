@@ -1,22 +1,27 @@
 import "./Tvs.css";
-import { useState } from "react";
-import LgTvsItemsData from "../../Data/TvsData/LgTvsData";
+import { useState, useEffect } from "react";
 import { ShelveConainer, ItemShelves, Button } from "../../Components";
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchProducts } from "../../rtk/slices/products-slice";
 
 const Tvs = () => {
+  // fetch Data from Redux
+  const dispatch = useDispatch()
+  useEffect(() => {dispatch(fetchProducts("tvs"))}, [])
+  const data = useSelector(data => data.products)
+
   // Hide Big more Button & add components
   const [state, setState] = useState(false);
 
-  // Loop on Data
-  const lgTvsItems = LgTvsItemsData.map((item) => {
-    return <ItemShelves className={"item-cards"} key={item.id} item={item} />;
-  });
-
   return (
     <>
+      {/* LG */}
       <ShelveConainer href="https://www.google.com/" title="LG">
-        {lgTvsItems}
+        {data? data.lgtvsdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
       </ShelveConainer>
+
+
+
 
       {/* Hide Big more Button & add components */}
 

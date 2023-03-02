@@ -3,6 +3,7 @@ import './NavbarCategoryLink.css'
 
 
 const NavbarCategoryLink = (props) => {
+
     return (
         <NavLink to={props.to}>
             <div className="cat">
