@@ -1,138 +1,66 @@
-import { useState } from 'react'
-import { ShelveConainer, ItemShelves, Button } from '../../Components'
 import './Home.css'
-
-import ForYouItemsData from '../../Data/HomeData/ForYouData'
-import MobilePhonesItemsData from '../../Data/HomeData/MobilePhonesData'
-import GamingItemsData from '../../Data/HomeData/GamingData'
-import SmartWatchesItemsData from '../../Data/HomeData/SmartWatchesData'
-import CamerasItemsData from '../../Data/HomeData/CamerasData'
-import ComputersItemsData from '../../Data/HomeData/ComputersData'
-import TabletsItemsData from '../../Data/HomeData/TabletsData'
-import TvsItemsData from '../../Data/HomeData/TvsData'
+import { useState, useEffect } from 'react'
+import { ShelveConainer, ItemShelves, Button } from '../../Components'
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchProducts } from "../../rtk/slices/products-slice";
 
 
 const Home = () => {
+    // fetch Data from Redux
+    const dispatch = useDispatch()
+    useEffect(() => {dispatch(fetchProducts("home"))}, [])
+    const data = useSelector(data => data.products)
 
     // For hide Big more Button & add component
     const [state, setState] = useState(false)
-
-    // Loop on Data
-    const forYouItems = ForYouItemsData.map(item => {
-        return <ItemShelves
-            className={'item-cards'}
-            key={item.id}
-            item={item}
-        />
-    })
-
-    const mobilePhonesItems = MobilePhonesItemsData.map(item => {
-        return <ItemShelves
-            className={'item-cards'}
-            key={item.id}
-            item={item}
-        />
-    })
-
-    const gamingItems = GamingItemsData.map(item => {
-        return <ItemShelves
-            className={'item-cards'}
-            key={item.id}
-            item={item}
-        />
-    })
-
-    const smartWatchesItems = SmartWatchesItemsData.map(item => {
-        return <ItemShelves
-            className={'item-cards'}
-            key={item.id}
-            item={item}
-        />
-    })
-
-    const camerasItems = CamerasItemsData.map(item => {
-        return <ItemShelves
-            className={'item-cards'}
-            key={item.id}
-            item={item}
-        />
-    })
-
-    const computersItems = ComputersItemsData.map(item => {
-        return <ItemShelves
-            className={'item-cards'}
-            key={item.id}
-            item={item}
-        />
-    })
-
-
-
-
-
-
 
     return (
         <>
 
             {/* <!-- For You shelve --> */}
             <ShelveConainer href='/' title='For you'>
-                {forYouItems}
+                {data? data.foryoudata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
             </ShelveConainer>
 
             {/* <!-- Mobile Phones shelve --> */}
             <ShelveConainer href='/Phones' title='Mobile Phones'>
-                {mobilePhonesItems}
+                {data? data.mobilephonesdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
             </ShelveConainer>
 
             {/* <!-- Gaming & VR shelve --> */}
             <ShelveConainer href='/Gaming' title='Gaming & VR'>
-                {gamingItems}
+                {data? data.gamingdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
             </ShelveConainer>
 
             {/* <!-- Smart Watches shelve --> */}
             <ShelveConainer href='/Watches' title='Smart watches'>
-                {smartWatchesItems}
+                {data? data.smartwatchesdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
             </ShelveConainer>
 
             {/* <!-- Cameras Shelve --> */}
             <ShelveConainer href='/Cameras' title='Cameras'>
-                {camerasItems}
+                {data? data.camerasdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
             </ShelveConainer>
 
             {/* <!-- Computers Shelve --> */}
             <ShelveConainer href='/Computers' title='Computers'>
-                {computersItems}
+                {data? data.computersdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
             </ShelveConainer>
 
 
 
-
             {/* For hide Big more Button & add component */}
-
             {
                 state ? (
                     <>
                         {/* Tablets Shelve */}
                         < ShelveConainer href='/Tablets' title='Tablets'>
-                            {TabletsItemsData.map(item => {
-                                return <ItemShelves
-                                        className={'item-cards'}
-                                        key={item.id}
-                                        item={item}
-                                        />
-                            })}
+                            {data? data.tabletsdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
                         </ShelveConainer>
 
                         {/* Tvs Shelve */}
                         <ShelveConainer href='/Tvs' title='TVs'>
-                            {TvsItemsData.map(item => {
-                                return <ItemShelves
-                                        className={'item-cards'}
-                                        key={item.id}
-                                        item={item}
-                                        />
-                            })}
+                            {data? data.tvsdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
                         </ShelveConainer>
                     </>
                 ) : (
@@ -140,7 +68,6 @@ const Home = () => {
                     <Button onClick={() => setState(true)} className={'big-more-btn'} title={'More'} />
                 )
             }
-
         </>
     )
 }

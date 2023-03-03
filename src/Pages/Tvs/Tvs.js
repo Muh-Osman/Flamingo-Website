@@ -21,8 +21,6 @@ const Tvs = () => {
       </ShelveConainer>
 
 
-
-
       {/* Hide Big more Button & add components */}
 
       {state ? (

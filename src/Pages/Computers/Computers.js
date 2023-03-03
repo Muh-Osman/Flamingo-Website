@@ -1,40 +1,27 @@
 import './Computers.css'
-import { useState } from 'react'
-import AppleComputersItemsData from '../../Data/ComputersData/AppleComputersData'
+import { useState, useEffect } from 'react'
 import { ShelveConainer, ItemShelves, Button } from '../../Components'
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchProducts } from "../../rtk/slices/products-slice";
 
 const Computers = () => {
+  // fetch Data from Redux
+  const dispatch = useDispatch()
+  useEffect(() => {dispatch(fetchProducts("computers"))}, [])
+  const data = useSelector(data => data.products)
 
 
   // Hide Big more Button & add components
   const [state, setState] = useState(false)
 
-
-  // Loop on Data
-  const appleComputersItems = AppleComputersItemsData.map(item => {
-    return <ItemShelves
-      className={'item-cards'}
-      key={item.id}
-      item={item}
-    />
-  })
-
-
-
-
-
   return (
     <>
-
       <ShelveConainer href='https://www.google.com/' title='Apple'>
-        {appleComputersItems}
+        {data? data.applecomputersdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
       </ShelveConainer>
 
 
-
-
       {/* Hide Big more Button & add components */}
-
       {
         state ? (
           <>
