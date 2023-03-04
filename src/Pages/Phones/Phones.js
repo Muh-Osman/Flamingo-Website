@@ -16,15 +16,15 @@ const Phones = () => {
   return (
     <>
       <ShelveConainer href="https://www.google.com/" title="Apple">
-      {data? data.applephonesdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
+        {data?.apple?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
       </ShelveConainer>
 
       <ShelveConainer href="https://www.google.com/" title="Samsung">
-      {data? data.samsungphonesdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
+        {data?.samsung?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
       </ShelveConainer>
 
       <ShelveConainer href="https://www.google.com/" title="Google">
-        {data? data.googlephonesdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
+        {data?.google?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
       </ShelveConainer>
 
       {/* For hide Big more Button & add component */}

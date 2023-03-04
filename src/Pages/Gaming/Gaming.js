@@ -17,7 +17,7 @@ const Gaming = () => {
   return (
     <>
       <ShelveConainer href='https://www.google.com/' title='Sony'>
-        {data? data.sonygamingdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
+        {data?.sony?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
       </ShelveConainer>
 
 

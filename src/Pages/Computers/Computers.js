@@ -17,7 +17,7 @@ const Computers = () => {
   return (
     <>
       <ShelveConainer href='https://www.google.com/' title='Apple'>
-        {data? data.applecomputersdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
+        {data?.apple?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
       </ShelveConainer>
 
 

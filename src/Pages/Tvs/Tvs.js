@@ -13,11 +13,12 @@ const Tvs = () => {
   // Hide Big more Button & add components
   const [state, setState] = useState(false);
 
+
   return (
     <>
       {/* LG */}
       <ShelveConainer href="https://www.google.com/" title="LG">
-        {data? data.lgtvsdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
+        {data?.lg?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
       </ShelveConainer>
 
 

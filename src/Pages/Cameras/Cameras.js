@@ -17,7 +17,7 @@ const Cameras = () => {
   return (
     <>
       <ShelveConainer href='https://www.google.com/' title='Canon'>
-        {data? data.canoncamerasdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
+        {data?.canon?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
       </ShelveConainer>
 
 

@@ -17,7 +17,7 @@ const Accessories = () => {
   return (
     <>
       <ShelveConainer href='https://www.google.com/' title='Tools'>
-        {data? data.toolsdata.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />): null}
+        {data?.tools?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
       </ShelveConainer>
 
 

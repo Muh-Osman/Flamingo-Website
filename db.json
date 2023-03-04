@@ -1,6 +1,6 @@
 {
   "home": {
-    "foryoudata": [
+    "foryou": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
@@ -102,7 +102,7 @@
       }
     ],
 
-    "mobilephonesdata": [
+    "mobilephones": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
@@ -204,7 +204,7 @@
       }
     ],
 
-    "gamingdata": [
+    "gaming": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
@@ -306,7 +306,7 @@
       }
     ],
 
-    "smartwatchesdata": [
+    "smartwatches": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
@@ -408,7 +408,7 @@
       }
     ],
 
-    "camerasdata": [
+    "cameras": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
@@ -510,7 +510,7 @@
       }
     ],
 
-    "computersdata": [
+    "computers": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
@@ -612,7 +612,7 @@
       }
     ],
 
-    "tabletsdata": [
+    "tablets": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
@@ -714,7 +714,7 @@
       }
     ],
 
-    "tvsdata": [
+    "tvs": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
@@ -818,7 +818,7 @@
   },
 
   "phones": {
-    "applephonesdata": [
+    "apple": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
@@ -920,7 +920,7 @@
       }
     ],
 
-    "samsungphonesdata": [
+    "samsung": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
@@ -1022,7 +1022,7 @@
       }
     ],
 
-    "googlephonesdata": [
+    "google": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
@@ -1126,7 +1126,7 @@
   },
 
   "gaming": {
-    "sonygamingdata": [
+    "sony": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
@@ -1230,7 +1230,7 @@
   },
 
   "watches": {
-    "applewatchesdata": [
+    "apple": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
@@ -1334,7 +1334,7 @@
   },
 
   "cameras": {
-    "canoncamerasdata": [
+    "canon": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
@@ -1438,7 +1438,7 @@
   },
 
   "computers": {
-    "applecomputersdata": [
+    "apple": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
@@ -1542,7 +1542,7 @@
   },
 
   "tablets": {
-    "appletabletsdata": [
+    "apple": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
@@ -1646,7 +1646,7 @@
   },
 
   "tvs": {
-    "lgtvsdata": [
+    "lg": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
@@ -1741,7 +1741,7 @@
   },
 
   "accessories": {
-    "toolsdata": [
+    "tools": [
       {
         "id": 1,
         "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
