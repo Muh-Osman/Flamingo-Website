@@ -1,0 +1,1847 @@
+{
+    "home": {
+      "foryou": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
+          "description": "Sony PlayStation 5 DualSense Controller with DualSense Controller",
+          "shelve": "foryou",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
+          "description": "Canon DSLR Camera EOS 80D (4K Video)",
+          "shelve": "foryou",
+          "price": 149,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
+          "description": "Apple MacBook Pro M1 Max chip 16GB RAM",
+          "shelve": "foryou",
+          "price": 139,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
+          "description": "Apple iPad Mini (Wi-Fi, 64GB) - Starlight",
+          "shelve": "foryou",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
+          "description": "Apple iPhone 13 Pro (128GB) - Dual SIM",
+          "shelve": "foryou",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
+          "description": "Sony PlayStation 5 DualSense Controller with DualSense Controller",
+          "shelve": "foryou",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
+          "description": "Canon DSLR Camera EOS 80D (4K Video)",
+          "shelve": "foryou",
+          "price": 149,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
+          "description": "Apple MacBook Pro M1 Max chip 16GB RAM",
+          "shelve": "foryou",
+          "price": 139,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
+          "description": "Apple iPad Mini (Wi-Fi, 64GB) - Starlight",
+          "shelve": "foryou",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX342_.jpg",
+          "description": "Apple iPhone 13 Pro (128GB) - Dual SIM",
+          "shelve": "foryou",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ],
+  
+      "mobilephones": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
+          "description": "Apple iPhone 12 Pro (128GB) - Dual SIM",
+          "shelve": "mobilephones",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
+          "description": "SAMSUNG Galaxy S22 FE 5G",
+          "shelve": "mobilephones",
+          "price": 89,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
+          "description": "SAMSUNG Galaxy Z Fold 3 128GB - Dual SIM",
+          "shelve": "mobilephones",
+          "price": 144,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
+          "description": "SAMSUNG ZFlip 3 SAMSUNG Electronics Galaxy ZFlip 3 5G",
+          "shelve": "mobilephones",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
+          "description": "Google Pixel 5a 128GB, 6GB RAM, 5G",
+          "shelve": "mobilephones",
+          "price": 79,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
+          "description": "Apple iPhone 12 Pro (128GB) - Dual SIM",
+          "shelve": "mobilephones",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
+          "description": "SAMSUNG Galaxy S22 FE 5G",
+          "shelve": "mobilephones",
+          "price": 89,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
+          "description": "SAMSUNG Galaxy Z Fold 3 128GB - Dual SIM",
+          "shelve": "mobilephones",
+          "price": 144,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
+          "description": "SAMSUNG ZFlip 3 SAMSUNG Electronics Galaxy ZFlip 3 5G",
+          "shelve": "mobilephones",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/51K7abmErwL._AC_SX679_.jpg",
+          "description": "Google Pixel 5a 128GB, 6GB RAM, 5G",
+          "shelve": "mobilephones",
+          "price": 79,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ],
+  
+      "gaming": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
+          "description": "PlayStation DualSense Wireless Controller DualSense Wireless Controller",
+          "shelve": "gaming",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
+          "description": "Battlefield 2042 - PlayStation 5",
+          "shelve": "gaming",
+          "price": 34,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
+          "description": "VR Headset Compatible with iPhone & Android Compatible with iPhone & Android",
+          "shelve": "gaming",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
+          "description": "Nintendo Switch (OLED) White Joy-Con",
+          "shelve": "gaming",
+          "price": 70,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
+          "description": "FIFA 22 - PlayStation 5",
+          "shelve": "gaming",
+          "price": 44,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
+          "description": "PlayStation DualSense Wireless Controller DualSense Wireless Controller",
+          "shelve": "gaming",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
+          "description": "Battlefield 2042 - PlayStation 5",
+          "shelve": "gaming",
+          "price": 34,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
+          "description": "VR Headset Compatible with iPhone & Android Compatible with iPhone & Android",
+          "shelve": "gaming",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
+          "description": "Nintendo Switch (OLED) White Joy-Con",
+          "shelve": "gaming",
+          "price": 70,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/61rnJLa6OfL._SX466_.jpg",
+          "description": "FIFA 22 - PlayStation 5",
+          "shelve": "gaming",
+          "price": 44,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ],
+  
+      "smartwatches": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
+          "description": "Apple Watch Series 7 GPS, 45mm Aluminum",
+          "shelve": "smartwatches",
+          "price": 66,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
+          "description": "SAMSUNG Galaxy Watch Active2 Silicon Strap",
+          "shelve": "smartwatches",
+          "price": 44,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
+          "description": "Fossil Men Gen 6 Touchscreen Smartwatch",
+          "shelve": "smartwatches",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
+          "description": "Apple Watch Series 7 GPS, 45mm Aluminum GPS, 45mm Aluminum",
+          "shelve": "smartwatches",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
+          "description": "HUAWEI WATCH GT Sport Black Rubber Graphite Black",
+          "shelve": "smartwatches",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
+          "description": "Apple Watch Series 7 GPS, 45mm Aluminum",
+          "shelve": "smartwatches",
+          "price": 66,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
+          "description": "SAMSUNG Galaxy Watch Active2 Silicon Strap",
+          "shelve": "smartwatches",
+          "price": 44,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
+          "description": "Fossil Men Gen 6 Touchscreen Smartwatch",
+          "shelve": "smartwatches",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
+          "description": "Apple Watch Series 7 GPS, 45mm Aluminum GPS, 45mm Aluminum",
+          "shelve": "smartwatches",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/61uhLvuUZSL._AC_SY355_.jpg",
+          "description": "HUAWEI WATCH GT Sport Black Rubber Graphite Black",
+          "shelve": "smartwatches",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ],
+  
+      "cameras": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
+          "description": "Sony Alpha A7 III Full-Frame Camera 35mm",
+          "shelve": "cameras",
+          "price": 199,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
+          "description": "Nikon Coolpix B600 Digital Camera, Black",
+          "shelve": "cameras",
+          "price": 80,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
+          "description": "Canon RF 100-500mm F4.5-7.1L IS USM",
+          "shelve": "cameras",
+          "price": 199,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
+          "description": "Canon EOS 5D Mark IV 24-105mm F/4L USM Lens",
+          "shelve": "cameras",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
+          "description": "GoPro HERO9 Black Waterproof Action Camera",
+          "shelve": "cameras",
+          "price": 80,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
+          "description": "Sony Alpha A7 III Full-Frame Camera 35mm",
+          "shelve": "cameras",
+          "price": 199,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
+          "description": "Nikon Coolpix B600 Digital Camera, Black",
+          "shelve": "cameras",
+          "price": 80,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
+          "description": "Canon RF 100-500mm F4.5-7.1L IS USM",
+          "shelve": "cameras",
+          "price": 199,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
+          "description": "Canon EOS 5D Mark IV 24-105mm F/4L USM Lens",
+          "shelve": "cameras",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/81umjxv58PL._AC_SX355_.jpg",
+          "description": "GoPro HERO9 Black Waterproof Action Camera",
+          "shelve": "cameras",
+          "price": 80,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ],
+  
+      "computers": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
+          "description": "Acer Nitro 5 AN515-55-53E5 Gaming Laptop | Intel Core i5-10300H",
+          "shelve": "computers",
+          "price": 70,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
+          "description": "Lenovo Ideapad Laptop With FHD 11.6-Inch",
+          "shelve": "computers",
+          "price": 60,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
+          "description": "HP Laptop 15-da2029nx 15.6\" HD Intel Core i3",
+          "shelve": "computers",
+          "price": 66,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
+          "description": "Dell XPS 15 FHD+ Intel Core i7-11800H, GeForce RTX 3050Ti 4GB GDDR6",
+          "shelve": "computers",
+          "price": 89,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
+          "description": "New Apple iMac Retina 5K Display (27-inch, 8GB RAM, 256GB SSD Storage)",
+          "shelve": "computers",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
+          "description": "Acer Nitro 5 AN515-55-53E5 Gaming Laptop | Intel Core i5-10300H",
+          "shelve": "computers",
+          "price": 70,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
+          "description": "Lenovo Ideapad Laptop With FHD 11.6-Inch",
+          "shelve": "computers",
+          "price": 60,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
+          "description": "HP Laptop 15-da2029nx 15.6\" HD, Intel Core i3",
+          "shelve": "computers",
+          "price": 66,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
+          "description": "Dell XPS 15 FHD+ Intel Core i7-11800H, GeForce RTX 3050Ti 4GB GDDR6",
+          "shelve": "computers",
+          "price": 89,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
+          "description": "New Apple iMac Retina 5K Display (27-inch, 8GB RAM, 256GB SSD Storage)",
+          "shelve": "computers",
+          "price": 99,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ],
+  
+      "tablets": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
+          "description": "Apple iPad Air (10.9-inch, Wi-Fi + Cellular, 256GB) - Starlight (5th Generation)",
+          "shelve": "tablets",
+          "price": 40,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
+          "description": "Lenovo - Tab P11 Plus - Tablet - 11\" 2K Display - MediaTek Octa-Core Processor - 4GB Memory - 128GB Storage - Dolby Atmos - Android 11 - Bluetooth & Wi-Fi - Long Battery Life",
+          "shelve": "tablets",
+          "price": 33,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
+          "description": "2022 Apple 10.9-inch iPad (Wi-Fi, 64GB) - Pink (10th Generation)",
+          "shelve": "tablets",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
+          "description": "Apple iPad Pro (Wi-Fi, 128GB) - Space Gray (6th Generation)",
+          "shelve": "tablets",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
+          "description": "SAMSUNG Galaxy Tab S8 11” 128GB WiFi 6E Android Tablet w/ Large LCD Screen, Long Lasting Battery, S Pen Included, Ultra Wide Camera, US Version, Graphite",
+          "shelve": "tablets",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
+          "description": "Apple iPad Air (10.9-inch, Wi-Fi + Cellular, 256GB) - Starlight (5th Generation)",
+          "shelve": "tablets",
+          "price": 40,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
+          "description": "Lenovo - Tab P11 Plus - Tablet - 11\" 2K Display - MediaTek Octa-Core Processor - 4GB Memory - 128GB Storage - Dolby Atmos - Android 11 - Bluetooth & Wi-Fi - Long Battery Life",
+          "shelve": "tablets",
+          "price": 33,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
+          "description": "2022 Apple 10.9-inch iPad (Wi-Fi, 64GB) - Pink (10th Generation)",
+          "shelve": "tablets",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
+          "description": "Apple iPad Pro (Wi-Fi, 128GB) - Space Gray (6th Generation)",
+          "shelve": "tablets",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
+          "description": "SAMSUNG Galaxy Tab S8 11” 128GB WiFi 6E Android Tablet w/ Large LCD Screen, Long Lasting Battery, S Pen Included, Ultra Wide Camera, US Version, Graphite",
+          "shelve": "tablets",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ],
+  
+      "tvs": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
+          "description": "TCL 32-inch Class 3-Series HD LED Smart Android TV - 32S334, 2021 Model",
+          "shelve": "tvs",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
+          "description": "Sony 85 Inch 4K Ultra HD TV X80K Series: LED Smart Google TV with Dolby Vision",
+          "shelve": "tvs",
+          "price": 66,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
+          "description": "LG 55-inch Class UQ9000 Series 4K Smart TV with Alexa Built-in 55UQ9000PUD & LG S75Q 3.1.2ch",
+          "shelve": "tvs",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
+          "description": "Sony OLED 55 inch BRAVIA XR A80K Series 4K Ultra HD TV: Smart Google TV with Dolby Vision HDR",
+          "shelve": "tvs",
+          "price": 75,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
+          "description": "TCL 55-inch 6-Series 4K UHD Dolby Vision HDR QLED Roku Smart TV - 55R635, 2021 Model , Black",
+          "shelve": "tvs",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
+          "description": "TCL 32-inch Class 3-Series HD LED Smart Android TV - 32S334, 2021 Model",
+          "shelve": "tvs",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
+          "description": "Sony 85 Inch 4K Ultra HD TV X80K Series: LED Smart Google TV with Dolby Vision",
+          "shelve": "tvs",
+          "price": 66,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
+          "description": "LG 55-inch Class UQ9000 Series 4K Smart TV with Alexa Built-in 55UQ9000PUD & LG S75Q 3.1.2ch",
+          "shelve": "tvs",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
+          "description": "Sony OLED 55 inch BRAVIA XR A80K Series 4K Ultra HD TV: Smart Google TV with Dolby Vision HDR",
+          "shelve": "tvs",
+          "price": 75,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/614Yr7xTVkL._AC_SX425_.jpg",
+          "description": "TCL 55-inch 6-Series 4K UHD Dolby Vision HDR QLED Roku Smart TV - 55R635, 2021 Model , Black",
+          "shelve": "tvs",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ]
+    },
+  
+    "phones": {
+      "apple": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+          "description": "Apple iPhone 12, 64GB, Black - Fully Unlocked",
+          "shelve": "apple",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+          "description": "Apple iPhone 13 Pro Max, 128GB, Sierra Blue",
+          "shelve": "apple",
+          "price": 75,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+          "description": "Apple iPhone XS, US Version, 256GB, Space Gray",
+          "shelve": "apple",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+          "description": "iPhone SE 64GB Factory Unlocked, Rose Gold",
+          "shelve": "apple",
+          "price": 25,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+          "description": "iPhone 7 64GB Unlocked ATT Tmobile Verizon - Gray",
+          "shelve": "apple",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+          "description": "Apple iPhone 12, 64GB, Black - Fully Unlocked",
+          "shelve": "apple",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+          "description": "Apple iPhone 13 Pro Max, 128GB, Sierra Blue",
+          "shelve": "apple",
+          "price": 75,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+          "description": "Apple iPhone XS, US Version, 256GB, Space Gray",
+          "shelve": "apple",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+          "description": "iPhone SE 64GB Factory Unlocked, Rose Gold",
+          "shelve": "apple",
+          "price": 25,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/61X+A76NCOL._AC_SX679_.jpg",
+          "description": "iPhone 7 64GB Unlocked ATT Tmobile Verizon - Gray",
+          "shelve": "apple",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ],
+  
+      "samsung": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+          "description": "SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android smartphone, 256GB",
+          "shelve": "samsung",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+          "description": "SAMSUNG Galaxy S22 Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera",
+          "shelve": "samsung",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+          "description": "SAMSUNG Galaxy Z Fold 4 Cell Phone, Factory Unlocked Android Smartphone",
+          "shelve": "samsung",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+          "description": "SAMSUNG Galaxy Z Flip 3 5G Cell Phone, Factory Unlocked Android Smartphone, 256GB",
+          "shelve": "samsung",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+          "description": "Samsung Galaxy Note 10+, 256GB, Aura Black",
+          "shelve": "samsung",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+          "description": "SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android smartphone, 256GB",
+          "shelve": "samsung",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+          "description": "SAMSUNG Galaxy S22 Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera",
+          "shelve": "samsung",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+          "description": "SAMSUNG Galaxy Z Fold 4 Cell Phone, Factory Unlocked Android Smartphone",
+          "shelve": "samsung",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+          "description": "SAMSUNG Galaxy Z Flip 3 5G Cell Phone, Factory Unlocked Android Smartphone, 256GB",
+          "shelve": "samsung",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX569_.jpg",
+          "description": "Samsung Galaxy Note 10+, 256GB, Aura Black",
+          "shelve": "samsung",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ],
+  
+      "google": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+          "description": "Google Pixel 4 XL - Clearly White - 128GB - Unlocked",
+          "shelve": "google",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+          "description": "Google Pixel 2 XL 128GB Unlocked GSM/CDMA 4G LTE Octa-Core Phone w/ 12.2MP Camera - Black & White",
+          "shelve": "google",
+          "price": 45,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+          "description": "Google Pixel 6 Pro - 5G Android Phone - Unlocked Smartphone with Advanced Pixel Camera and Telephoto Lens - 256GB - Stormy Black",
+          "shelve": "google",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+          "description": "Google Pixel 6 Pro 5G 128GB 12GB RAM Factory Unlocked",
+          "shelve": "google",
+          "price": 44,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+          "description": "Google Pixel 6 Pro 5G 128GB 12GB RAM Factory Unlocked",
+          "shelve": "google",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+          "description": "Google Pixel 4 XL - Clearly White - 128GB - Unlocked",
+          "shelve": "google",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+          "description": "Google Pixel 2 XL 128GB Unlocked GSM/CDMA 4G LTE Octa-Core Phone w/ 12.2MP Camera - Black & White",
+          "shelve": "google",
+          "price": 45,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+          "description": "Google Pixel 6 Pro - 5G Android Phone - Unlocked Smartphone with Advanced Pixel Camera and Telephoto Lens - 256GB - Stormy Black",
+          "shelve": "google",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+          "description": "Google Pixel 6 Pro 5G 128GB 12GB RAM Factory Unlocked",
+          "shelve": "google",
+          "price": 44,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/81eLhDX1TRL._AC_SX679_.jpg",
+          "description": "Google Pixel 6 Pro 5G 128GB 12GB RAM Factory Unlocked",
+          "shelve": "google",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ]
+    },
+  
+    "gaming": {
+      "sony": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+          "description": "PlayStation 4 Slim 1TB Console",
+          "shelve": "sony",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+          "description": "DualShock 4 Wireless Controller for PlayStation 4 - Green Camouflage",
+          "shelve": "sony",
+          "price": 25,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+          "description": "PlayStation 3 - 320 GB System/PlayStation Move Bundle",
+          "shelve": "sony",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+          "description": "PlayStation PULSE 3D Wireless Headset",
+          "shelve": "sony",
+          "price": 45,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+          "description": "PlayStation 5 Console",
+          "shelve": "sony",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+          "description": "PlayStation 4 Slim 1TB Console",
+          "shelve": "sony",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+          "description": "DualShock 4 Wireless Controller for PlayStation 4 - Green Camouflage",
+          "shelve": "sony",
+          "price": 25,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+          "description": "PlayStation 3 - 320 GB System/PlayStation Move Bundle",
+          "shelve": "sony",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+          "description": "PlayStation PULSE 3D Wireless Headset",
+          "shelve": "sony",
+          "price": 45,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/61JAJa9AMML._AC_SY355_.jpg",
+          "description": "PlayStation 5 Console",
+          "shelve": "sony",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ]
+    },
+  
+    "watches": {
+      "apple": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+          "description": "Apple Watch Ultra [GPS + Cellular 49mm] Smart Watch w/Rugged Titanium Case & Orange Alpine",
+          "shelve": "apple",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+          "description": "Apple Watch SE (2nd Gen) [GPS 44mm] Smart Watch w/Midnight Aluminum Case & Midnight Sport Band",
+          "shelve": "apple",
+          "price": 24,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+          "description": "Apple Watch Series 7 [GPS + Cellular 41mm] Smart Watch w/ Blue Aluminum Case with Abyss Blue Sport Band.",
+          "shelve": "apple",
+          "price": 35,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+          "description": "Apple Watch Series 7 [GPS + Cellular 45mm] Smart Watch w/ Silver Stainless Steel Case with Starlight Sport Band.",
+          "shelve": "apple",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+          "description": "Apple Watch Series 3 [GPS 38mm] Smart Watch w/ Space Gray Aluminum Case",
+          "shelve": "apple",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+          "description": "Apple Watch Ultra [GPS + Cellular 49mm] Smart Watch w/Rugged Titanium Case & Orange Alpine",
+          "shelve": "apple",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+          "description": "Apple Watch SE (2nd Gen) [GPS 44mm] Smart Watch w/Midnight Aluminum Case & Midnight Sport Band",
+          "shelve": "apple",
+          "price": 24,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+          "description": "Apple Watch Series 7 [GPS + Cellular 41mm] Smart Watch w/ Blue Aluminum Case with Abyss Blue Sport Band.",
+          "shelve": "apple",
+          "price": 35,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+          "description": "Apple Watch Series 7 [GPS + Cellular 45mm] Smart Watch w/ Silver Stainless Steel Case with Starlight Sport Band.",
+          "shelve": "apple",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX342_SY445_.jpg",
+          "description": "Apple Watch Series 3 [GPS 38mm] Smart Watch w/ Space Gray Aluminum Case",
+          "shelve": "apple",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ]
+    },
+  
+    "cameras": {
+      "canon": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
+          "description": "Canon EOS R6 Full-Frame Mirrorless Camera + RF24-105mm F4 L is USM Lens Kit",
+          "shelve": "canon",
+          "price": 199,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
+          "description": "Canon EOS Rebel T7 DSLR Camera with 18-55mm Lens | Built-in Wi-Fi | 24.1 MP CMOS Sensor",
+          "shelve": "canon",
+          "price": 79,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
+          "description": "Canon EOS 5D Mark IV Full Frame Digital SLR Camera Body.",
+          "shelve": "canon",
+          "price": 150,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
+          "description": "Canon EOS Rebel T7 DSLR Camera|2 Lens Kit with EF18-55mm + EF 75-300mm Lens, Black.",
+          "shelve": "canon",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
+          "description": "Canon PowerShot G7X Mark III Digital 4K Vlogging Camera, Vertical 4K Video Support with Wi-Fi, NFC and 3.0-Inch Touch Tilt LCD, Black",
+          "shelve": "canon",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
+          "description": "Canon EOS R6 Full-Frame Mirrorless Camera + RF24-105mm F4 L is USM Lens Kit",
+          "shelve": "canon",
+          "price": 199,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
+          "description": "Canon EOS Rebel T7 DSLR Camera with 18-55mm Lens | Built-in Wi-Fi | 24.1 MP CMOS Sensor",
+          "shelve": "canon",
+          "price": 79,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
+          "description": "Canon EOS 5D Mark IV Full Frame Digital SLR Camera Body.",
+          "shelve": "canon",
+          "price": 150,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
+          "description": "Canon EOS Rebel T7 DSLR Camera|2 Lens Kit with EF18-55mm + EF 75-300mm Lens, Black.",
+          "shelve": "canon",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SX355_.jpg",
+          "description": "Canon PowerShot G7X Mark III Digital 4K Vlogging Camera, Vertical 4K Video Support with Wi-Fi, NFC and 3.0-Inch Touch Tilt LCD, Black",
+          "shelve": "canon",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ]
+    },
+  
+    "computers": {
+      "apple": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
+          "description": "Apple MacBook Air Laptop: Apple M1 Chip, 13” Retina Display, 8GB RAM",
+          "shelve": "apple",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
+          "description": "Apple iMac (24-inch, Apple M1 chip with 8 core CPU and 7 core GPU",
+          "shelve": "apple",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
+          "description": "Apple MacBook Pro (16-inch, Apple M1 Pro chip with 10 core CPU",
+          "shelve": "apple",
+          "price": 90,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
+          "description": "Apple iMac with Retina 5K Display (27-inch, 8GB RAM, 256GB SSD Storage)",
+          "shelve": "apple",
+          "price": 100,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
+          "description": "Apple BTO Mac Mini Desktop Computer, M1 Chip with 8-Core CPU and 8-Core GPU",
+          "shelve": "apple",
+          "price": 75,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
+          "description": "Apple MacBook Air Laptop: Apple M1 Chip, 13” Retina Display, 8GB RAM",
+          "shelve": "apple",
+          "price": 59,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
+          "description": "Apple iMac (24-inch, Apple M1 chip with 8 core CPU and 7 core GPU",
+          "shelve": "apple",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
+          "description": "Apple MacBook Pro (16-inch, Apple M1 Pro chip with 10 core CPU",
+          "shelve": "apple",
+          "price": 90,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
+          "description": "Apple iMac with Retina 5K Display (27-inch, 8GB RAM, 256GB SSD Storage)",
+          "shelve": "apple",
+          "price": 100,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/71PIqZ37ZNL._AC_SX425_.jpg",
+          "description": "Apple BTO Mac Mini Desktop Computer, M1 Chip with 8-Core CPU and 8-Core GPU",
+          "shelve": "apple",
+          "price": 75,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ]
+    },
+  
+    "tablets": {
+      "apple": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
+          "description": "Apple iPad (10.2-inch, Wi-Fi, 128GB) - Silver (7th Generation)",
+          "shelve": "apple",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
+          "description": "Apple iPad Air (10.9-inch, Wi-Fi, 64GB) - Purple (5th Generation)",
+          "shelve": "apple",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
+          "description": "Apple 11-inch iPad Pro Wi-Fi + Cellular 256GB - Silver",
+          "shelve": "apple",
+          "price": 54,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
+          "description": "Apple iPad Mini (Wi-Fi, 64GB) - Starlight",
+          "shelve": "apple",
+          "price": 45,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
+          "description": "Apple iPad Pro (11-inch, Wi-Fi, 512GB) - Space Gray (2nd Generation)",
+          "shelve": "apple",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
+          "description": "Apple iPad (10.2-inch, Wi-Fi, 128GB) - Silver (7th Generation)",
+          "shelve": "apple",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
+          "description": "Apple iPad Air (10.9-inch, Wi-Fi, 64GB) - Purple (5th Generation)",
+          "shelve": "apple",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
+          "description": "Apple 11-inch iPad Pro Wi-Fi + Cellular 256GB - Silver",
+          "shelve": "apple",
+          "price": 54,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
+          "description": "Apple iPad Mini (Wi-Fi, 64GB) - Starlight",
+          "shelve": "apple",
+          "price": 45,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX342_.jpg",
+          "description": "Apple iPad Pro (11-inch, Wi-Fi, 512GB) - Space Gray (2nd Generation)",
+          "shelve": "apple",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ]
+    },
+  
+    "tvs": {
+      "lg": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+          "description": "LG 83-Inch Class OLED evo C2 Series Alexa built-in 4K Smart TV",
+          "shelve": "lg",
+          "price": 79,
+          "currency": "SAR",
+          "period": "week"
+        },
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+          "description": "LG 65-Inch Class UQ9000 Series Alexa Built-in 4K Smart TV",
+          "shelve": "lg",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+          "description": "LG 43-Inch Class NANO75 Series Alexa Built-in 4K Smart TV",
+          "shelve": "lg",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+          "description": "LG 55SM8600PUA Nano 8 Series 55\" 4K Ultra HD Smart LED NanoCell TV",
+          "shelve": "lg",
+          "price": 88,
+          "currency": "SAR",
+          "period": "week"
+        },
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+          "description": "LG OLED55GXPUA Alexa Built-In GX Series 55\" Gallery Design 4K",
+          "shelve": "lg",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+          "description": "LG 83-Inch Class OLED evo C2 Series Alexa built-in 4K Smart TV",
+          "shelve": "lg",
+          "price": 79,
+          "currency": "SAR",
+          "period": "week"
+        },
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+          "description": "LG 65-Inch Class UQ9000 Series Alexa Built-in 4K Smart TV",
+          "shelve": "lg",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        },
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+          "description": "LG 43-Inch Class NANO75 Series Alexa Built-in 4K Smart TV",
+          "shelve": "lg",
+          "price": 55,
+          "currency": "SAR",
+          "period": "week"
+        },
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+          "description": "LG 55SM8600PUA Nano 8 Series 55\" 4K Ultra HD Smart LED NanoCell TV",
+          "shelve": "lg",
+          "price": 88,
+          "currency": "SAR",
+          "period": "week"
+        },
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
+          "description": "LG OLED55GXPUA Alexa Built-In GX Series 55\" Gallery Design 4K",
+          "shelve": "lg",
+          "price": 69,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ]
+    },
+  
+    "accessories": {
+      "tools": [
+        {
+          "id": 1,
+          "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
+          "description": "FLIR TG165-X Thermal Camera imaging tool & ONE Pro",
+          "shelve": "tools",
+          "price": 80,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 2,
+          "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
+          "description": "Kaisi 126 in 1 Precision Screwdriver Set with 111 Bits Magnetic Driver Kit Professional Electronics Repair Tool Kit",
+          "shelve": "tools",
+          "price": 30,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 3,
+          "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
+          "description": "Etekcity Infrared Thermometer 1080, Heat Temperature Temp Gun",
+          "shelve": "tools",
+          "price": 30,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 4,
+          "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
+          "description": "Klein Tools 935DAG Digital Electronic Level and Angle Gauge, Measures 0 - 90 and 0",
+          "shelve": "tools",
+          "price": 45,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 5,
+          "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
+          "description": "BLACK+DECKER Heat Gun, Dual Temperature",
+          "shelve": "tools",
+          "price": 49,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 6,
+          "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
+          "description": "KAIWEETS KM100 Multimeter & HT206A Clamp Meter",
+          "shelve": "tools",
+          "price": 39,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 7,
+          "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
+          "description": "FLIR TG165-X Thermal Camera imaging tool & ONE Pro",
+          "shelve": "tools",
+          "price": 80,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 8,
+          "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
+          "description": "Kaisi 126 in 1 Precision Screwdriver Set with 111 Bits Magnetic Driver Kit Professional Electronics Repair Tool Kit",
+          "shelve": "tools",
+          "price": 30,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 9,
+          "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
+          "description": "Etekcity Infrared Thermometer 1080, Heat Temperature Temp Gun",
+          "shelve": "tools",
+          "price": 30,
+          "currency": "SAR",
+          "period": "week"
+        },
+  
+        {
+          "id": 10,
+          "src": "https://m.media-amazon.com/images/I/91FEFTrGByL._SX342_.jpg",
+          "description": "Klein Tools 935DAG Digital Electronic Level and Angle Gauge, Measures 0 - 90 and 0",
+          "shelve": "tools",
+          "price": 45,
+          "currency": "SAR",
+          "period": "week"
+        }
+      ]
+    }
+  }
+  

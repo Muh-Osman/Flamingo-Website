@@ -10,9 +10,10 @@ const Gaming = () => {
   const dispatch = useDispatch()
   useEffect(() => {dispatch(fetchProducts("gaming"))}, [])
   const data = useSelector(data => data.products)
-
+  
   // Hide Big more Button & add components
   const [state, setState] = useState(false)
+
 
   return (
     <>

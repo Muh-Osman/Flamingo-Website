@@ -5,30 +5,30 @@ export const fetchProducts = createAsyncThunk(
   async (cat) => {
     const res = await fetch(`http://localhost:9000/${cat}`);
     const data = await res.json();
-    // console.log(data)
     return data;
   }
   );
-
+  
   export const productsSlice = createSlice({
-  initialState: null,
-  name: "productsSlice",
-  // reducers: {
-  //   addProduct: (state, action) => {
-  //     state.push(action.payload);
-  //   },
-  // },
-
-  extraReducers: (builder) => {
-    builder.addCase(fetchProducts.fulfilled, (state, action) => {
-      return action.payload;
+    initialState: null,
+    name: "productsSlice",
+    reducers: {
+      // addProduct: (state, action) => {
+      //     state.push(action.payload);
+      //   },
+      },
+      
+      extraReducers: (builder) => {
+        builder.addCase(fetchProducts.fulfilled, (state, action) => {
+          console.log("API Fulfilled")
+          return action.payload;
     });
-    // builder.addCase(fetchProducts.pending, (state, action) => {
-    // show loader here
-    // });
-    // builder.addCase(fetchProducts.rejected, (state, action) => {
-    // show loader here
-    // });
+    builder.addCase(fetchProducts.pending, (state, action) => {
+          console.log("API Pending..")
+    });
+    builder.addCase(fetchProducts.rejected, (state, action) => {
+          console.log("API Rejected")
+    });
   },
 });
 

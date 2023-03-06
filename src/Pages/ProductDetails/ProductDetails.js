@@ -17,7 +17,9 @@ const ProductDetails = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchProducts(category));
+    if (!data) {
+      dispatch(fetchProducts(category));
+    }
 
     // Apply some CSS Style onmount <ProductDetails /> Component
     const webStyle = document.getElementById("root");
@@ -29,7 +31,7 @@ const ProductDetails = () => {
   }, []);
 
   //   Get Data from Redux
-  const data = useSelector((data) => data.products[brand][index]);
+  let data = useSelector((data) => data.products[brand][index]);
 
 
   return (
@@ -40,13 +42,13 @@ const ProductDetails = () => {
         title={"Back"}
       />
 
-      <h1>Product Details</h1>
+      {/* <h1>Product Details</h1>
       <div>Product ID: {data.id} </div>
       <div>Product Image-src: {data.src} </div>
       <div>Product Description: {data.description}</div>
       <div>Product price: {data.price} </div>
       <div>Product Currency: {data.currency} </div>
-      <div>Product Period: {data.period} </div>
+      <div>Product Period: {data.period} </div> */}
     </>
   );
 };
