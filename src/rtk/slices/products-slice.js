@@ -24,7 +24,8 @@ export const fetchProducts = createAsyncThunk(
           return action.payload;
     });
     builder.addCase(fetchProducts.pending, (state, action) => {
-          console.log("API Pending..")
+      console.log("API Prnding..")
+
     });
     builder.addCase(fetchProducts.rejected, (state, action) => {
           console.log("API Rejected")
@@ -32,5 +33,5 @@ export const fetchProducts = createAsyncThunk(
   },
 });
 
-export const { addProduct } = productsSlice.actions;
+// export const { addProduct } = productsSlice.actions;
 export default productsSlice.reducer;

@@ -3,6 +3,9 @@ import { Home, Phones, Computers, Watches, Cameras, Gaming, Tablets, Tvs, Access
 import { Header, Navbar, Carousel, HowItWorks, NewSectionShelves, TopBrands, Footer, MobileNavbar, FloatSearchMobile } from "./Sections"
 import { MainSiteContainer, CarouselAndShelvesContainer, ShelvesBox } from "./Components"
 
+import ReactGA from "react-ga4"
+
+ReactGA.initialize("G-BT5XWMSP0E")
 
 const App = () => {
 
