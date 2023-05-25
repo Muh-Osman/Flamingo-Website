@@ -8,30 +8,34 @@ import { fetchProducts } from "../../rtk/slices/products-slice";
 const ProductDetails = () => {
   // Back to last page
   const navigate = useNavigate();
-  // Get URL then split it ex: (http://localhost:3000/phones/apple/2) => ["", "phones", "apple", "1"]
+  // Get URL then split it ex: (http://localhost:3000/phones/apple/2) => ["...", "phones", "apple", "1"]
   let category = useLocation().pathname.split("/")[1];
   let brand = useLocation().pathname.split("/")[2];
   let index = useLocation().pathname.split("/")[3] - 1;
+
+  console.log("category", category)
+  console.log("brand", brand)
+  console.log("index",index)
 
   // fetch Data from Redux
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (!data) {
-      dispatch(fetchProducts(category));
-    }
+    // if (!data) {
+    //   dispatch(fetchProducts(category));
+    // }
 
-    // Apply some CSS Style onmount <ProductDetails /> Component
-    const webStyle = document.getElementById("root");
-    webStyle.classList.add("style-onclick-item");
-    // CleanUp (remove class onUnmount)
-    return () => {
-      webStyle.classList.remove("style-onclick-item");
-    };
+    // // Apply some CSS Style onmount <ProductDetails /> Component
+    // const webStyle = document.getElementById("root");
+    // webStyle.classList.add("style-onclick-item");
+    // // CleanUp (remove class onUnmount)
+    // return () => {
+    //   webStyle.classList.remove("style-onclick-item");
+    // };
   }, []);
 
   //   Get Data from Redux
-  let data = useSelector((data) => data.products[brand][index]);
+  // let data = useSelector((data) => data.products[brand][index]);
 
 
   return (

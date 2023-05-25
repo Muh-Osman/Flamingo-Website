@@ -68,7 +68,7 @@ const Navbar = () => {
                 {/* <!-- Start Nav Categories --> */}
                 <div className="categories-box">
 
-                    <NavbarCategoryLink to={'/home'} title={'Home'} svg={IconsData[5].svg} />
+                    <NavbarCategoryLink to={'/'} title={'Home'} svg={IconsData[5].svg} />
                     <NavbarCategoryLink to={'/phones'} title={'Phones'} svg={IconsData[6].svg} />
                     <NavbarCategoryLink to={'/gaming'} title={'Gaming'} svg={IconsData[7].svg} />
                     <NavbarCategoryLink to={'/watches'} title={'Watches'} svg={IconsData[8].svg} />

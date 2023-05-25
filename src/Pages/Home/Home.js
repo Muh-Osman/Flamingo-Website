@@ -23,27 +23,27 @@ const Home = () => {
             </ShelveConainer>
 
             {/* <!-- Mobile Phones shelve --> */}
-            <ShelveConainer href='/Phones' title='Mobile Phones'>
+            <ShelveConainer href='/phones' title='Mobile Phones'>
                 {data?.mobilephones?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
             </ShelveConainer>
 
             {/* <!-- Gaming & VR shelve --> */}
-            <ShelveConainer href='/Gaming' title='Gaming & VR'>
+            <ShelveConainer href='/gaming' title='Gaming & VR'>
                 {data?.gaming?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
             </ShelveConainer>
 
             {/* <!-- Smart Watches shelve --> */}
-            <ShelveConainer href='/Watches' title='Smart watches'>
+            <ShelveConainer href='/watches' title='Smart Watches'>
                 {data?.smartwatches?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
             </ShelveConainer>
 
             {/* <!-- Cameras Shelve --> */}
-            <ShelveConainer href='/Cameras' title='Cameras'>
+            <ShelveConainer href='/cameras' title='Cameras'>
                 {data?.cameras?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
             </ShelveConainer>
 
             {/* <!-- Computers Shelve --> */}
-            <ShelveConainer href='/Computers' title='Computers'>
+            <ShelveConainer href='/computers' title='Computers'>
                 {data?.computers?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
             </ShelveConainer>
 
@@ -54,12 +54,12 @@ const Home = () => {
                 state ? (
                     <>
                         {/* Tablets Shelve */}
-                        < ShelveConainer href='/Tablets' title='Tablets'>
+                        < ShelveConainer href='/tablets' title='Tablets'>
                             {data?.tablets?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
                         </ShelveConainer>
 
                         {/* Tvs Shelve */}
-                        <ShelveConainer href='/Tvs' title='TVs'>
+                        <ShelveConainer href='/tvs' title='TVs'>
                             {data?.tvs?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
                         </ShelveConainer>
                     </>

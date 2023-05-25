@@ -534,7 +534,7 @@
       {
         "id": 3,
         "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
-        "description": "HP Laptop 15-da2029nx 15.6\" HD Intel Core i3",
+        "description": "HP Laptop 15-da2029nx 15.6 HD Intel Core i3",
         "shelve": "computers",
         "price": 66,
         "currency": "SAR",
@@ -584,7 +584,7 @@
       {
         "id": 8,
         "src": "https://m.media-amazon.com/images/I/71-QYvMpwGL._AC_SX355_.jpg",
-        "description": "HP Laptop 15-da2029nx 15.6\" HD, Intel Core i3",
+        "description": "HP Laptop 15-da2029nx 15.6 HD, Intel Core i3",
         "shelve": "computers",
         "price": 66,
         "currency": "SAR",
@@ -626,7 +626,7 @@
       {
         "id": 2,
         "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
-        "description": "Lenovo - Tab P11 Plus - Tablet - 11\" 2K Display - MediaTek Octa-Core Processor - 4GB Memory - 128GB Storage - Dolby Atmos - Android 11 - Bluetooth & Wi-Fi - Long Battery Life",
+        "description": "Lenovo - Tab P11 Plus - Tablet - 11 2K Display - MediaTek Octa-Core Processor - 4GB Memory - 128GB Storage - Dolby Atmos - Android 11 - Bluetooth & Wi-Fi - Long Battery Life",
         "shelve": "tablets",
         "price": 33,
         "currency": "SAR",
@@ -676,7 +676,7 @@
       {
         "id": 7,
         "src": "https://m.media-amazon.com/images/I/61-y844vGPL._AC_SX342_.jpg",
-        "description": "Lenovo - Tab P11 Plus - Tablet - 11\" 2K Display - MediaTek Octa-Core Processor - 4GB Memory - 128GB Storage - Dolby Atmos - Android 11 - Bluetooth & Wi-Fi - Long Battery Life",
+        "description": "Lenovo - Tab P11 Plus - Tablet - 11 2K Display - MediaTek Octa-Core Processor - 4GB Memory - 128GB Storage - Dolby Atmos - Android 11 - Bluetooth & Wi-Fi - Long Battery Life",
         "shelve": "tablets",
         "price": 33,
         "currency": "SAR",
@@ -1677,7 +1677,7 @@
       {
         "id": 4,
         "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
-        "description": "LG 55SM8600PUA Nano 8 Series 55\" 4K Ultra HD Smart LED NanoCell TV",
+        "description": "LG 55SM8600PUA Nano 8 Series 55 4K Ultra HD Smart LED NanoCell TV",
         "shelve": "lg",
         "price": 88,
         "currency": "SAR",
@@ -1686,7 +1686,7 @@
       {
         "id": 5,
         "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
-        "description": "LG OLED55GXPUA Alexa Built-In GX Series 55\" Gallery Design 4K",
+        "description": "LG OLED55GXPUA Alexa Built-In GX Series 55 Gallery Design 4K",
         "shelve": "lg",
         "price": 69,
         "currency": "SAR",
@@ -1722,7 +1722,7 @@
       {
         "id": 9,
         "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
-        "description": "LG 55SM8600PUA Nano 8 Series 55\" 4K Ultra HD Smart LED NanoCell TV",
+        "description": "LG 55SM8600PUA Nano 8 Series 55 4K Ultra HD Smart LED NanoCell TV",
         "shelve": "lg",
         "price": 88,
         "currency": "SAR",
@@ -1731,7 +1731,7 @@
       {
         "id": 10,
         "src": "https://m.media-amazon.com/images/I/91vAUToHkcL._AC_SX425_.jpg",
-        "description": "LG OLED55GXPUA Alexa Built-In GX Series 55\" Gallery Design 4K",
+        "description": "LG OLED55GXPUA Alexa Built-In GX Series 55 Gallery Design 4K",
         "shelve": "lg",
         "price": 69,
         "currency": "SAR",

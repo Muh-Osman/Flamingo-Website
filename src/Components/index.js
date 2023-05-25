@@ -1,4 +1,5 @@
 
+export { default as Layout } from './Layout/Layout'
 export { default as HeaderContainer } from './HeaderContainer/HeaderContainer'
 export { default as Logo } from './Logo/Logo'
 export { default as SearchBox } from './SearchBox/SearchBox'
