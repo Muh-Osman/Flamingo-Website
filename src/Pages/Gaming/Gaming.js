@@ -1,46 +1,62 @@
-import './Gaming.css'
-import { useState, useEffect } from 'react'
-import { ShelveConainer, ItemShelves, Button } from '../../Components'
-import { useSelector, useDispatch } from 'react-redux';
+import "./Gaming.css";
+import { useState, useEffect } from "react";
+import { Button } from "../../Components";
+import { useSelector, useDispatch } from "react-redux";
 import { fetchProducts } from "../../rtk/slices/products-slice";
+import { shelvesDataloop } from "../../Utils";
 
-
-const Gaming = () => {
+export default function Gaming() {
   // fetch Data from Redux
-  const dispatch = useDispatch()
-  useEffect(() => {dispatch(fetchProducts("gaming"))}, [])
-  const data = useSelector(data => data.products)
-  
-  // Hide Big more Button & add components
-  const [state, setState] = useState(false)
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchProducts("gaming"));
+  }, []);
+  const data = useSelector((data) => data.products);
 
+  // Hide Big more Button & add components
+  const [state, setState] = useState(false);
+
+  // shelves data
+  const [shelvesObj, setShelvesObj] = useState({
+    sony: {
+      href: "https://www.google.com/",
+      title: "Sony",
+      dataName: "sony",
+      extraPath: "",
+    },
+  });
+
+  // shelves data that appear after click 'More' button
+  const [extraShelvesObj, setExtraShelvesObj] = useState({
+    microsoft: {
+      href: "https://www.google.com/",
+      title: "Microsoft",
+      dataName: "microsoft",
+      extraPath: "",
+    },
+    nintendo: {
+      href: "https://www.google.com/",
+      title: "Nintendo",
+      dataName: "nintendo",
+      extraPath: "",
+    },
+  });
 
   return (
     <>
-      <ShelveConainer href='https://www.google.com/' title='Sony'>
-        {data?.sony?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
-      </ShelveConainer>
-
+      {shelvesDataloop(shelvesObj, data)}
 
       {/* Hide Big more Button & add components */}
-      {
-        state ? (
-          <>
-            < ShelveConainer href='https://www.google.com/' title='Microsoft'>
-              { }
-            </ShelveConainer>
-
-            <ShelveConainer href='https://www.google.com/' title='Nintendo'>
-              { }
-            </ShelveConainer>
-          </>
-        ) : (
-          //  <Big More Button 
-          <Button onClick={() => setState(true)} className={'big-more-btn'} title={'More'} />
-        )
-      }
+      {state ? (
+        shelvesDataloop(extraShelvesObj, data)
+      ) : (
+        //  <Big More Button
+        <Button
+          onClick={() => setState(true)}
+          className={"big-more-btn"}
+          title={"More"}
+        />
+      )}
     </>
-  )
+  );
 }
-
-export default Gaming

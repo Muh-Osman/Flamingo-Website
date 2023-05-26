@@ -1,75 +1,91 @@
-import './Home.css'
-import { useState, useEffect } from 'react'
-import { ShelveConainer, ItemShelves, Button } from '../../Components'
-import { useSelector, useDispatch } from 'react-redux';
+import "./Home.css";
+import { useState, useEffect } from "react";
+import { Button } from "../../Components";
+import { useSelector, useDispatch } from "react-redux";
 import { fetchProducts } from "../../rtk/slices/products-slice";
+import { shelvesDataloop } from "../../Utils";
 
+export default function Home() {
+  // fetch Data from Redux
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchProducts("home"));
+  }, []);
+  const data = useSelector((data) => data.products);
 
-const Home = () => {
-    // fetch Data from Redux
-    const dispatch = useDispatch()
-    useEffect(() => {dispatch(fetchProducts("home"))}, [])
-    const data = useSelector(data => data.products)
+  // For hide Big more Button & add component
+  const [state, setState] = useState(false);
 
-    // For hide Big more Button & add component
-    const [state, setState] = useState(false)
+  // shelves data
+  const [shelvesObj, setShelvesObj] = useState({
+    foryou: {
+      href: "/",
+      title: "For you",
+      dataName: "foryou",
+      extraPath: "home/",
+    },
+    mobilephones: {
+      href: "/phones",
+      title: "Mobile Phones",
+      dataName: "mobilephones",
+      extraPath: "home/",
+    },
+    gaming: {
+      href: "/gaming",
+      title: "Gaming & VR",
+      dataName: "gaming",
+      extraPath: "home/",
+    },
+    smartwatches: {
+      href: "/watches",
+      title: "Smart Watches",
+      dataName: "smartwatches",
+      extraPath: "home/",
+    },
+    cameras: {
+      href: "/cameras",
+      title: "Cameras",
+      dataName: "cameras",
+      extraPath: "home/",
+    },
+    computers: {
+      href: "/computers",
+      title: "Computers",
+      dataName: "computers",
+      extraPath: "home/",
+    },
+  });
 
-    return (
-        <>
+  // shelves data that appear after click 'More' button
+  const [extraShelvesObj, setExtraShelvesObj] = useState({
+    tablets: {
+      href: "/tablets",
+      title: "Tablets",
+      dataName: "tablets",
+      extraPath: "home/",
+    },
+    tvs: {
+      href: "/tvs",
+      title: "TVs",
+      dataName: "tvs",
+      extraPath: "home/",
+    },
+  });
 
-            {/* <!-- For You shelve --> */}
-            <ShelveConainer href='/' title='For you'>
-                {data?.foryou?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
-            </ShelveConainer>
+  return (
+    <>
+      {shelvesDataloop(shelvesObj, data)}
 
-            {/* <!-- Mobile Phones shelve --> */}
-            <ShelveConainer href='/phones' title='Mobile Phones'>
-                {data?.mobilephones?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
-            </ShelveConainer>
-
-            {/* <!-- Gaming & VR shelve --> */}
-            <ShelveConainer href='/gaming' title='Gaming & VR'>
-                {data?.gaming?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
-            </ShelveConainer>
-
-            {/* <!-- Smart Watches shelve --> */}
-            <ShelveConainer href='/watches' title='Smart Watches'>
-                {data?.smartwatches?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
-            </ShelveConainer>
-
-            {/* <!-- Cameras Shelve --> */}
-            <ShelveConainer href='/cameras' title='Cameras'>
-                {data?.cameras?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
-            </ShelveConainer>
-
-            {/* <!-- Computers Shelve --> */}
-            <ShelveConainer href='/computers' title='Computers'>
-                {data?.computers?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
-            </ShelveConainer>
-
-
-
-            {/* For hide Big more Button & add component */}
-            {
-                state ? (
-                    <>
-                        {/* Tablets Shelve */}
-                        < ShelveConainer href='/tablets' title='Tablets'>
-                            {data?.tablets?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
-                        </ShelveConainer>
-
-                        {/* Tvs Shelve */}
-                        <ShelveConainer href='/tvs' title='TVs'>
-                            {data?.tvs?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
-                        </ShelveConainer>
-                    </>
-                ) : (
-                    //  <Big More Button 
-                    <Button onClick={() => setState(true)} className={'big-more-btn'} title={'More'} />
-                )
-            }
-        </>
-    )
+      {/* For hide Big more Button & add component */}
+      {state ? (
+        shelvesDataloop(extraShelvesObj, data)
+      ) : (
+        <Button
+          onClick={() => setState(true)}
+          className={"big-more-btn"}
+          title={"More"}
+        />
+      )}
+    </>
+  );
 }
-
-export default Home

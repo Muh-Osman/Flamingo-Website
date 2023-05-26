@@ -1,87 +1,75 @@
 import "./Tvs.css";
-import "../../Components/ItemShelves/ItemShelves.css";
-
 import { useState, useEffect } from "react";
-import { ShelveConainer, ItemShelves, Button } from "../../Components";
+import { Button } from "../../Components";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchProducts } from "../../rtk/slices/products-slice";
-import { Skeleton } from "@mui/material";
-import { Link } from "react-router-dom";
+import { shelvesDataloop } from "../../Utils";
 
-const Tvs = () => {
+export default function Tvs() {
   // fetch Data from Redux
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchProducts("tvs"));
   }, []);
   const data = useSelector((data) => data.products);
-  console.log(data);
-
 
   // Hide Big more Button & add components
   const [state, setState] = useState(false);
 
+  // shelves data
+  const [shelvesObj, setShelvesObj] = useState({
+    lg: {
+      href: "https://www.google.com/",
+      title: "LG",
+      dataName: "lg",
+      extraPath: "",
+    },
+  });
 
-  if (data == null) {
-    var xxx = [...Array(5)].map((e, i) => (
-      <Link key={i} className={"item-cards"}>
-        <div className={"img-of-item"}>
-          <Skeleton
-            animation={false}
-            variant="rectangular"
-            width={`${100}%`}
-            height={`${100}%`}
-          />
-        </div>
-        <div className="item-description">
-          <Skeleton animation={false} width={`${100}%`} height={`${100}%`} />
-          <h5>
-            <Skeleton
-              animation={false}
-              width={`${50}%`}
-              height={`${100}%`}
-              className="price"
-            />
-          </h5>
-        </div>
-      </Link>
-    ));
-  }
+  // shelves data that appear after click 'More' button
+  const [extraShelvesObj, setExtraShelvesObj] = useState({
+    samsung: {
+      href: "https://www.google.com/",
+      title: "Samsung",
+      dataName: "samsung",
+      extraPath: "",
+    },
+    sony: {
+      href: "https://www.google.com/",
+      title: "Sony",
+      dataName: "sony",
+      extraPath: "",
+    },
+    tcl: {
+      href: "https://www.google.com/",
+      title: "TCL",
+      dataName: "tcl",
+      extraPath: "",
+    },
+    panasonic: {
+      href: "https://www.google.com/",
+      title: "Panasonic",
+      dataName: "panasonic",
+      extraPath: "",
+    },
+    hisense: {
+      href: "https://www.google.com/",
+      title: "Hisense",
+      dataName: "hisense",
+      extraPath: "",
+    },
+  });
 
   return (
     <>
-      {/* LG */}
-      <ShelveConainer href="https://www.google.com/" title="LG">
-        {xxx}
-        {data?.lg?.map((item) => <ItemShelves className={"item-cards"} key={item.id} item={item} />)}
-      </ShelveConainer>
+      {shelvesDataloop(shelvesObj, data)}
 
       {/* Hide Big more Button & add components */}
 
       {state ? (
-        <>
-          <ShelveConainer href="https://www.google.com/" title="Samsung">
-            {}
-          </ShelveConainer>
-
-          <ShelveConainer href="https://www.google.com/" title="Sony">
-            {}
-          </ShelveConainer>
-
-          <ShelveConainer href="https://www.google.com/" title="TCL">
-            {}
-          </ShelveConainer>
-
-          <ShelveConainer href="https://www.google.com/" title="Panasonic ">
-            {}
-          </ShelveConainer>
-
-          <ShelveConainer href="https://www.google.com/" title="Hisense">
-            {}
-          </ShelveConainer>
-        </>
+        shelvesDataloop(extraShelvesObj, data)
       ) : (
-        //  <Big More Button
+        // Big More Button
         <Button
           onClick={() => setState(true)}
           className={"big-more-btn"}
@@ -90,6 +78,4 @@ const Tvs = () => {
       )}
     </>
   );
-};
-
-export default Tvs;
+}
