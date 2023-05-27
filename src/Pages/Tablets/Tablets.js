@@ -1,6 +1,6 @@
 import "./Tablets.css";
 import { useState, useEffect } from "react";
-import { Button } from "../../Components";
+import { BigMoreBtn } from "../../Components";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchProducts } from "../../rtk/slices/products-slice";
 import { shelvesDataloop } from "../../Utils";
@@ -68,12 +68,7 @@ export default function Tablets() {
       {state ? (
         shelvesDataloop(extraShelvesObj, data)
       ) : (
-        //  <Big More Button
-        <Button
-          onClick={() => setState(true)}
-          className={"big-more-btn"}
-          title={"More"}
-        />
+        <BigMoreBtn onClick={() => setState(true)} />
       )}
     </>
   );

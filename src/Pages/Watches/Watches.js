@@ -1,6 +1,6 @@
 import "./Watches.css";
-import { Button } from "../../Components";
 import { useState, useEffect } from "react";
+import { BigMoreBtn } from "../../Components";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchProducts } from "../../rtk/slices/products-slice";
 import { shelvesDataloop } from "../../Utils";
@@ -62,12 +62,7 @@ export default function Watches() {
       {state ? (
         shelvesDataloop(extraShelvesObj, data)
       ) : (
-        //  Big More Button
-        <Button
-          onClick={() => setState(true)}
-          className={"big-more-btn"}
-          title={"More"}
-        />
+        <BigMoreBtn onClick={() => setState(true)} />
       )}
     </>
   );

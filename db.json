@@ -1842,5 +1842,313 @@
         "period": "week"
       }
     ]
+  },
+
+  "newSection": {
+    "onRise": [
+      {
+        "id": 1,
+        "src": "https://m.media-amazon.com/images/I/81r1qZIBncL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Mac Studio 20-core M1 Ultra, 64-core GPU, 128GB of RAM 20-core M1 Ultra, 64-core GPU, 128GB of RAM",
+        "shelve": "onrise",
+        "price": 199,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 2,
+        "src": "https://m.media-amazon.com/images/I/81r1qZIBncL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "TP-Link AX6600 WiFi 6 Gaming Router (Archer GX90)",
+        "shelve": "onrise",
+        "price": 39,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 3,
+        "src": "https://m.media-amazon.com/images/I/81r1qZIBncL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "e-Bike, Electric Scooter 350W, 15.5MPH, with 36V 6AH Battery",
+        "shelve": "onrise",
+        "price": 65,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 4,
+        "src": "https://m.media-amazon.com/images/I/81r1qZIBncL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Optoma Home Theater Projector HDR 10+ | 120Hz | 1.3X Zoom | 4K Input",
+        "shelve": "onrise",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 5,
+        "src": "https://m.media-amazon.com/images/I/81r1qZIBncL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Grand Theft Auto V: Premium Edition - Xbox One",
+        "shelve": "onrise",
+        "price": 30,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 6,
+        "src": "https://m.media-amazon.com/images/I/81r1qZIBncL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Creality Ender 5 Pro Creative FDM 3D Printer Upgrade Silent Mainboard Metal Extruder Frame with Capricorn Bowden PTFE Tubing",
+        "shelve": "onrise",
+        "price": 59,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 7,
+        "src": "https://m.media-amazon.com/images/I/81r1qZIBncL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "e-Bike, Electric Scooter 350W, 15.5MPH, with 36V 6AH Battery",
+        "shelve": "onrise",
+        "price": 65,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 8,
+        "src": "https://m.media-amazon.com/images/I/81r1qZIBncL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Optoma Home Theater Projector HDR 10+ | 120Hz | 1.3X Zoom | 4K Input",
+        "shelve": "onrise",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 9,
+        "src": "https://m.media-amazon.com/images/I/81r1qZIBncL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Grand Theft Auto V: Premium Edition - Xbox One",
+        "shelve": "onrise",
+        "price": 30,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 10,
+        "src": "https://m.media-amazon.com/images/I/81r1qZIBncL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Creality Ender 5 Pro Creative FDM 3D Printer Upgrade Silent Mainboard Metal Extruder Frame with Capricorn Bowden PTFE Tubing",
+        "shelve": "onrise",
+        "price": 59,
+        "currency": "SAR",
+        "period": "week"
+      }
+    ],
+
+    "mostPopular": [
+      {
+        "id": 1,
+        "src": "https://m.media-amazon.com/images/I/71L-flqtTwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Beats Studio-3 Wireless Over-Ear Headphones",
+        "shelve": "mostpopular",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 2,
+        "src": "https://m.media-amazon.com/images/I/71L-flqtTwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "SONY UHD 4K 120Hz QLED Smart TV, Dolby Vision HDR10+ (2022)",
+        "shelve": "mostpopular",
+        "price": 99,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 3,
+        "src": "https://m.media-amazon.com/images/I/71L-flqtTwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Apple AirPods Pro MagSafe charging case",
+        "shelve": "mostpopular",
+        "price": 34,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 4,
+        "src": "https://m.media-amazon.com/images/I/71L-flqtTwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Kindle Paperwhite 8GB - 6.8 display, warm light, Waterproof, Wi-Fi",
+        "shelve": "mostpopular",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 5,
+        "src": "https://m.media-amazon.com/images/I/71L-flqtTwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Klipsch Synergy Black Label F-300 Floorstanding Speaker with Dual 8 Woofers, Pair",
+        "shelve": "mostpopular",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 6,
+        "src": "https://m.media-amazon.com/images/I/71L-flqtTwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "SONY UHD 4K 120Hz QLED Smart TV, Dolby Vision HDR10+ (2022)",
+        "shelve": "mostpopular",
+        "price": 99,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 7,
+        "src": "https://m.media-amazon.com/images/I/71L-flqtTwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Apple AirPods Pro MagSafe charging case",
+        "shelve": "mostpopular",
+        "price": 34,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 8,
+        "src": "https://m.media-amazon.com/images/I/71L-flqtTwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Kindle Paperwhite 8GB - 6.8 display, warm light, Waterproof, Wi-Fi",
+        "shelve": "mostpopular",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 9,
+        "src": "https://m.media-amazon.com/images/I/71L-flqtTwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "Klipsch Synergy Black Label F-300 Floorstanding Speaker with Dual 8 Woofers, Pair",
+        "shelve": "mostpopular",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 10,
+        "src": "https://m.media-amazon.com/images/I/71L-flqtTwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        "description": "SONY UHD 4K 120Hz QLED Smart TV, Dolby Vision HDR10+ (2022)",
+        "shelve": "mostpopular",
+        "price": 99,
+        "currency": "SAR",
+        "period": "week"
+      }
+    ],
+
+    "addedRecently": [
+      {
+        "id": 1,
+        "src": "https://m.media-amazon.com/images/I/61u7lk6Br+L._AC_SR405,405_.jpg",
+        "description": "Canon EOS-1D X Mark III Body Only",
+        "shelve": "addedrecently",
+        "price": 199,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 2,
+        "src": "https://m.media-amazon.com/images/I/61u7lk6Br+L._AC_SR405,405_.jpg",
+        "description": "Xbox Series X Console 1TB (KSA Version)",
+        "shelve": "addedrecently",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 3,
+        "src": "https://m.media-amazon.com/images/I/61u7lk6Br+L._AC_SR405,405_.jpg",
+        "description": "PlayStation VR Iron Man and Star Wars Set, Compatible with PS4 & PS5",
+        "shelve": "addedrecently",
+        "price": 89,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 4,
+        "src": "https://m.media-amazon.com/images/I/61u7lk6Br+L._AC_SR405,405_.jpg",
+        "description": "Valve Steam Deck, Game Console with FHD Screen",
+        "shelve": "addedrecently",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 5,
+        "src": "https://m.media-amazon.com/images/I/61u7lk6Br+L._AC_SR405,405_.jpg",
+        "description": "Canon PIXMA MG3620 Wireless All-In-One Color Inkjet Printer with Mobile and Tablet Printing, Red, 17.7 (W) X 12.0 (D) X 6.0 (H)",
+        "shelve": "addedrecently",
+        "price": 39,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 6,
+        "src": "https://m.media-amazon.com/images/I/61u7lk6Br+L._AC_SR405,405_.jpg",
+        "description": "Xbox Series X Console 1TB (KSA Version)",
+        "shelve": "addedrecently",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 7,
+        "src": "https://m.media-amazon.com/images/I/61u7lk6Br+L._AC_SR405,405_.jpg",
+        "description": "PlayStation VR Iron Man and Star Wars Set, Compatible with PS4 & PS5",
+        "shelve": "addedrecently",
+        "price": 89,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 8,
+        "src": "https://m.media-amazon.com/images/I/61u7lk6Br+L._AC_SR405,405_.jpg",
+        "description": "Valve Steam Deck, Game Console with FHD Screen",
+        "shelve": "addedrecently",
+        "price": 49,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 9,
+        "src": "https://m.media-amazon.com/images/I/61u7lk6Br+L._AC_SR405,405_.jpg",
+        "description": "Canon PIXMA MG3620 Wireless All-In-One Color Inkjet Printer with Mobile and Tablet Printing, Red, 17.7 (W) X 12.0 (D) X 6.0 (H)",
+        "shelve": "addedrecently",
+        "price": 39,
+        "currency": "SAR",
+        "period": "week"
+      },
+
+      {
+        "id": 10,
+        "src": "https://m.media-amazon.com/images/I/61u7lk6Br+L._AC_SR405,405_.jpg",
+        "description": "Xbox Series X Console 1TB (KSA Version)",
+        "shelve": "addedrecently",
+        "price": 69,
+        "currency": "SAR",
+        "period": "week"
+      }
+    ]
   }
 }

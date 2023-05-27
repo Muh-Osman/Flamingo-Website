@@ -1,58 +1,57 @@
-import { NewSectionContainer, ItemShelves } from '../../Components'
-import OnRiseData from '../../Data/NewSectionData/OnRiseData'
-import MostPopularData from '../../Data/NewSectionData/MostPopularData'
-import AddedRecentlyData from '../../Data/NewSectionData/AddedRecentlyData'
-import './NewSectionShelves.css'
+import { NewSectionContainer, ItemShelves } from "../../Components";
+import "./NewSectionShelves.css";
+import { useEffect, useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { fetchProducts } from "../../rtk/slices/products-slice";
 
+export default function NewSectionShelves() {
+  // fetch Data from Redux
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchProducts("newSection"));
+  }, []);
+  const data = useSelector((data) => data.products);
 
+  // shelves data
+  const [shelvesObj, setShelvesObj] = useState({
+    onRise: {
+      href: "https://www.google.com/",
+      title: "On rise ⚡",
+      dataName: "onRise",
+      extraPath: "",
+    },
+    mostPopular: {
+      href: "https://www.google.com/",
+      title: "Most popular",
+      dataName: "mostPopular",
+      extraPath: "",
+    },
+    addedRecently: {
+      href: "https://www.google.com/",
+      title: "Added recently",
+      dataName: "addedRecently",
+      extraPath: "",
+    },
+  });
 
-const NewSectionShelves = () => {
+  const shelvesDataloop = () => {
+    return Object.values(shelvesObj).map(
+      ({ href, title, dataName, extraPath }) => (
+        <NewSectionContainer href={href} title={title} key={title}>
+          {data?.[dataName]?.map((item) => (
+            <ItemShelves
+              className={"item-cards-down"}
+              extraPath={extraPath}
+              item={item}
+              key={item.id}
+            />
+          ))}
+        </NewSectionContainer>
+      )
+    );
+  };
 
-
-  const onRiseItems = OnRiseData.map(item => {
-    return <ItemShelves
-      className={'item-cards-down'}
-      key={item.id}
-      item={item}
-    />
-  })
-
-  const mostPopular = MostPopularData.map(item => {
-    return <ItemShelves
-      className={'item-cards-down'}
-      key={item.id}
-      item={item}
-    />
-  })
-
-  const addedRecently = AddedRecentlyData.map(item => {
-    return <ItemShelves
-      className={'item-cards-down'}
-      key={item.id}
-      item={item}
-    />
-  })
-
-
-  return (
-
-    <section className="new-sec">
-
-      <NewSectionContainer href='https://www.google.com/' title={'On rise ⚡'}>
-        {onRiseItems}
-      </NewSectionContainer>
-
-      <NewSectionContainer href='https://www.google.com/' title={'Most popular'}>
-        {mostPopular}
-      </NewSectionContainer>
-
-      <NewSectionContainer href='https://www.google.com/' title={'Added recently'}>
-        {addedRecently}
-      </NewSectionContainer>
-
-    </section>
-
-  )
+  return <section className="new-sec">
+            {shelvesDataloop()}
+         </section>;
 }
-
-export default NewSectionShelves
