@@ -1,57 +1,76 @@
 import "./Tvs.css";
-import { useState } from "react";
-import LgTvsItemsData from "../../Data/TvsData/LgTvsData";
-import { ShelveConainer, ItemShelves, Button } from "../../Components";
+import { useState, useEffect } from "react";
+import { BigMoreBtn } from "../../Components";
+import { useSelector, useDispatch } from "react-redux";
+import { fetchProducts } from "../../rtk/slices/products-slice";
+import { shelvesDataloop } from "../../Utils";
 
-const Tvs = () => {
+export default function Tvs() {
+  // fetch Data from Redux
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchProducts("tvs"));
+  }, []);
+  const data = useSelector((data) => data.products);
+
   // Hide Big more Button & add components
   const [state, setState] = useState(false);
 
-  // Loop on Data
-  const lgTvsItems = LgTvsItemsData.map((item) => {
-    return <ItemShelves className={"item-cards"} key={item.id} item={item} />;
+  // shelves data
+  const [shelvesObj, setShelvesObj] = useState({
+    lg: {
+      href: "https://www.google.com/",
+      title: "LG",
+      dataName: "lg",
+      extraPath: "",
+    },
+  });
+
+  // shelves data that appear after click 'More' button
+  const [extraShelvesObj, setExtraShelvesObj] = useState({
+    samsung: {
+      href: "https://www.google.com/",
+      title: "Samsung",
+      dataName: "samsung",
+      extraPath: "",
+    },
+    sony: {
+      href: "https://www.google.com/",
+      title: "Sony",
+      dataName: "sony",
+      extraPath: "",
+    },
+    tcl: {
+      href: "https://www.google.com/",
+      title: "TCL",
+      dataName: "tcl",
+      extraPath: "",
+    },
+    panasonic: {
+      href: "https://www.google.com/",
+      title: "Panasonic",
+      dataName: "panasonic",
+      extraPath: "",
+    },
+    hisense: {
+      href: "https://www.google.com/",
+      title: "Hisense",
+      dataName: "hisense",
+      extraPath: "",
+    },
   });
 
   return (
     <>
-      <ShelveConainer href="https://www.google.com/" title="LG">
-        {lgTvsItems}
-      </ShelveConainer>
+      {shelvesDataloop(shelvesObj, data)}
 
       {/* Hide Big more Button & add components */}
 
       {state ? (
-        <>
-          <ShelveConainer href="https://www.google.com/" title="Samsung">
-            {}
-          </ShelveConainer>
-
-          <ShelveConainer href="https://www.google.com/" title="Sony">
-            {}
-          </ShelveConainer>
-
-          <ShelveConainer href="https://www.google.com/" title="TCL">
-            {}
-          </ShelveConainer>
-
-          <ShelveConainer href="https://www.google.com/" title="Panasonic ">
-            {}
-          </ShelveConainer>
-
-          <ShelveConainer href="https://www.google.com/" title="Hisense">
-            {}
-          </ShelveConainer>
-        </>
+        shelvesDataloop(extraShelvesObj, data)
       ) : (
-        //  <Big More Button
-        <Button
-          onClick={() => setState(true)}
-          className={"big-more-btn"}
-          title={"More"}
-        />
+        <BigMoreBtn onClick={() => setState(true)} />
       )}
     </>
   );
-};
-
-export default Tvs;
+}

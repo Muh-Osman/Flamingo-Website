@@ -84,7 +84,7 @@ Text Domain: This theme, like SS, is licensed under the GPL.
 
 
 
-  /* This Style Will Apply Only When <ProductDetails /> Render */
+  /* This Style Will Apply Only When <ProductDetails /> Not Render Yet or Unmount*/
   --nine-dot-none-to-flex: none;
   --nine-dots-and-categories-text-flex-to-none: flex;
   --nav-width-18-to-78: 18.5% !important;
@@ -95,6 +95,7 @@ Text Domain: This theme, like SS, is licensed under the GPL.
   --categories-box-radius-50-to-5px: 50px;
   --rent-text-box-flex-to-none: flex;
   --rent-icon-box-none-to-block: none;
+
 }
 
 
@@ -185,6 +186,7 @@ Text Domain: This theme, like SS, is licensed under the GPL.
   --categories-box-radius-50-to-5px: 5px;
   --rent-text-box-flex-to-none: none;
   --rent-icon-box-none-to-block: block;
+  
 }
 
 *,

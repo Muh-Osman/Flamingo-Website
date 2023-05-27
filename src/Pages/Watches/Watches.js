@@ -1,68 +1,69 @@
-import './Watches.css'
-import { useState } from 'react'
-import AppleWatchesItemsData from '../../Data/WatchesData/AppleWatchesData'
-import { ShelveConainer, ItemShelves, Button } from '../../Components'
+import "./Watches.css";
+import { useState, useEffect } from "react";
+import { BigMoreBtn } from "../../Components";
+import { useSelector, useDispatch } from "react-redux";
+import { fetchProducts } from "../../rtk/slices/products-slice";
+import { shelvesDataloop } from "../../Utils";
 
-const Watches = () => {
-
+export default function Watches() {
+  // fetch Data from Redux
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchProducts("watches"));
+  }, []);
+  const data = useSelector((data) => data.products);
 
   // Hide Big more Button & add components
-  const [state, setState] = useState(false)
+  const [state, setState] = useState(false);
 
+  // shelves data
+  const [shelvesObj, setShelvesObj] = useState({
+    apple: {
+      href: "https://www.google.com/",
+      title: "Apple",
+      dataName: "apple",
+      extraPath: "",
+    },
+  });
 
-  // Loop on Data
-  const appleWatchesItems = AppleWatchesItemsData.map(item => {
-    return <ItemShelves
-      className={'item-cards'}
-      key={item.id}
-      item={item}
-    />
-  })
-
-
-
+  // shelves data that appear after click 'More' button
+  const [extraShelvesObj, setExtraShelvesObj] = useState({
+    samsung: {
+      href: "https://www.google.com/",
+      title: "Samsung",
+      dataName: "samsung",
+      extraPath: "",
+    },
+    fitbit: {
+      href: "https://www.google.com/",
+      title: "Fitbit",
+      dataName: "fitbit",
+      extraPath: "",
+    },
+    garmin: {
+      href: "https://www.google.com/",
+      title: "Garmin",
+      dataName: "garmin",
+      extraPath: "",
+    },
+    google: {
+      href: "https://www.google.com/",
+      title: "Google",
+      dataName: "google",
+      extraPath: "",
+    },
+  });
 
   return (
-
     <>
-      <ShelveConainer href='https://www.google.com/' title='Apple'>
-        {appleWatchesItems}
-      </ShelveConainer>
-
-
-
+      {shelvesDataloop(shelvesObj, data)}
 
       {/* Hide Big more Button & add components */}
-
-      {
-        state ? (
-          <>
-            < ShelveConainer href='https://www.google.com/' title='Samsung'>
-              { }
-            </ShelveConainer>
-
-            <ShelveConainer href='https://www.google.com/' title='Fitbit'>
-              { }
-            </ShelveConainer>
-
-            <ShelveConainer href='https://www.google.com/' title='Garmin'>
-              { }
-            </ShelveConainer>
-
-            <ShelveConainer href='https://www.google.com/' title='Google'>
-              { }
-            </ShelveConainer>
-          </>
-
-        ) : (
-
-          //  <Big More Button 
-          <Button onClick={() => setState(true)} className={'big-more-btn'} title={'More'} />
-
-        )
-      }
+      {state ? (
+        shelvesDataloop(extraShelvesObj, data)
+      ) : (
+        <BigMoreBtn onClick={() => setState(true)} />
+      )}
     </>
-  )
+  );
 }
-
-export default Watches

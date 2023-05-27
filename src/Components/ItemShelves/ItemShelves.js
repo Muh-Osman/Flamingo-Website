@@ -1,32 +1,24 @@
-import { Link } from 'react-router-dom'
-import { motion } from "framer-motion"
-import { it } from '../../animation'
+import "./ItemShelves.css";
+import { Link } from "react-router-dom";
 
-import './ItemShelves.css'
+const ItemShelves = ({className, extraPath="", item}) => {
 
+// extraPath for home page only (extraPath="home/" otherwise "")
+  return (
+    <Link to={extraPath + item.shelve + `/` + item.id} className={className}>
+      <div className="img-of-item">
+        <img src={item.src} alt={item.description} />
+      </div>
+      <div className="item-description">
+        <h4>{item.description}</h4>
+        <h5>
+          <span className="price">{item.price}</span>
+          <span className="currency">{item.currency}</span>
+          <span className="week">{`/` + item.period}</span>
+        </h5>
+      </div>
+    </Link>
+  );
+};
 
-const ItemShelves = (props) => {
-
-
-
-    return (
-        <motion.div variants={it}>
-            <Link to={props.item.shelve + `/` + props.item.id} className={props.className}>
-                <div className="img-of-item">
-                    <img src={props.item.src} alt={props.item.description} />
-                </div>
-                <div className="item-description">
-                    <h4>{props.item.description}</h4>
-                    <h5>
-                        <span className="price">{props.item.price}</span>
-                        <span className="currency">{props.item.currency}</span>
-                        <span className="week">{`/` + props.item.period}</span>
-                    </h5>
-                </div>
-            </Link>
-        </motion.div>
-
-    )
-}
-
-export default ItemShelves
+export default ItemShelves;

@@ -1,4 +1,5 @@
 
+export { default as Layout } from './Layout/Layout'
 export { default as HeaderContainer } from './HeaderContainer/HeaderContainer'
 export { default as Logo } from './Logo/Logo'
 export { default as SearchBox } from './SearchBox/SearchBox'
@@ -16,6 +17,7 @@ export { default as CarouselAndShelvesContainer } from './CarouselAndShelvesCont
 export { default as ShelvesBox } from './ShelvesBox/ShelvesBox'
 export { default as ShelveConainer } from './ShelveConainer/ShelveConainer'
 export { default as ItemShelves } from './ItemShelves/ItemShelves'
+export { default as BigMoreBtn } from './BigMoreBtn/BigMoreBtn'
 
 export { default as HowItWorksItem } from './HowItWorksItem/HowItWorksItem'
 
