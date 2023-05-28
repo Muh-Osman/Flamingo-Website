@@ -1,9 +1,12 @@
 import "./Home.css";
 import { useState, useEffect } from "react";
 import { BigMoreBtn } from "../../Components";
-import { useSelector, useDispatch } from "react-redux";
-import { fetchProducts } from "../../rtk/slices/products-slice";
+// My utils function
 import { shelvesDataloop } from "../../Utils";
+// Redux toolkit
+import { fetchProducts } from "../../rtk/slices/products-slice";
+import { useSelector, useDispatch } from "react-redux";
+import { hideHomeMoreBtn, selectHomeBtn } from "../../rtk/slices/bigMoreBtn-slice";
 
 export default function Home() {
   // fetch Data from Redux
@@ -13,8 +16,8 @@ export default function Home() {
   }, []);
   const data = useSelector((data) => data.products);
 
-  // For hide Big more Button & add component
-  const [state, setState] = useState(false);
+  // show/hide Big more Button & add Extra Component
+  const moreBtnState = useSelector(selectHomeBtn);
 
   // shelves data
   const [shelvesObj, setShelvesObj] = useState({
@@ -55,7 +58,6 @@ export default function Home() {
       extraPath: "home/",
     },
   });
-
   // shelves data that appear after click 'More' button
   const [extraShelvesObj, setExtraShelvesObj] = useState({
     tablets: {
@@ -77,10 +79,10 @@ export default function Home() {
       {shelvesDataloop(shelvesObj, data)}
 
       {/* Hide Big more Button & add component */}
-      {state ? (
+      {moreBtnState ? (
         shelvesDataloop(extraShelvesObj, data)
       ) : (
-        <BigMoreBtn onClick={() => setState(true)} />
+        <BigMoreBtn onClick={() => dispatch(hideHomeMoreBtn())} />
       )}
     </>
   );

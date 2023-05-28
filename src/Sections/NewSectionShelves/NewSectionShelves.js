@@ -1,16 +1,20 @@
-import { NewSectionContainer, ItemShelves } from "../../Components";
 import "./NewSectionShelves.css";
 import { useEffect, useState } from "react";
+import { NewSectionContainer, ItemShelves } from "../../Components";
+// Redux toolkit
 import { useSelector, useDispatch } from "react-redux";
-import { fetchProducts } from "../../rtk/slices/products-slice";
+import { fetchNewSecProducts } from "../../rtk/slices/newSecProducts-slice";
 
 export default function NewSectionShelves() {
   // fetch Data from Redux
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(fetchProducts("newSection"));
+    // delay api call
+    setTimeout(() => {
+      dispatch(fetchNewSecProducts("newSection"));
+    }, 3000);
   }, []);
-  const data = useSelector((data) => data.products);
+  const data = useSelector((data) => data.newSecProducts);
 
   // shelves data
   const [shelvesObj, setShelvesObj] = useState({
@@ -51,7 +55,5 @@ export default function NewSectionShelves() {
     );
   };
 
-  return <section className="new-sec">
-            {shelvesDataloop()}
-         </section>;
+  return <section className="new-sec">{shelvesDataloop()}</section>;
 }

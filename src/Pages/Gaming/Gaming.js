@@ -1,9 +1,12 @@
 import "./Gaming.css";
 import { useState, useEffect } from "react";
 import { BigMoreBtn } from "../../Components";
-import { useSelector, useDispatch } from "react-redux";
-import { fetchProducts } from "../../rtk/slices/products-slice";
+// // My utils function
 import { shelvesDataloop } from "../../Utils";
+// Redux toolkit
+import { fetchProducts } from "../../rtk/slices/products-slice";
+import { useSelector, useDispatch } from "react-redux";
+import { hideGamingMoreBtn, selectGamingBtn } from "../../rtk/slices/bigMoreBtn-slice";
 
 export default function Gaming() {
   // fetch Data from Redux
@@ -13,8 +16,8 @@ export default function Gaming() {
   }, []);
   const data = useSelector((data) => data.products);
 
-  // Hide Big more Button & add components
-  const [state, setState] = useState(false);
+  // show/hide Big more Button & add Extra Component
+  const moreBtnState = useSelector(selectGamingBtn);
 
   // shelves data
   const [shelvesObj, setShelvesObj] = useState({
@@ -47,10 +50,10 @@ export default function Gaming() {
       {shelvesDataloop(shelvesObj, data)}
 
       {/* Hide Big more Button & add components */}
-      {state ? (
+      {moreBtnState ? (
         shelvesDataloop(extraShelvesObj, data)
       ) : (
-        <BigMoreBtn onClick={() => setState(true)} />
+        <BigMoreBtn onClick={() => dispatch(hideGamingMoreBtn())} />
       )}
     </>
   );

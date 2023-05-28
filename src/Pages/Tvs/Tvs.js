@@ -1,9 +1,12 @@
 import "./Tvs.css";
 import { useState, useEffect } from "react";
 import { BigMoreBtn } from "../../Components";
-import { useSelector, useDispatch } from "react-redux";
-import { fetchProducts } from "../../rtk/slices/products-slice";
+// // My utils function
 import { shelvesDataloop } from "../../Utils";
+// Redux toolkit
+import { fetchProducts } from "../../rtk/slices/products-slice";
+import { useSelector, useDispatch } from "react-redux";
+import { hideTvsMoreBtn, selectTvsBtn } from "../../rtk/slices/bigMoreBtn-slice";
 
 export default function Tvs() {
   // fetch Data from Redux
@@ -13,8 +16,8 @@ export default function Tvs() {
   }, []);
   const data = useSelector((data) => data.products);
 
-  // Hide Big more Button & add components
-  const [state, setState] = useState(false);
+  // show/hide Big more Button & add Extra Component
+  const moreBtnState = useSelector(selectTvsBtn);
 
   // shelves data
   const [shelvesObj, setShelvesObj] = useState({
@@ -66,10 +69,10 @@ export default function Tvs() {
 
       {/* Hide Big more Button & add components */}
 
-      {state ? (
+      {moreBtnState ? (
         shelvesDataloop(extraShelvesObj, data)
       ) : (
-        <BigMoreBtn onClick={() => setState(true)} />
+        <BigMoreBtn onClick={() => dispatch(hideTvsMoreBtn())} />
       )}
     </>
   );

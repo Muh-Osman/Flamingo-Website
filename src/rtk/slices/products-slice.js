@@ -7,28 +7,27 @@ export const fetchProducts = createAsyncThunk(
     const data = await res.json();
     return data;
   }
-  );
-  
-  export const productsSlice = createSlice({
-    initialState: null,
-    name: "productsSlice",
-    reducers: {
-      // addProduct: (state, action) => {
-      //     state.push(action.payload);
-      //   },
-      },
-      
-      extraReducers: (builder) => {
-        builder.addCase(fetchProducts.fulfilled, (state, action) => {
-          console.log("API Fulfilled")
-          return action.payload;
+);
+
+export const productsSlice = createSlice({
+  initialState: null,
+  name: "productsSlice",
+  reducers: {
+    // addProduct: (state, action) => {
+    //     state.push(action.payload);
+    //   },
+  },
+
+  extraReducers: (builder) => {
+    builder.addCase(fetchProducts.fulfilled, (state, action) => {
+      console.log("API Fulfilled");
+      return action.payload;
     });
     builder.addCase(fetchProducts.pending, (state, action) => {
-      console.log("API Pending..")
-
+      console.log("API Pending..");
     });
     builder.addCase(fetchProducts.rejected, (state, action) => {
-          console.log("API Rejected")
+      console.log("API Rejected");
     });
   },
 });
