@@ -17,7 +17,7 @@ const ProductDetails = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (!data) {
+    if (data === undefined) {
       dispatch(fetchProducts(category));
     }
 
@@ -37,8 +37,10 @@ const ProductDetails = () => {
     };
   }, []);
 
-  //   Get Data from Redux
-  let data = useSelector((data) => data.products[brand][id - 1]);
+  //   Get Data from Redux (note: "products" word come from redux store file)
+  let data = useSelector((data) => data?.products?.entities?.[category]?.[brand]?.[id - 1]);
+  // let x = useSelector((data) => data?.products?.entities);
+  // console.log(x)
 
   return (
     <>
@@ -49,12 +51,12 @@ const ProductDetails = () => {
       />
 
       <h1>Product Details</h1>
-      <div>Product ID: {data.id} </div>
-      <div>Product Image-src: {data.src} </div>
-      <div>Product Description: {data.description}</div>
-      <div>Product price: {data.price} </div>
-      <div>Product Currency: {data.currency} </div>
-      <div>Product Period: {data.period} </div>
+      <div>Product ID: {data?.id} </div>
+      <div>Product Image-src: {data?.src} </div>
+      <div>Product Description: {data?.description}</div>
+      <div>Product price: {data?.price} </div>
+      <div>Product Currency: {data?.currency} </div>
+      <div>Product Period: {data?.period} </div>
     </>
   );
 };

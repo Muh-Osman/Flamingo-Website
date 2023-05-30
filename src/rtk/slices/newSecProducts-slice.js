@@ -20,11 +20,11 @@ export const newSecProductsSlice = createSlice({
 
   extraReducers: (builder) => {
     builder.addCase(fetchNewSecProducts.fulfilled, (state, action) => {
-      console.log("NEW Sec API Fulfilled");
+      // console.log("NEW Sec API Fulfilled");
       return action.payload;
     });
     builder.addCase(fetchNewSecProducts.pending, (state, action) => {
-      console.log("NEW Sec API Pending..");
+      // console.log("NEW Sec API Pending..");
     });
     builder.addCase(fetchNewSecProducts.rejected, (state, action) => {
       console.log("NEW Sec API Rejected");

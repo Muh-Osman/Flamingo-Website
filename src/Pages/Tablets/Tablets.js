@@ -11,8 +11,12 @@ import { hideTabletsMoreBtn, selectTabletsBtn } from "../../rtk/slices/bigMoreBt
 export default function Tablets() {
   // fetch Data from Redux
   const dispatch = useDispatch();
+  const category = "tablets"
   useEffect(() => {
-    dispatch(fetchProducts("tablets"));
+    // Check if specific data for this category page exist (object key ex: home, phone..) in Redux data, if not exist fetch
+    if (!(category in data.entities)) {
+      dispatch(fetchProducts(category));
+    }
   }, []);
   const data = useSelector((data) => data.products);
 
@@ -65,7 +69,7 @@ export default function Tablets() {
 
   return (
     <>
-      {shelvesDataloop(shelvesObj, data)}
+      {shelvesDataloop(shelvesObj, data, category)}
 
       {/* Hide Big more Button & add components */}
       {moreBtnState ? (

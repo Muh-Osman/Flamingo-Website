@@ -11,8 +11,12 @@ import { hideComputersMoreBtn, selectComputersBtn } from "../../rtk/slices/bigMo
 export default function Computers() {
   // fetch Data from Redux
   const dispatch = useDispatch();
+  const category = "computers"
   useEffect(() => {
-    dispatch(fetchProducts("computers"));
+    // Check if specific data for this category page exist (object key ex: home, phone..) in Redux data, if not exist fetch
+    if (!(category in data.entities)) {
+      dispatch(fetchProducts(category));
+    }
   }, []);
   const data = useSelector((data) => data.products);
 
@@ -71,7 +75,7 @@ export default function Computers() {
 
   return (
     <>
-      {shelvesDataloop(shelvesObj, data)}
+      {shelvesDataloop(shelvesObj, data, category)}
 
       {/* Hide Big more Button & add components */}
       {moreBtnState ? (
