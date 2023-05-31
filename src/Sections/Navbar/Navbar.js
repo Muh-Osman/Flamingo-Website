@@ -1,27 +1,34 @@
-import './Navbar.css'
+// React
 import { useState, useEffect, useLayoutEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-
+// My components & Data
+import './Navbar.css'
 import { NavbarCategoryLink, Button, RentAnchor } from '../../Components'
 import IconsData from '../../Assets/Icons/IconsData'
+// Redux toolkit
+import { useSelector, useDispatch } from "react-redux";
+import { hideNavbarMoreBtn, selectNavbarBtn } from "../../rtk/slices/bigMoreBtn-slice";
 
 
 const Navbar = () => {
 
 
-  // Get URL then split it ex: (http://localhost:3000/phones/apple/2)
-  let url = useLocation().pathname.split("/"); // ['...', 'phones', 'apple', '2']
-  let [, category] = [...url];
+    // Get URL then split it ex: (http://localhost:3000/phones/apple/2)
+    let url = useLocation().pathname.split("/"); // ['...', 'phones', 'apple', '2']
+    let [, category] = [...url];
 
-    // Hide "More" Button & add Accessories Components
-    const [isMore, setIsMore] = useState(false)
+
     // Show Accessories category button in Navbar (for users who coming to accessories category useing direct link)
+    const dispatch = useDispatch();
     useLayoutEffect(() => {
         if (category === "accessories") {
-            setIsMore(true)
+            dispatch(hideNavbarMoreBtn())
         }
     }, [])
-  
+
+    // show/hide "More" Button & add "Accessories" Components
+    const moreBtnState = useSelector(selectNavbarBtn);
+
 
 
     // Hide Notifiction Dot onClick
@@ -89,11 +96,11 @@ const Navbar = () => {
                     {/* Hide "More" Button & add Components */}
 
                     {
-                        isMore ? (
+                        moreBtnState ? (
                             <NavbarCategoryLink to={'/accessories'} title={'Accessories'} cat={"accessories"} svg={IconsData[13].svg} />
                         ) : (
                             // More Button in Nav
-                            < Button onClick={() => setIsMore(true)} className='more-btn-nav-box' title='More' />
+                            < Button onClick={() => dispatch(hideNavbarMoreBtn())} className='more-btn-nav-box' title='More' />
                         )
                     }
 

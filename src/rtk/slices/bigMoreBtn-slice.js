@@ -12,6 +12,8 @@ export const moreBtnSlice = createSlice({
     tabletsMoreBtn: false,
     tvsMoreBtn: false,
     accessoriesMoreBtn: false,
+    // Navbar "More" Button
+    navbarMoreBtn: false
   },
   reducers: {
     hideHomeMoreBtn: (state) => {
@@ -41,6 +43,10 @@ export const moreBtnSlice = createSlice({
     hideAccessoriesMoreBtn: (state) => {
       state.accessoriesMoreBtn = true;
     },
+    // Navbar "More" Button
+    hideNavbarMoreBtn: (state) => {
+      state.navbarMoreBtn = true;
+    },
   },
 });
 
@@ -55,6 +61,9 @@ export const {
   hideTabletsMoreBtn,
   hideTvsMoreBtn,
   hideAccessoriesMoreBtn,
+  // Navbar "More" Button
+  hideNavbarMoreBtn
+
 } = moreBtnSlice.actions;
 
 // The function below is called a selector and allows us to select a value from
@@ -69,5 +78,7 @@ export const selectComputersBtn = (state) => state.moreBtn.computersMoreBtn;
 export const selectTabletsBtn = (state) => state.moreBtn.tabletsMoreBtn;
 export const selectTvsBtn = (state) => state.moreBtn.tvsMoreBtn;
 export const selectAccessoriesBtn = (state) => state.moreBtn.accessoriesMoreBtn;
+// Navbar "More" Button
+export const selectNavbarBtn = (state) => state.moreBtn.navbarMoreBtn;
 
 export default moreBtnSlice.reducer;
