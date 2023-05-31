@@ -1,17 +1,27 @@
-import { useState, useEffect } from 'react'
+import './Navbar.css'
+import { useState, useEffect, useLayoutEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 import { NavbarCategoryLink, Button, RentAnchor } from '../../Components'
 import IconsData from '../../Assets/Icons/IconsData'
-import './Navbar.css'
 
 
 const Navbar = () => {
 
 
-
+  // Get URL then split it ex: (http://localhost:3000/phones/apple/2)
+  let url = useLocation().pathname.split("/"); // ['...', 'phones', 'apple', '2']
+  let [, category] = [...url];
 
     // Hide "More" Button & add Accessories Components
     const [isMore, setIsMore] = useState(false)
+    // Show Accessories category button in Navbar (for users who coming to accessories category useing direct link)
+    useLayoutEffect(() => {
+        if (category === "accessories") {
+            setIsMore(true)
+        }
+    }, [])
+  
 
 
     // Hide Notifiction Dot onClick
@@ -24,8 +34,6 @@ const Navbar = () => {
             document.getElementById('root').classList.add('notif-dot')
         )
     }, [isDot])
-
-
 
 
     return (
@@ -68,21 +76,21 @@ const Navbar = () => {
                 {/* <!-- Start Nav Categories --> */}
                 <div className="categories-box">
 
-                    <NavbarCategoryLink to={'/'} title={'Home'} svg={IconsData[5].svg} />
-                    <NavbarCategoryLink to={'/phones'} title={'Phones'} svg={IconsData[6].svg} />
-                    <NavbarCategoryLink to={'/gaming'} title={'Gaming'} svg={IconsData[7].svg} />
-                    <NavbarCategoryLink to={'/watches'} title={'Watches'} svg={IconsData[8].svg} />
-                    <NavbarCategoryLink to={'/cameras'} title={'Cameras'} svg={IconsData[9].svg} />
-                    <NavbarCategoryLink to={'/computers'} title={'Computers'} svg={IconsData[10].svg} />
-                    <NavbarCategoryLink to={'/tablets'} title={'Tablets'} svg={IconsData[11].svg} />
-                    <NavbarCategoryLink to={'/tvs'} title={'TVs'} svg={IconsData[12].svg} />
+                    <NavbarCategoryLink to={'/'} title={'Home'} cat={"home"} svg={IconsData[5].svg} />
+                    <NavbarCategoryLink to={'/phones'} title={'Phones'} cat={"phones"} svg={IconsData[6].svg} />
+                    <NavbarCategoryLink to={'/gaming'} title={'Gaming'} cat={"gaming"} svg={IconsData[7].svg} />
+                    <NavbarCategoryLink to={'/watches'} title={'Watches'} cat={"watches"} svg={IconsData[8].svg} />
+                    <NavbarCategoryLink to={'/cameras'} title={'Cameras'} cat={"cameras"} svg={IconsData[9].svg} />
+                    <NavbarCategoryLink to={'/computers'} title={'Computers'} cat={"computers"} svg={IconsData[10].svg} />
+                    <NavbarCategoryLink to={'/tablets'} title={'Tablets'} cat={"tablets"} svg={IconsData[11].svg} />
+                    <NavbarCategoryLink to={'/tvs'} title={'TVs'} cat={"tvs"} svg={IconsData[12].svg} />
 
 
                     {/* Hide "More" Button & add Components */}
 
                     {
                         isMore ? (
-                            <NavbarCategoryLink to={'/accessories'} title={'Accessories'} svg={IconsData[13].svg} />
+                            <NavbarCategoryLink to={'/accessories'} title={'Accessories'} cat={"accessories"} svg={IconsData[13].svg} />
                         ) : (
                             // More Button in Nav
                             < Button onClick={() => setIsMore(true)} className='more-btn-nav-box' title='More' />

@@ -10,5 +10,6 @@ export const store = configureStore({
     newSecProducts: newSecProductsSlice,
 
     moreBtn: moreBtnSlice,
+
   },
 });

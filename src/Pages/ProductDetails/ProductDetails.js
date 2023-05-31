@@ -1,6 +1,6 @@
 import ".//ProductDetails.css";
 import Button from "../../Components/Button/Button";
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchProducts } from "../../rtk/slices/products-slice";
@@ -20,7 +20,11 @@ const ProductDetails = () => {
     if (data === undefined) {
       dispatch(fetchProducts(category));
     }
+  }, []);
 
+
+
+  useLayoutEffect(() => {
     // Apply some CSS Style onmount <ProductDetails /> Component
     const webStyle = document.getElementById("root");
     webStyle.classList.add("style-onclick-item");
@@ -35,8 +39,9 @@ const ProductDetails = () => {
       webStyle.classList.remove("style-onclick-item");
       webStyle.classList.remove("active-home-btn");
     };
-  }, []);
+  }, [])
 
+  
   //   Get Data from Redux (note: "products" word come from redux store file)
   let data = useSelector((data) => data?.products?.entities?.[category]?.[brand]?.[id - 1]);
   // let x = useSelector((data) => data?.products?.entities);

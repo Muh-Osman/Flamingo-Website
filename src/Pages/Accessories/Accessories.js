@@ -49,7 +49,7 @@ export default function Accessories() {
 
       {/* Hide Big more Button & add components */}
       {moreBtnState ? (
-        shelvesDataloop(extraShelvesObj, data)
+        shelvesDataloop(extraShelvesObj, data, category)
       ) : (
         <BigMoreBtn onClick={() => dispatch(hideAccessoriesMoreBtn())} />
       )}

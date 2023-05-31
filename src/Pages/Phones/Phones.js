@@ -91,7 +91,7 @@ export default function Phones() {
 
       {/* Hide Big more Button & add component */}
       {moreBtnState ? (
-        shelvesDataloop(extraShelvesObj, data)
+        shelvesDataloop(extraShelvesObj, data, category)
       ) : (
         <BigMoreBtn onClick={() => dispatch(hidePhoneMoreBtn())} />
       )}
