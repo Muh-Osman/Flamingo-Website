@@ -1,6 +1,6 @@
 import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from "react-router-dom";
-import { Layout } from "./Components";
 import { Home, Phones, Computers, Watches, Cameras, Gaming, Tablets, Tvs, Accessories, Rent, ProductDetails, Apple, Samsung, Sony, Canon, Dell, Nintendo, NoMatch } from "./Pages"
+import { Layout } from "./Components";
 
 
 
