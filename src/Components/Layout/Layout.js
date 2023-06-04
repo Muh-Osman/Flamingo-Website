@@ -4,6 +4,7 @@ import CarouselAndShelvesContainer from "../CarouselAndShelvesContainer/Carousel
 import MainSiteContainer from "../MainSiteContainer/MainSiteContainer";
 import ShelvesBox from "../ShelvesBox/ShelvesBox";
 
+
 export default function Layout() {
   return (
     <>

@@ -61,7 +61,7 @@ const router = createBrowserRouter(
               <Route path="/nintendo" element={<Nintendo />} />
 
               <Route path="*" element={<NoMatch />} />
-
+              
            </Route>
     )
   );
