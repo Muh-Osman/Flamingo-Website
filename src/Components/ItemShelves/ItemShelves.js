@@ -1,9 +1,8 @@
 import "./ItemShelves.css";
 import { Link } from "react-router-dom";
 
-const ItemShelves = ({className, extraPath="", item}) => {
-
-// extraPath for home page only (extraPath="home/" otherwise "")
+const ItemShelves = ({ className, extraPath = "", item }) => {
+  // extraPath for home page only (extraPath="home/" otherwise "")
   return (
     <Link to={extraPath + item.shelve + `/` + item.id} className={className}>
       <div className="img-of-item">

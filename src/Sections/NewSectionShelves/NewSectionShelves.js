@@ -1,18 +1,25 @@
 import "./NewSectionShelves.css";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { NewSectionContainer, ItemShelves } from "../../Components";
 // Redux toolkit
 import { useSelector, useDispatch } from "react-redux";
 import { fetchNewSecProducts } from "../../rtk/slices/newSecProducts-slice";
 
 export default function NewSectionShelves() {
+  
   // fetch Data from Redux
+  const myRef = useRef();
   const dispatch = useDispatch();
   useEffect(() => {
-    // delay api call
-    setTimeout(() => {
-      dispatch(fetchNewSecProducts("newSection"));
-    }, 3000);
+    // Delay fetch until scroll to "New Section"
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      if (entry.isIntersecting) {
+        observer.unobserve(myRef.current); // Stop watch scroll
+        dispatch(fetchNewSecProducts("newSection")); // Fetch data
+      }
+    });
+    observer.observe(myRef.current);
   }, []);
   const data = useSelector((data) => data.newSecProducts);
 
@@ -55,5 +62,9 @@ export default function NewSectionShelves() {
     );
   };
 
-  return <section className="new-sec">{shelvesDataloop()}</section>;
+  return (
+    <section ref={myRef} className="new-sec">
+      {shelvesDataloop()}
+    </section>
+  );
 }

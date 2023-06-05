@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom'
 // My components & Data
 import './Navbar.css'
 import { NavbarCategoryLink, Button, RentAnchor } from '../../Components'
-import IconsData from '../../Assets/Icons/IconsData'
+import { svgIcon } from '../../Assets/Icons/svgIcon'
 // Redux toolkit
 import { useSelector, useDispatch } from "react-redux";
 import { hideNavbarMoreBtn, selectNavbarBtn } from "../../rtk/slices/bigMoreBtn-slice";
@@ -51,10 +51,10 @@ const Navbar = () => {
                 {/* <!-- Min Navbar Icon --> */}
                 <div className="mini-nav">
 
-                    <Button className={'four-mini-nav'} accessibility={"Search"} title={IconsData[0].svg} />
-                    <Button className={'four-mini-nav'} accessibility={"User"} title={IconsData[1].svg} />
-                    <Button className={'four-mini-nav'} accessibility={"Loved"} title={IconsData[2].svg} />
-                    <Button className={'four-mini-nav not-dot'} accessibility={"Notification"} title={IconsData[3].svg}
+                    <Button className={'four-mini-nav'} accessibility={"Search"} title={svgIcon[0].svg} />
+                    <Button className={'four-mini-nav'} accessibility={"User"} title={svgIcon[1].svg} />
+                    <Button className={'four-mini-nav'} accessibility={"Loved"} title={svgIcon[2].svg} />
+                    <Button className={'four-mini-nav not-dot'} accessibility={"Notification"} title={svgIcon[3].svg}
                         onClick={() => { setIsDot(false) }}
                     />
 
@@ -63,14 +63,14 @@ const Navbar = () => {
                     {/* Three dots icon (appears only in screen under 13 inch) */}
                     <div className="nine-dots-box">
 
-                        <Button className={'nine-dots'} accessibility={"More"} title={IconsData[4].svg} />
+                        <Button className={'nine-dots'} accessibility={"More"} title={svgIcon[4].svg} />
 
                         {/* <!-- Search icon in drop list --> */}
                         <div className="drop-list">
-                            <Button accessibility={"Search"} title={IconsData[0].svg} id={'search-icon-drop-nav'} />
-                            <Button accessibility={"User"} title={IconsData[1].svg} />
-                            <Button accessibility={"Loved"} title={IconsData[2].svg} />
-                            <Button className={'not-dot'} accessibility={"Notification"} title={IconsData[3].svg}
+                            <Button accessibility={"Search"} title={svgIcon[0].svg} id={'search-icon-drop-nav'} />
+                            <Button accessibility={"User"} title={svgIcon[1].svg} />
+                            <Button accessibility={"Loved"} title={svgIcon[2].svg} />
+                            <Button className={'not-dot'} accessibility={"Notification"} title={svgIcon[3].svg}
                                 onClick={() => { setIsDot(false) }}
                             />
                         </div>
@@ -83,21 +83,21 @@ const Navbar = () => {
                 {/* <!-- Start Nav Categories --> */}
                 <div className="categories-box">
 
-                    <NavbarCategoryLink to={'/'} title={'Home'} cat={"home"} svg={IconsData[5].svg} />
-                    <NavbarCategoryLink to={'/phones'} title={'Phones'} cat={"phones"} svg={IconsData[6].svg} />
-                    <NavbarCategoryLink to={'/gaming'} title={'Gaming'} cat={"gaming"} svg={IconsData[7].svg} />
-                    <NavbarCategoryLink to={'/watches'} title={'Watches'} cat={"watches"} svg={IconsData[8].svg} />
-                    <NavbarCategoryLink to={'/cameras'} title={'Cameras'} cat={"cameras"} svg={IconsData[9].svg} />
-                    <NavbarCategoryLink to={'/computers'} title={'Computers'} cat={"computers"} svg={IconsData[10].svg} />
-                    <NavbarCategoryLink to={'/tablets'} title={'Tablets'} cat={"tablets"} svg={IconsData[11].svg} />
-                    <NavbarCategoryLink to={'/tvs'} title={'TVs'} cat={"tvs"} svg={IconsData[12].svg} />
+                    <NavbarCategoryLink to={'/'} title={'Home'} cat={"home"} svg={svgIcon[5].svg} />
+                    <NavbarCategoryLink to={'/phones'} title={'Phones'} cat={"phones"} svg={svgIcon[6].svg} />
+                    <NavbarCategoryLink to={'/gaming'} title={'Gaming'} cat={"gaming"} svg={svgIcon[7].svg} />
+                    <NavbarCategoryLink to={'/watches'} title={'Watches'} cat={"watches"} svg={svgIcon[8].svg} />
+                    <NavbarCategoryLink to={'/cameras'} title={'Cameras'} cat={"cameras"} svg={svgIcon[9].svg} />
+                    <NavbarCategoryLink to={'/computers'} title={'Computers'} cat={"computers"} svg={svgIcon[10].svg} />
+                    <NavbarCategoryLink to={'/tablets'} title={'Tablets'} cat={"tablets"} svg={svgIcon[11].svg} />
+                    <NavbarCategoryLink to={'/tvs'} title={'TVs'} cat={"tvs"} svg={svgIcon[12].svg} />
 
 
                     {/* Hide "More" Button & add Components */}
 
                     {
                         moreBtnState ? (
-                            <NavbarCategoryLink to={'/accessories'} title={'Accessories'} cat={"accessories"} svg={IconsData[13].svg} />
+                            <NavbarCategoryLink to={'/accessories'} title={'Accessories'} cat={"accessories"} svg={svgIcon[13].svg} />
                         ) : (
                             // More Button in Nav
                             < Button onClick={() => dispatch(hideNavbarMoreBtn())} className='more-btn-nav-box' title='More' />

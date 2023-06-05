@@ -1,13 +1,13 @@
 import Hr from '../Hr/Hr'
 import { TopBrandsItem } from '../../Components'
-import TopBrandsData from '../../Data/TopBrandsData/TopBrandsData'
+import { topBrandSvgIcon } from '../../Assets/Icons/topBrandSvgIcon'
 import './TopBrands.css'
 
 
 
 const TopBrands = () => {
 
-  const brands = TopBrandsData.map(brand => {
+  const brands = topBrandSvgIcon.map(brand => {
 
     return <TopBrandsItem
       key={brand.id}
