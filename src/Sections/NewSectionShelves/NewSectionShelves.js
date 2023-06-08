@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { fetchNewSecProducts } from "../../rtk/slices/newSecProducts-slice";
 
 export default function NewSectionShelves() {
-  
+
   // fetch Data from Redux
   const myRef = useRef();
   const dispatch = useDispatch();
